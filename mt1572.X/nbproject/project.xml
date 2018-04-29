@@ -1,0 +1,16 @@
+<project xmlns="http://www.netbeans.org/ns/project/1">
+  <type>com.microchip.mplab.nbide.embedded.makeproject</type>
+  <configuration>
+    <data xmlns="http://www.netbeans.org/ns/make-project/1">
+      <name>mt1572</name>
+      <creation-uuid>1aeff3a1-d630-47e3-b403-26296b005ae0</creation-uuid>
+      <make-project-type>0</make-project-type>
+      <c-extensions>c</c-extensions>
+      <cpp-extensions />
+      <header-extensions>h</header-extensions>
+      <asminc-extensions />
+      <sourceEncoding>ISO-8859-1</sourceEncoding>
+      <make-dep-projects />
+    </data>
+  </configuration>
+</project>
