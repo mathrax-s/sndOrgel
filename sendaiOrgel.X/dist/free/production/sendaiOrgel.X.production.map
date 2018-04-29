@@ -5,7 +5,7 @@ Linker command line:
 --edf=/Applications/microchip/xc8/v1.45/dat/en_msgs.txt -cs \
   -h+dist/free/production/sendaiOrgel.X.production.sym \
   --cmf=dist/free/production/sendaiOrgel.X.production.cmf -z -Q16F1705 \
-  -o/tmp/xc2EA0uCc -Mdist/free/production/sendaiOrgel.X.production.map -E1 \
+  -o/tmp/xc7CHVbmK -Mdist/free/production/sendaiOrgel.X.production.map -E1 \
   -ver=XC8 -ASTACK=0203Fh-023efh -pstack=STACK -ACODE=00h-07FFhx4 \
   -ASTRCODE=00h-01FFFh -ASTRING=00h-0FFhx32 -ACONST=00h-0FFhx32 \
   -AENTRY=00h-0FFhx32 -ACOMMON=070h-07Fh -ABANK0=020h-06Fh \
@@ -29,7 +29,7 @@ Linker command line:
   -ASFR31=0F80h-0FEFh -preset_vec=00h,intentry=04h,init,end_init \
   -ppowerup=CODE -pcinit=CODE -pfunctab=ENTRY -ACONFIG=08007h-08008h \
   -pconfig=CONFIG -DCONFIG=2 -AIDLOC=08000h-08003h -pidloc=IDLOC -DIDLOC=2 \
-  -DCODE=2 -DSTRCODE=2 -DSTRING=2 -DCONST=2 -DENTRY=2 -k /tmp/xc4zsExb5.obj \
+  -DCODE=2 -DSTRCODE=2 -DSTRING=2 -DCONST=2 -DENTRY=2 -k /tmp/xcf8zjOXh.obj \
   dist/free/production/sendaiOrgel.X.production.obj 
 
 Object code version is 3.11
@@ -39,7 +39,7 @@ Machine type is 16F1705
 
 
                 Name                               Link     Load   Length Selector   Space Scale
-/tmp/xc4zsExb5.obj
+/tmp/xcf8zjOXh.obj
                 end_init                             18       18        2        8       0
                 reset_vec                             0        0        2        0       0
                 config                             8007     8007        2    1000E       0
@@ -773,7 +773,7 @@ FUNCTION INFORMATION:
 
  *************** function _main *****************
  Defined at:
-		line 97 in file "main.c"
+		line 92 in file "main.c"
  Parameters:    Size  Location     Type
 		None
  Auto vars:     Size  Location     Type
@@ -806,7 +806,7 @@ Total ram usage:        4 bytes
 
  *************** function _soundPlay *****************
  Defined at:
-		line 83 in file "main.c"
+		line 78 in file "main.c"
  Parameters:    Size  Location     Type
   c               1    wreg     unsigned char 
   onkai           1    0[BANK0 ] unsigned char 

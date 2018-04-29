@@ -1,7 +1,7 @@
 
 
 Microchip Technology PIC LITE Macro Assembler V1.45 build -152302408 
-                                                                                               Sun Apr 29 17:36:14 2018
+                                                                                               Sun Apr 29 18:20:51 2018
 
 Microchip Technology Omniscient Code Generator v1.45 (Free mode) build 201711160504
      1                           	processor	16F1705
@@ -2219,513 +2219,513 @@ Microchip Technology Omniscient Code Generator v1.45 (Free mode) build 201711160
   2205  0037                     _waveTable:	
   2206  0037  3400               	retlw	0
   2207  0038  3400               	retlw	0
-  2208  0039  3402               	retlw	2
+  2208  0039  340A               	retlw	10
   2209  003A  3400               	retlw	0
-  2210  003B  340A               	retlw	10
+  2210  003B  3428               	retlw	40
   2211  003C  3400               	retlw	0
-  2212  003D  3416               	retlw	22
+  2212  003D  3459               	retlw	89
   2213  003E  3400               	retlw	0
-  2214  003F  3428               	retlw	40
+  2214  003F  349F               	retlw	159
   2215  0040  3400               	retlw	0
-  2216  0041  343E               	retlw	62
+  2216  0041  34F7               	retlw	247
   2217  0042  3400               	retlw	0
-  2218  0043  3459               	retlw	89
-  2219  0044  3400               	retlw	0
-  2220  0045  347A               	retlw	122
-  2221  0046  3400               	retlw	0
-  2222  0047  349F               	retlw	159
-  2223  0048  3400               	retlw	0
-  2224  0049  34C9               	retlw	201
-  2225  004A  3400               	retlw	0
-  2226  004B  34F7               	retlw	247
-  2227  004C  3400               	retlw	0
-  2228  004D  342B               	retlw	43
-  2229  004E  3401               	retlw	1
-  2230  004F  3463               	retlw	99
-  2231  0050  3401               	retlw	1
-  2232  0051  34A1               	retlw	161
-  2233  0052  3401               	retlw	1
-  2234  0053  34E3               	retlw	227
-  2235  0054  3401               	retlw	1
-  2236  0055  3429               	retlw	41
-  2237  0056  3402               	retlw	2
-  2238  0057  3474               	retlw	116
-  2239  0058  3402               	retlw	2
-  2240  0059  34C4               	retlw	196
-  2241  005A  3402               	retlw	2
-  2242  005B  3419               	retlw	25
-  2243  005C  3403               	retlw	3
-  2244  005D  3471               	retlw	113
-  2245  005E  3403               	retlw	3
-  2246  005F  34CF               	retlw	207
-  2247  0060  3403               	retlw	3
-  2248  0061  3430               	retlw	48
-  2249  0062  3404               	retlw	4
-  2250  0063  3496               	retlw	150
-  2251  0064  3404               	retlw	4
-  2252  0065  3401               	retlw	1
-  2253  0066  3405               	retlw	5
-  2254  0067  346F               	retlw	111
-  2255  0068  3405               	retlw	5
-  2256  0069  34E2               	retlw	226
-  2257  006A  3405               	retlw	5
-  2258  006B  3458               	retlw	88
-  2259  006C  3406               	retlw	6
-  2260  006D  34D3               	retlw	211
-  2261  006E  3406               	retlw	6
-  2262  006F  3452               	retlw	82
-  2263  0070  3407               	retlw	7
-  2264  0071  34D4               	retlw	212
-  2265  0072  3407               	retlw	7
-  2266  0073  345A               	retlw	90
-  2267  0074  3408               	retlw	8
-  2268  0075  34E4               	retlw	228
-  2269  0076  3408               	retlw	8
-  2270  0077  3471               	retlw	113
-  2271  0078  3409               	retlw	9
-  2272  0079  3402               	retlw	2
-  2273  007A  340A               	retlw	10
-  2274  007B  3496               	retlw	150
-  2275  007C  340A               	retlw	10
-  2276  007D  342E               	retlw	46
-  2277  007E  340B               	retlw	11
-  2278  007F  34C9               	retlw	201
-  2279  0080  340B               	retlw	11
-  2280  0081  3467               	retlw	103
-  2281  0082  340C               	retlw	12
-  2282  0083  3408               	retlw	8
-  2283  0084  340D               	retlw	13
-  2284  0085  34AC               	retlw	172
-  2285  0086  340D               	retlw	13
-  2286  0087  3453               	retlw	83
-  2287  0088  340E               	retlw	14
-  2288  0089  34FD               	retlw	253
-  2289  008A  340E               	retlw	14
-  2290  008B  34A9               	retlw	169
-  2291  008C  340F               	retlw	15
-  2292  008D  3458               	retlw	88
-  2293  008E  3410               	retlw	16
-  2294  008F  3409               	retlw	9
-  2295  0090  3411               	retlw	17
-  2296  0091  34BD               	retlw	189
-  2297  0092  3411               	retlw	17
-  2298  0093  3472               	retlw	114
-  2299  0094  3412               	retlw	18
-  2300  0095  342A               	retlw	42
-  2301  0096  3413               	retlw	19
-  2302  0097  34E4               	retlw	228
-  2303  0098  3413               	retlw	19
-  2304  0099  34A0               	retlw	160
-  2305  009A  3414               	retlw	20
-  2306  009B  345D               	retlw	93
-  2307  009C  3415               	retlw	21
-  2308  009D  341D               	retlw	29
-  2309  009E  3416               	retlw	22
-  2310  009F  34DD               	retlw	221
-  2311  00A0  3416               	retlw	22
-  2312  00A1  349F               	retlw	159
-  2313  00A2  3417               	retlw	23
-  2314  00A3  3463               	retlw	99
-  2315  00A4  3418               	retlw	24
-  2316  00A5  3427               	retlw	39
-  2317  00A6  3419               	retlw	25
-  2318  00A7  34ED               	retlw	237
-  2319  00A8  3419               	retlw	25
-  2320  00A9  34B4               	retlw	180
-  2321  00AA  341A               	retlw	26
-  2322  00AB  347B               	retlw	123
-  2323  00AC  341B               	retlw	27
-  2324  00AD  3443               	retlw	67
-  2325  00AE  341C               	retlw	28
-  2326  00AF  340C               	retlw	12
-  2327  00B0  341D               	retlw	29
-  2328  00B1  34D5               	retlw	213
-  2329  00B2  341D               	retlw	29
-  2330  00B3  349F               	retlw	159
-  2331  00B4  341E               	retlw	30
-  2332  00B5  3469               	retlw	105
-  2333  00B6  341F               	retlw	31
-  2334  00B7  3432               	retlw	50
-  2335  00B8  3420               	retlw	32
-  2336  00B9  34FC               	retlw	252
-  2337  00BA  3420               	retlw	32
-  2338  00BB  34C6               	retlw	198
-  2339  00BC  3421               	retlw	33
-  2340  00BD  348F               	retlw	143
-  2341  00BE  3422               	retlw	34
-  2342  00BF  3458               	retlw	88
-  2343  00C0  3423               	retlw	35
-  2344  00C1  3421               	retlw	33
-  2345  00C2  3424               	retlw	36
-  2346  00C3  34E9               	retlw	233
-  2347  00C4  3424               	retlw	36
-  2348  00C5  34B0               	retlw	176
-  2349  00C6  3425               	retlw	37
-  2350  00C7  3476               	retlw	118
-  2351  00C8  3426               	retlw	38
-  2352  00C9  343B               	retlw	59
-  2353  00CA  3427               	retlw	39
-  2354  00CB  34FF               	retlw	255
-  2355  00CC  3427               	retlw	39
-  2356  00CD  34C2               	retlw	194
-  2357  00CE  3428               	retlw	40
-  2358  00CF  3483               	retlw	131
-  2359  00D0  3429               	retlw	41
-  2360  00D1  3443               	retlw	67
-  2361  00D2  342A               	retlw	42
-  2362  00D3  3402               	retlw	2
-  2363  00D4  342B               	retlw	43
-  2364  00D5  34BE               	retlw	190
-  2365  00D6  342B               	retlw	43
-  2366  00D7  3479               	retlw	121
-  2367  00D8  342C               	retlw	44
-  2368  00D9  3432               	retlw	50
-  2369  00DA  342D               	retlw	45
-  2370  00DB  34E9               	retlw	233
-  2371  00DC  342D               	retlw	45
-  2372  00DD  349E               	retlw	158
-  2373  00DE  342E               	retlw	46
-  2374  00DF  3450               	retlw	80
-  2375  00E0  342F               	retlw	47
+  2218  0043  3463               	retlw	99
+  2219  0044  3401               	retlw	1
+  2220  0045  34E3               	retlw	227
+  2221  0046  3401               	retlw	1
+  2222  0047  3474               	retlw	116
+  2223  0048  3402               	retlw	2
+  2224  0049  3419               	retlw	25
+  2225  004A  3403               	retlw	3
+  2226  004B  34CF               	retlw	207
+  2227  004C  3403               	retlw	3
+  2228  004D  3496               	retlw	150
+  2229  004E  3404               	retlw	4
+  2230  004F  346F               	retlw	111
+  2231  0050  3405               	retlw	5
+  2232  0051  3458               	retlw	88
+  2233  0052  3406               	retlw	6
+  2234  0053  3452               	retlw	82
+  2235  0054  3407               	retlw	7
+  2236  0055  345A               	retlw	90
+  2237  0056  3408               	retlw	8
+  2238  0057  3471               	retlw	113
+  2239  0058  3409               	retlw	9
+  2240  0059  3496               	retlw	150
+  2241  005A  340A               	retlw	10
+  2242  005B  34C9               	retlw	201
+  2243  005C  340B               	retlw	11
+  2244  005D  3408               	retlw	8
+  2245  005E  340D               	retlw	13
+  2246  005F  3453               	retlw	83
+  2247  0060  340E               	retlw	14
+  2248  0061  34A9               	retlw	169
+  2249  0062  340F               	retlw	15
+  2250  0063  3409               	retlw	9
+  2251  0064  3411               	retlw	17
+  2252  0065  3472               	retlw	114
+  2253  0066  3412               	retlw	18
+  2254  0067  34E4               	retlw	228
+  2255  0068  3413               	retlw	19
+  2256  0069  345D               	retlw	93
+  2257  006A  3415               	retlw	21
+  2258  006B  34DD               	retlw	221
+  2259  006C  3416               	retlw	22
+  2260  006D  3463               	retlw	99
+  2261  006E  3418               	retlw	24
+  2262  006F  34ED               	retlw	237
+  2263  0070  3419               	retlw	25
+  2264  0071  347B               	retlw	123
+  2265  0072  341B               	retlw	27
+  2266  0073  340C               	retlw	12
+  2267  0074  341D               	retlw	29
+  2268  0075  349F               	retlw	159
+  2269  0076  341E               	retlw	30
+  2270  0077  3432               	retlw	50
+  2271  0078  3420               	retlw	32
+  2272  0079  34C6               	retlw	198
+  2273  007A  3421               	retlw	33
+  2274  007B  3458               	retlw	88
+  2275  007C  3423               	retlw	35
+  2276  007D  34E9               	retlw	233
+  2277  007E  3424               	retlw	36
+  2278  007F  3476               	retlw	118
+  2279  0080  3426               	retlw	38
+  2280  0081  34FF               	retlw	255
+  2281  0082  3427               	retlw	39
+  2282  0083  3483               	retlw	131
+  2283  0084  3429               	retlw	41
+  2284  0085  3402               	retlw	2
+  2285  0086  342B               	retlw	43
+  2286  0087  3479               	retlw	121
+  2287  0088  342C               	retlw	44
+  2288  0089  34E9               	retlw	233
+  2289  008A  342D               	retlw	45
+  2290  008B  3450               	retlw	80
+  2291  008C  342F               	retlw	47
+  2292  008D  34AE               	retlw	174
+  2293  008E  3430               	retlw	48
+  2294  008F  3401               	retlw	1
+  2295  0090  3432               	retlw	50
+  2296  0091  3449               	retlw	73
+  2297  0092  3433               	retlw	51
+  2298  0093  3485               	retlw	133
+  2299  0094  3434               	retlw	52
+  2300  0095  34B4               	retlw	180
+  2301  0096  3435               	retlw	53
+  2302  0097  34D6               	retlw	214
+  2303  0098  3436               	retlw	54
+  2304  0099  34E9               	retlw	233
+  2305  009A  3437               	retlw	55
+  2306  009B  34EE               	retlw	238
+  2307  009C  3438               	retlw	56
+  2308  009D  34E3               	retlw	227
+  2309  009E  3439               	retlw	57
+  2310  009F  34C9               	retlw	201
+  2311  00A0  343A               	retlw	58
+  2312  00A1  349D               	retlw	157
+  2313  00A2  343B               	retlw	59
+  2314  00A3  3460               	retlw	96
+  2315  00A4  343C               	retlw	60
+  2316  00A5  3412               	retlw	18
+  2317  00A6  343D               	retlw	61
+  2318  00A7  34B2               	retlw	178
+  2319  00A8  343D               	retlw	61
+  2320  00A9  343F               	retlw	63
+  2321  00AA  343E               	retlw	62
+  2322  00AB  34B9               	retlw	185
+  2323  00AC  343E               	retlw	62
+  2324  00AD  3421               	retlw	33
+  2325  00AE  343F               	retlw	63
+  2326  00AF  3475               	retlw	117
+  2327  00B0  343F               	retlw	63
+  2328  00B1  34B5               	retlw	181
+  2329  00B2  343F               	retlw	63
+  2330  00B3  34E2               	retlw	226
+  2331  00B4  343F               	retlw	63
+  2332  00B5  34FA               	retlw	250
+  2333  00B6  343F               	retlw	63
+  2334  00B7  34FF               	retlw	255
+  2335  00B8  343F               	retlw	63
+  2336  00B9  34F0               	retlw	240
+  2337  00BA  343F               	retlw	63
+  2338  00BB  34CE               	retlw	206
+  2339  00BC  343F               	retlw	63
+  2340  00BD  3497               	retlw	151
+  2341  00BE  343F               	retlw	63
+  2342  00BF  344D               	retlw	77
+  2343  00C0  343F               	retlw	63
+  2344  00C1  34EF               	retlw	239
+  2345  00C2  343E               	retlw	62
+  2346  00C3  347F               	retlw	127
+  2347  00C4  343E               	retlw	62
+  2348  00C5  34FB               	retlw	251
+  2349  00C6  343D               	retlw	61
+  2350  00C7  3464               	retlw	100
+  2351  00C8  343D               	retlw	61
+  2352  00C9  34BC               	retlw	188
+  2353  00CA  343C               	retlw	60
+  2354  00CB  3401               	retlw	1
+  2355  00CC  343C               	retlw	60
+  2356  00CD  3435               	retlw	53
+  2357  00CE  343B               	retlw	59
+  2358  00CF  3458               	retlw	88
+  2359  00D0  343A               	retlw	58
+  2360  00D1  346B               	retlw	107
+  2361  00D2  3439               	retlw	57
+  2362  00D3  346E               	retlw	110
+  2363  00D4  3438               	retlw	56
+  2364  00D5  3462               	retlw	98
+  2365  00D6  3437               	retlw	55
+  2366  00D7  3447               	retlw	71
+  2367  00D8  3436               	retlw	54
+  2368  00D9  341E               	retlw	30
+  2369  00DA  3435               	retlw	53
+  2370  00DB  34E8               	retlw	232
+  2371  00DC  3433               	retlw	51
+  2372  00DD  34A6               	retlw	166
+  2373  00DE  3432               	retlw	50
+  2374  00DF  3459               	retlw	89
+  2375  00E0  3431               	retlw	49
   2376  00E1  3400               	retlw	0
   2377  00E2  3430               	retlw	48
-  2378  00E3  34AE               	retlw	174
-  2379  00E4  3430               	retlw	48
-  2380  00E5  3459               	retlw	89
-  2381  00E6  3431               	retlw	49
-  2382  00E7  3401               	retlw	1
-  2383  00E8  3432               	retlw	50
-  2384  00E9  34A6               	retlw	166
-  2385  00EA  3432               	retlw	50
-  2386  00EB  3449               	retlw	73
-  2387  00EC  3433               	retlw	51
-  2388  00ED  34E8               	retlw	232
-  2389  00EE  3433               	retlw	51
-  2390  00EF  3485               	retlw	133
-  2391  00F0  3434               	retlw	52
-  2392  00F1  341E               	retlw	30
-  2393  00F2  3435               	retlw	53
-  2394  00F3  34B4               	retlw	180
-  2395  00F4  3435               	retlw	53
-  2396  00F5  3447               	retlw	71
-  2397  00F6  3436               	retlw	54
-  2398  00F7  34D6               	retlw	214
-  2399  00F8  3436               	retlw	54
-  2400  00F9  3462               	retlw	98
-  2401  00FA  3437               	retlw	55
-  2402  00FB  34E9               	retlw	233
-  2403  00FC  3437               	retlw	55
-  2404  00FD  346E               	retlw	110
-  2405  00FE  3438               	retlw	56
-  2406  00FF  34EE               	retlw	238
-  2407  0100  3438               	retlw	56
-  2408  0101  346B               	retlw	107
-  2409  0102  3439               	retlw	57
-  2410  0103  34E3               	retlw	227
-  2411  0104  3439               	retlw	57
-  2412  0105  3458               	retlw	88
-  2413  0106  343A               	retlw	58
-  2414  0107  34C9               	retlw	201
-  2415  0108  343A               	retlw	58
-  2416  0109  3435               	retlw	53
-  2417  010A  343B               	retlw	59
-  2418  010B  349D               	retlw	157
-  2419  010C  343B               	retlw	59
-  2420  010D  3401               	retlw	1
-  2421  010E  343C               	retlw	60
-  2422  010F  3460               	retlw	96
-  2423  0110  343C               	retlw	60
-  2424  0111  34BC               	retlw	188
-  2425  0112  343C               	retlw	60
-  2426  0113  3412               	retlw	18
-  2427  0114  343D               	retlw	61
-  2428  0115  3464               	retlw	100
-  2429  0116  343D               	retlw	61
-  2430  0117  34B2               	retlw	178
-  2431  0118  343D               	retlw	61
-  2432  0119  34FB               	retlw	251
-  2433  011A  343D               	retlw	61
-  2434  011B  343F               	retlw	63
-  2435  011C  343E               	retlw	62
-  2436  011D  347F               	retlw	127
-  2437  011E  343E               	retlw	62
-  2438  011F  34B9               	retlw	185
-  2439  0120  343E               	retlw	62
-  2440  0121  34EF               	retlw	239
-  2441  0122  343E               	retlw	62
-  2442  0123  3421               	retlw	33
-  2443  0124  343F               	retlw	63
-  2444  0125  344D               	retlw	77
-  2445  0126  343F               	retlw	63
-  2446  0127  3475               	retlw	117
-  2447  0128  343F               	retlw	63
-  2448  0129  3497               	retlw	151
-  2449  012A  343F               	retlw	63
-  2450  012B  34B5               	retlw	181
-  2451  012C  343F               	retlw	63
-  2452  012D  34CE               	retlw	206
-  2453  012E  343F               	retlw	63
-  2454  012F  34E2               	retlw	226
-  2455  0130  343F               	retlw	63
-  2456  0131  34F0               	retlw	240
-  2457  0132  343F               	retlw	63
-  2458  0133  34FA               	retlw	250
-  2459  0134  343F               	retlw	63
-  2460  0135  34FF               	retlw	255
-  2461  0136  343F               	retlw	63
-  2462  0137  34FF               	retlw	255
-  2463  0138  343F               	retlw	63
-  2464  0139  34FA               	retlw	250
-  2465  013A  343F               	retlw	63
-  2466  013B  34F0               	retlw	240
-  2467  013C  343F               	retlw	63
-  2468  013D  34E2               	retlw	226
-  2469  013E  343F               	retlw	63
-  2470  013F  34CE               	retlw	206
-  2471  0140  343F               	retlw	63
-  2472  0141  34B5               	retlw	181
-  2473  0142  343F               	retlw	63
-  2474  0143  3497               	retlw	151
-  2475  0144  343F               	retlw	63
-  2476  0145  3475               	retlw	117
-  2477  0146  343F               	retlw	63
-  2478  0147  344D               	retlw	77
-  2479  0148  343F               	retlw	63
-  2480  0149  3421               	retlw	33
-  2481  014A  343F               	retlw	63
-  2482  014B  34EF               	retlw	239
-  2483  014C  343E               	retlw	62
-  2484  014D  34B9               	retlw	185
-  2485  014E  343E               	retlw	62
-  2486  014F  347F               	retlw	127
-  2487  0150  343E               	retlw	62
-  2488  0151  343F               	retlw	63
-  2489  0152  343E               	retlw	62
-  2490  0153  34FB               	retlw	251
-  2491  0154  343D               	retlw	61
-  2492  0155  34B2               	retlw	178
-  2493  0156  343D               	retlw	61
-  2494  0157  3464               	retlw	100
-  2495  0158  343D               	retlw	61
-  2496  0159  3412               	retlw	18
-  2497  015A  343D               	retlw	61
-  2498  015B  34BC               	retlw	188
-  2499  015C  343C               	retlw	60
-  2500  015D  3460               	retlw	96
-  2501  015E  343C               	retlw	60
-  2502  015F  3401               	retlw	1
-  2503  0160  343C               	retlw	60
-  2504  0161  349D               	retlw	157
-  2505  0162  343B               	retlw	59
-  2506  0163  3435               	retlw	53
-  2507  0164  343B               	retlw	59
-  2508  0165  34C9               	retlw	201
-  2509  0166  343A               	retlw	58
-  2510  0167  3458               	retlw	88
-  2511  0168  343A               	retlw	58
-  2512  0169  34E3               	retlw	227
-  2513  016A  3439               	retlw	57
-  2514  016B  346B               	retlw	107
-  2515  016C  3439               	retlw	57
-  2516  016D  34EE               	retlw	238
-  2517  016E  3438               	retlw	56
-  2518  016F  346E               	retlw	110
-  2519  0170  3438               	retlw	56
-  2520  0171  34E9               	retlw	233
-  2521  0172  3437               	retlw	55
-  2522  0173  3462               	retlw	98
-  2523  0174  3437               	retlw	55
-  2524  0175  34D6               	retlw	214
-  2525  0176  3436               	retlw	54
-  2526  0177  3447               	retlw	71
-  2527  0178  3436               	retlw	54
-  2528  0179  34B4               	retlw	180
-  2529  017A  3435               	retlw	53
-  2530  017B  341E               	retlw	30
-  2531  017C  3435               	retlw	53
-  2532  017D  3485               	retlw	133
-  2533  017E  3434               	retlw	52
-  2534  017F  34E8               	retlw	232
-  2535  0180  3433               	retlw	51
-  2536  0181  3449               	retlw	73
-  2537  0182  3433               	retlw	51
-  2538  0183  34A6               	retlw	166
-  2539  0184  3432               	retlw	50
-  2540  0185  3401               	retlw	1
-  2541  0186  3432               	retlw	50
-  2542  0187  3459               	retlw	89
-  2543  0188  3431               	retlw	49
-  2544  0189  34AE               	retlw	174
-  2545  018A  3430               	retlw	48
-  2546  018B  3400               	retlw	0
-  2547  018C  3430               	retlw	48
-  2548  018D  3450               	retlw	80
-  2549  018E  342F               	retlw	47
-  2550  018F  349E               	retlw	158
-  2551  0190  342E               	retlw	46
-  2552  0191  34E9               	retlw	233
-  2553  0192  342D               	retlw	45
-  2554  0193  3432               	retlw	50
-  2555  0194  342D               	retlw	45
-  2556  0195  3479               	retlw	121
-  2557  0196  342C               	retlw	44
-  2558  0197  34BE               	retlw	190
-  2559  0198  342B               	retlw	43
-  2560  0199  3402               	retlw	2
-  2561  019A  342B               	retlw	43
-  2562  019B  3443               	retlw	67
-  2563  019C  342A               	retlw	42
-  2564  019D  3483               	retlw	131
-  2565  019E  3429               	retlw	41
-  2566  019F  34C2               	retlw	194
-  2567  01A0  3428               	retlw	40
-  2568  01A1  34FF               	retlw	255
-  2569  01A2  3427               	retlw	39
-  2570  01A3  343B               	retlw	59
-  2571  01A4  3427               	retlw	39
-  2572  01A5  3476               	retlw	118
-  2573  01A6  3426               	retlw	38
-  2574  01A7  34B0               	retlw	176
-  2575  01A8  3425               	retlw	37
-  2576  01A9  34E9               	retlw	233
-  2577  01AA  3424               	retlw	36
-  2578  01AB  3421               	retlw	33
-  2579  01AC  3424               	retlw	36
-  2580  01AD  3458               	retlw	88
-  2581  01AE  3423               	retlw	35
-  2582  01AF  348F               	retlw	143
-  2583  01B0  3422               	retlw	34
-  2584  01B1  34C6               	retlw	198
-  2585  01B2  3421               	retlw	33
-  2586  01B3  34FC               	retlw	252
-  2587  01B4  3420               	retlw	32
-  2588  01B5  3432               	retlw	50
-  2589  01B6  3420               	retlw	32
-  2590  01B7  3469               	retlw	105
-  2591  01B8  341F               	retlw	31
-  2592  01B9  349F               	retlw	159
-  2593  01BA  341E               	retlw	30
-  2594  01BB  34D5               	retlw	213
-  2595  01BC  341D               	retlw	29
-  2596  01BD  340C               	retlw	12
-  2597  01BE  341D               	retlw	29
-  2598  01BF  3443               	retlw	67
-  2599  01C0  341C               	retlw	28
-  2600  01C1  347B               	retlw	123
-  2601  01C2  341B               	retlw	27
-  2602  01C3  34B4               	retlw	180
-  2603  01C4  341A               	retlw	26
-  2604  01C5  34ED               	retlw	237
-  2605  01C6  3419               	retlw	25
-  2606  01C7  3427               	retlw	39
-  2607  01C8  3419               	retlw	25
-  2608  01C9  3463               	retlw	99
-  2609  01CA  3418               	retlw	24
-  2610  01CB  349F               	retlw	159
-  2611  01CC  3417               	retlw	23
-  2612  01CD  34DD               	retlw	221
-  2613  01CE  3416               	retlw	22
-  2614  01CF  341D               	retlw	29
-  2615  01D0  3416               	retlw	22
-  2616  01D1  345D               	retlw	93
-  2617  01D2  3415               	retlw	21
-  2618  01D3  34A0               	retlw	160
-  2619  01D4  3414               	retlw	20
-  2620  01D5  34E4               	retlw	228
-  2621  01D6  3413               	retlw	19
-  2622  01D7  342A               	retlw	42
-  2623  01D8  3413               	retlw	19
-  2624  01D9  3472               	retlw	114
-  2625  01DA  3412               	retlw	18
-  2626  01DB  34BD               	retlw	189
-  2627  01DC  3411               	retlw	17
-  2628  01DD  3409               	retlw	9
-  2629  01DE  3411               	retlw	17
-  2630  01DF  3458               	retlw	88
-  2631  01E0  3410               	retlw	16
-  2632  01E1  34A9               	retlw	169
-  2633  01E2  340F               	retlw	15
-  2634  01E3  34FD               	retlw	253
-  2635  01E4  340E               	retlw	14
-  2636  01E5  3453               	retlw	83
-  2637  01E6  340E               	retlw	14
-  2638  01E7  34AC               	retlw	172
-  2639  01E8  340D               	retlw	13
-  2640  01E9  3408               	retlw	8
-  2641  01EA  340D               	retlw	13
-  2642  01EB  3467               	retlw	103
-  2643  01EC  340C               	retlw	12
-  2644  01ED  34C9               	retlw	201
-  2645  01EE  340B               	retlw	11
-  2646  01EF  342E               	retlw	46
-  2647  01F0  340B               	retlw	11
-  2648  01F1  3496               	retlw	150
-  2649  01F2  340A               	retlw	10
-  2650  01F3  3402               	retlw	2
-  2651  01F4  340A               	retlw	10
-  2652  01F5  3471               	retlw	113
-  2653  01F6  3409               	retlw	9
-  2654  01F7  34E4               	retlw	228
-  2655  01F8  3408               	retlw	8
-  2656  01F9  345A               	retlw	90
-  2657  01FA  3408               	retlw	8
-  2658  01FB  34D4               	retlw	212
-  2659  01FC  3407               	retlw	7
-  2660  01FD  3452               	retlw	82
-  2661  01FE  3407               	retlw	7
-  2662  01FF  34D3               	retlw	211
-  2663  0200  3406               	retlw	6
-  2664  0201  3458               	retlw	88
-  2665  0202  3406               	retlw	6
-  2666  0203  34E2               	retlw	226
-  2667  0204  3405               	retlw	5
-  2668  0205  346F               	retlw	111
-  2669  0206  3405               	retlw	5
-  2670  0207  3401               	retlw	1
-  2671  0208  3405               	retlw	5
-  2672  0209  3496               	retlw	150
-  2673  020A  3404               	retlw	4
-  2674  020B  3430               	retlw	48
-  2675  020C  3404               	retlw	4
-  2676  020D  34CF               	retlw	207
-  2677  020E  3403               	retlw	3
-  2678  020F  3471               	retlw	113
-  2679  0210  3403               	retlw	3
-  2680  0211  3419               	retlw	25
-  2681  0212  3403               	retlw	3
-  2682  0213  34C4               	retlw	196
-  2683  0214  3402               	retlw	2
-  2684  0215  3474               	retlw	116
-  2685  0216  3402               	retlw	2
-  2686  0217  3429               	retlw	41
-  2687  0218  3402               	retlw	2
-  2688  0219  34E3               	retlw	227
-  2689  021A  3401               	retlw	1
-  2690  021B  34A1               	retlw	161
-  2691  021C  3401               	retlw	1
-  2692  021D  3463               	retlw	99
-  2693  021E  3401               	retlw	1
-  2694  021F  342B               	retlw	43
-  2695  0220  3401               	retlw	1
-  2696  0221  34F7               	retlw	247
-  2697  0222  3400               	retlw	0
-  2698  0223  34C9               	retlw	201
-  2699  0224  3400               	retlw	0
-  2700  0225  349F               	retlw	159
-  2701  0226  3400               	retlw	0
-  2702  0227  347A               	retlw	122
-  2703  0228  3400               	retlw	0
-  2704  0229  3459               	retlw	89
-  2705  022A  3400               	retlw	0
-  2706  022B  343E               	retlw	62
-  2707  022C  3400               	retlw	0
-  2708  022D  3428               	retlw	40
+  2378  00E3  349E               	retlw	158
+  2379  00E4  342E               	retlw	46
+  2380  00E5  3432               	retlw	50
+  2381  00E6  342D               	retlw	45
+  2382  00E7  34BE               	retlw	190
+  2383  00E8  342B               	retlw	43
+  2384  00E9  3443               	retlw	67
+  2385  00EA  342A               	retlw	42
+  2386  00EB  34C2               	retlw	194
+  2387  00EC  3428               	retlw	40
+  2388  00ED  343B               	retlw	59
+  2389  00EE  3427               	retlw	39
+  2390  00EF  34B0               	retlw	176
+  2391  00F0  3425               	retlw	37
+  2392  00F1  3421               	retlw	33
+  2393  00F2  3424               	retlw	36
+  2394  00F3  348F               	retlw	143
+  2395  00F4  3422               	retlw	34
+  2396  00F5  34FC               	retlw	252
+  2397  00F6  3420               	retlw	32
+  2398  00F7  3469               	retlw	105
+  2399  00F8  341F               	retlw	31
+  2400  00F9  34D5               	retlw	213
+  2401  00FA  341D               	retlw	29
+  2402  00FB  3443               	retlw	67
+  2403  00FC  341C               	retlw	28
+  2404  00FD  34B4               	retlw	180
+  2405  00FE  341A               	retlw	26
+  2406  00FF  3427               	retlw	39
+  2407  0100  3419               	retlw	25
+  2408  0101  349F               	retlw	159
+  2409  0102  3417               	retlw	23
+  2410  0103  341D               	retlw	29
+  2411  0104  3416               	retlw	22
+  2412  0105  34A0               	retlw	160
+  2413  0106  3414               	retlw	20
+  2414  0107  342A               	retlw	42
+  2415  0108  3413               	retlw	19
+  2416  0109  34BD               	retlw	189
+  2417  010A  3411               	retlw	17
+  2418  010B  3458               	retlw	88
+  2419  010C  3410               	retlw	16
+  2420  010D  34FD               	retlw	253
+  2421  010E  340E               	retlw	14
+  2422  010F  34AC               	retlw	172
+  2423  0110  340D               	retlw	13
+  2424  0111  3467               	retlw	103
+  2425  0112  340C               	retlw	12
+  2426  0113  342E               	retlw	46
+  2427  0114  340B               	retlw	11
+  2428  0115  3402               	retlw	2
+  2429  0116  340A               	retlw	10
+  2430  0117  34E4               	retlw	228
+  2431  0118  3408               	retlw	8
+  2432  0119  34D4               	retlw	212
+  2433  011A  3407               	retlw	7
+  2434  011B  34D3               	retlw	211
+  2435  011C  3406               	retlw	6
+  2436  011D  34E2               	retlw	226
+  2437  011E  3405               	retlw	5
+  2438  011F  3401               	retlw	1
+  2439  0120  3405               	retlw	5
+  2440  0121  3430               	retlw	48
+  2441  0122  3404               	retlw	4
+  2442  0123  3471               	retlw	113
+  2443  0124  3403               	retlw	3
+  2444  0125  34C4               	retlw	196
+  2445  0126  3402               	retlw	2
+  2446  0127  3429               	retlw	41
+  2447  0128  3402               	retlw	2
+  2448  0129  34A1               	retlw	161
+  2449  012A  3401               	retlw	1
+  2450  012B  342B               	retlw	43
+  2451  012C  3401               	retlw	1
+  2452  012D  34C9               	retlw	201
+  2453  012E  3400               	retlw	0
+  2454  012F  347A               	retlw	122
+  2455  0130  3400               	retlw	0
+  2456  0131  343E               	retlw	62
+  2457  0132  3400               	retlw	0
+  2458  0133  3416               	retlw	22
+  2459  0134  3400               	retlw	0
+  2460  0135  3400               	retlw	0
+  2461  0136  3400               	retlw	0
+  2462  0137  3400               	retlw	0
+  2463  0138  3400               	retlw	0
+  2464  0139  340A               	retlw	10
+  2465  013A  3400               	retlw	0
+  2466  013B  3428               	retlw	40
+  2467  013C  3400               	retlw	0
+  2468  013D  3459               	retlw	89
+  2469  013E  3400               	retlw	0
+  2470  013F  349F               	retlw	159
+  2471  0140  3400               	retlw	0
+  2472  0141  34F7               	retlw	247
+  2473  0142  3400               	retlw	0
+  2474  0143  3463               	retlw	99
+  2475  0144  3401               	retlw	1
+  2476  0145  34E3               	retlw	227
+  2477  0146  3401               	retlw	1
+  2478  0147  3474               	retlw	116
+  2479  0148  3402               	retlw	2
+  2480  0149  3419               	retlw	25
+  2481  014A  3403               	retlw	3
+  2482  014B  34CF               	retlw	207
+  2483  014C  3403               	retlw	3
+  2484  014D  3496               	retlw	150
+  2485  014E  3404               	retlw	4
+  2486  014F  346F               	retlw	111
+  2487  0150  3405               	retlw	5
+  2488  0151  3458               	retlw	88
+  2489  0152  3406               	retlw	6
+  2490  0153  3452               	retlw	82
+  2491  0154  3407               	retlw	7
+  2492  0155  345A               	retlw	90
+  2493  0156  3408               	retlw	8
+  2494  0157  3471               	retlw	113
+  2495  0158  3409               	retlw	9
+  2496  0159  3496               	retlw	150
+  2497  015A  340A               	retlw	10
+  2498  015B  34C9               	retlw	201
+  2499  015C  340B               	retlw	11
+  2500  015D  3408               	retlw	8
+  2501  015E  340D               	retlw	13
+  2502  015F  3453               	retlw	83
+  2503  0160  340E               	retlw	14
+  2504  0161  34A9               	retlw	169
+  2505  0162  340F               	retlw	15
+  2506  0163  3409               	retlw	9
+  2507  0164  3411               	retlw	17
+  2508  0165  3472               	retlw	114
+  2509  0166  3412               	retlw	18
+  2510  0167  34E4               	retlw	228
+  2511  0168  3413               	retlw	19
+  2512  0169  345D               	retlw	93
+  2513  016A  3415               	retlw	21
+  2514  016B  34DD               	retlw	221
+  2515  016C  3416               	retlw	22
+  2516  016D  3463               	retlw	99
+  2517  016E  3418               	retlw	24
+  2518  016F  34ED               	retlw	237
+  2519  0170  3419               	retlw	25
+  2520  0171  347B               	retlw	123
+  2521  0172  341B               	retlw	27
+  2522  0173  340C               	retlw	12
+  2523  0174  341D               	retlw	29
+  2524  0175  349F               	retlw	159
+  2525  0176  341E               	retlw	30
+  2526  0177  3432               	retlw	50
+  2527  0178  3420               	retlw	32
+  2528  0179  34C6               	retlw	198
+  2529  017A  3421               	retlw	33
+  2530  017B  3458               	retlw	88
+  2531  017C  3423               	retlw	35
+  2532  017D  34E9               	retlw	233
+  2533  017E  3424               	retlw	36
+  2534  017F  3476               	retlw	118
+  2535  0180  3426               	retlw	38
+  2536  0181  34FF               	retlw	255
+  2537  0182  3427               	retlw	39
+  2538  0183  3483               	retlw	131
+  2539  0184  3429               	retlw	41
+  2540  0185  3402               	retlw	2
+  2541  0186  342B               	retlw	43
+  2542  0187  3479               	retlw	121
+  2543  0188  342C               	retlw	44
+  2544  0189  34E9               	retlw	233
+  2545  018A  342D               	retlw	45
+  2546  018B  3450               	retlw	80
+  2547  018C  342F               	retlw	47
+  2548  018D  34AE               	retlw	174
+  2549  018E  3430               	retlw	48
+  2550  018F  3401               	retlw	1
+  2551  0190  3432               	retlw	50
+  2552  0191  3449               	retlw	73
+  2553  0192  3433               	retlw	51
+  2554  0193  3485               	retlw	133
+  2555  0194  3434               	retlw	52
+  2556  0195  34B4               	retlw	180
+  2557  0196  3435               	retlw	53
+  2558  0197  34D6               	retlw	214
+  2559  0198  3436               	retlw	54
+  2560  0199  34E9               	retlw	233
+  2561  019A  3437               	retlw	55
+  2562  019B  34EE               	retlw	238
+  2563  019C  3438               	retlw	56
+  2564  019D  34E3               	retlw	227
+  2565  019E  3439               	retlw	57
+  2566  019F  34C9               	retlw	201
+  2567  01A0  343A               	retlw	58
+  2568  01A1  349D               	retlw	157
+  2569  01A2  343B               	retlw	59
+  2570  01A3  3460               	retlw	96
+  2571  01A4  343C               	retlw	60
+  2572  01A5  3412               	retlw	18
+  2573  01A6  343D               	retlw	61
+  2574  01A7  34B2               	retlw	178
+  2575  01A8  343D               	retlw	61
+  2576  01A9  343F               	retlw	63
+  2577  01AA  343E               	retlw	62
+  2578  01AB  34B9               	retlw	185
+  2579  01AC  343E               	retlw	62
+  2580  01AD  3421               	retlw	33
+  2581  01AE  343F               	retlw	63
+  2582  01AF  3475               	retlw	117
+  2583  01B0  343F               	retlw	63
+  2584  01B1  34B5               	retlw	181
+  2585  01B2  343F               	retlw	63
+  2586  01B3  34E2               	retlw	226
+  2587  01B4  343F               	retlw	63
+  2588  01B5  34FA               	retlw	250
+  2589  01B6  343F               	retlw	63
+  2590  01B7  34FF               	retlw	255
+  2591  01B8  343F               	retlw	63
+  2592  01B9  34F0               	retlw	240
+  2593  01BA  343F               	retlw	63
+  2594  01BB  34CE               	retlw	206
+  2595  01BC  343F               	retlw	63
+  2596  01BD  3497               	retlw	151
+  2597  01BE  343F               	retlw	63
+  2598  01BF  344D               	retlw	77
+  2599  01C0  343F               	retlw	63
+  2600  01C1  34EF               	retlw	239
+  2601  01C2  343E               	retlw	62
+  2602  01C3  347F               	retlw	127
+  2603  01C4  343E               	retlw	62
+  2604  01C5  34FB               	retlw	251
+  2605  01C6  343D               	retlw	61
+  2606  01C7  3464               	retlw	100
+  2607  01C8  343D               	retlw	61
+  2608  01C9  34BC               	retlw	188
+  2609  01CA  343C               	retlw	60
+  2610  01CB  3401               	retlw	1
+  2611  01CC  343C               	retlw	60
+  2612  01CD  3435               	retlw	53
+  2613  01CE  343B               	retlw	59
+  2614  01CF  3458               	retlw	88
+  2615  01D0  343A               	retlw	58
+  2616  01D1  346B               	retlw	107
+  2617  01D2  3439               	retlw	57
+  2618  01D3  346E               	retlw	110
+  2619  01D4  3438               	retlw	56
+  2620  01D5  3462               	retlw	98
+  2621  01D6  3437               	retlw	55
+  2622  01D7  3447               	retlw	71
+  2623  01D8  3436               	retlw	54
+  2624  01D9  341E               	retlw	30
+  2625  01DA  3435               	retlw	53
+  2626  01DB  34E8               	retlw	232
+  2627  01DC  3433               	retlw	51
+  2628  01DD  34A6               	retlw	166
+  2629  01DE  3432               	retlw	50
+  2630  01DF  3459               	retlw	89
+  2631  01E0  3431               	retlw	49
+  2632  01E1  3400               	retlw	0
+  2633  01E2  3430               	retlw	48
+  2634  01E3  349E               	retlw	158
+  2635  01E4  342E               	retlw	46
+  2636  01E5  3432               	retlw	50
+  2637  01E6  342D               	retlw	45
+  2638  01E7  34BE               	retlw	190
+  2639  01E8  342B               	retlw	43
+  2640  01E9  3443               	retlw	67
+  2641  01EA  342A               	retlw	42
+  2642  01EB  34C2               	retlw	194
+  2643  01EC  3428               	retlw	40
+  2644  01ED  343B               	retlw	59
+  2645  01EE  3427               	retlw	39
+  2646  01EF  34B0               	retlw	176
+  2647  01F0  3425               	retlw	37
+  2648  01F1  3421               	retlw	33
+  2649  01F2  3424               	retlw	36
+  2650  01F3  348F               	retlw	143
+  2651  01F4  3422               	retlw	34
+  2652  01F5  34FC               	retlw	252
+  2653  01F6  3420               	retlw	32
+  2654  01F7  3469               	retlw	105
+  2655  01F8  341F               	retlw	31
+  2656  01F9  34D5               	retlw	213
+  2657  01FA  341D               	retlw	29
+  2658  01FB  3443               	retlw	67
+  2659  01FC  341C               	retlw	28
+  2660  01FD  34B4               	retlw	180
+  2661  01FE  341A               	retlw	26
+  2662  01FF  3427               	retlw	39
+  2663  0200  3419               	retlw	25
+  2664  0201  349F               	retlw	159
+  2665  0202  3417               	retlw	23
+  2666  0203  341D               	retlw	29
+  2667  0204  3416               	retlw	22
+  2668  0205  34A0               	retlw	160
+  2669  0206  3414               	retlw	20
+  2670  0207  342A               	retlw	42
+  2671  0208  3413               	retlw	19
+  2672  0209  34BD               	retlw	189
+  2673  020A  3411               	retlw	17
+  2674  020B  3458               	retlw	88
+  2675  020C  3410               	retlw	16
+  2676  020D  34FD               	retlw	253
+  2677  020E  340E               	retlw	14
+  2678  020F  34AC               	retlw	172
+  2679  0210  340D               	retlw	13
+  2680  0211  3467               	retlw	103
+  2681  0212  340C               	retlw	12
+  2682  0213  342E               	retlw	46
+  2683  0214  340B               	retlw	11
+  2684  0215  3402               	retlw	2
+  2685  0216  340A               	retlw	10
+  2686  0217  34E4               	retlw	228
+  2687  0218  3408               	retlw	8
+  2688  0219  34D4               	retlw	212
+  2689  021A  3407               	retlw	7
+  2690  021B  34D3               	retlw	211
+  2691  021C  3406               	retlw	6
+  2692  021D  34E2               	retlw	226
+  2693  021E  3405               	retlw	5
+  2694  021F  3401               	retlw	1
+  2695  0220  3405               	retlw	5
+  2696  0221  3430               	retlw	48
+  2697  0222  3404               	retlw	4
+  2698  0223  3471               	retlw	113
+  2699  0224  3403               	retlw	3
+  2700  0225  34C4               	retlw	196
+  2701  0226  3402               	retlw	2
+  2702  0227  3429               	retlw	41
+  2703  0228  3402               	retlw	2
+  2704  0229  34A1               	retlw	161
+  2705  022A  3401               	retlw	1
+  2706  022B  342B               	retlw	43
+  2707  022C  3401               	retlw	1
+  2708  022D  34C9               	retlw	201
   2709  022E  3400               	retlw	0
-  2710  022F  3416               	retlw	22
+  2710  022F  347A               	retlw	122
   2711  0230  3400               	retlw	0
-  2712  0231  340A               	retlw	10
+  2712  0231  343E               	retlw	62
   2713  0232  3400               	retlw	0
-  2714  0233  3402               	retlw	2
+  2714  0233  3416               	retlw	22
   2715  0234  3400               	retlw	0
   2716  0235  3400               	retlw	0
   2717  0236  3400               	retlw	0
@@ -2735,261 +2735,261 @@ Microchip Technology Omniscient Code Generator v1.45 (Free mode) build 201711160
   2721  0237                     __pstringtext2:	
   2722  0237                     _envelopeTable:	
   2723  0237  3400               	retlw	0
-  2724  0238  3406               	retlw	6
-  2725  0239  340C               	retlw	12
-  2726  023A  3412               	retlw	18
-  2727  023B  3418               	retlw	24
-  2728  023C  341D               	retlw	29
-  2729  023D  3422               	retlw	34
-  2730  023E  3426               	retlw	38
-  2731  023F  342B               	retlw	43
-  2732  0240  342F               	retlw	47
-  2733  0241  3433               	retlw	51
-  2734  0242  3437               	retlw	55
-  2735  0243  343A               	retlw	58
-  2736  0244  343E               	retlw	62
-  2737  0245  3441               	retlw	65
-  2738  0246  3444               	retlw	68
-  2739  0247  3447               	retlw	71
-  2740  0248  344A               	retlw	74
-  2741  0249  344D               	retlw	77
-  2742  024A  344F               	retlw	79
-  2743  024B  3451               	retlw	81
-  2744  024C  3454               	retlw	84
-  2745  024D  3456               	retlw	86
-  2746  024E  3458               	retlw	88
-  2747  024F  345A               	retlw	90
-  2748  0250  345C               	retlw	92
-  2749  0251  345E               	retlw	94
-  2750  0252  345F               	retlw	95
-  2751  0253  3461               	retlw	97
-  2752  0254  3462               	retlw	98
-  2753  0255  3464               	retlw	100
-  2754  0256  3465               	retlw	101
-  2755  0257  3466               	retlw	102
-  2756  0258  3468               	retlw	104
-  2757  0259  3469               	retlw	105
-  2758  025A  346A               	retlw	106
-  2759  025B  346B               	retlw	107
-  2760  025C  346C               	retlw	108
-  2761  025D  346D               	retlw	109
-  2762  025E  346E               	retlw	110
-  2763  025F  346F               	retlw	111
-  2764  0260  346F               	retlw	111
-  2765  0261  3470               	retlw	112
-  2766  0262  3471               	retlw	113
-  2767  0263  3472               	retlw	114
-  2768  0264  3472               	retlw	114
-  2769  0265  3473               	retlw	115
-  2770  0266  3474               	retlw	116
-  2771  0267  3474               	retlw	116
-  2772  0268  3475               	retlw	117
-  2773  0269  3475               	retlw	117
-  2774  026A  3476               	retlw	118
-  2775  026B  3476               	retlw	118
-  2776  026C  3477               	retlw	119
-  2777  026D  3477               	retlw	119
-  2778  026E  3477               	retlw	119
-  2779  026F  3478               	retlw	120
-  2780  0270  3478               	retlw	120
-  2781  0271  3479               	retlw	121
-  2782  0272  3479               	retlw	121
-  2783  0273  3479               	retlw	121
-  2784  0274  3479               	retlw	121
-  2785  0275  347A               	retlw	122
-  2786  0276  347A               	retlw	122
-  2787  0277  347A               	retlw	122
-  2788  0278  347A               	retlw	122
-  2789  0279  347B               	retlw	123
-  2790  027A  347B               	retlw	123
-  2791  027B  347B               	retlw	123
-  2792  027C  347B               	retlw	123
-  2793  027D  347B               	retlw	123
-  2794  027E  347C               	retlw	124
-  2795  027F  347C               	retlw	124
-  2796  0280  347C               	retlw	124
-  2797  0281  347C               	retlw	124
-  2798  0282  347C               	retlw	124
-  2799  0283  347C               	retlw	124
-  2800  0284  347D               	retlw	125
-  2801  0285  347D               	retlw	125
-  2802  0286  347D               	retlw	125
-  2803  0287  347D               	retlw	125
-  2804  0288  347D               	retlw	125
-  2805  0289  347D               	retlw	125
-  2806  028A  347D               	retlw	125
-  2807  028B  347D               	retlw	125
-  2808  028C  347D               	retlw	125
-  2809  028D  347D               	retlw	125
-  2810  028E  347E               	retlw	126
-  2811  028F  347E               	retlw	126
-  2812  0290  347E               	retlw	126
-  2813  0291  347E               	retlw	126
-  2814  0292  347E               	retlw	126
-  2815  0293  347E               	retlw	126
-  2816  0294  347E               	retlw	126
-  2817  0295  347E               	retlw	126
-  2818  0296  347E               	retlw	126
-  2819  0297  347E               	retlw	126
-  2820  0298  347E               	retlw	126
-  2821  0299  347E               	retlw	126
-  2822  029A  347E               	retlw	126
-  2823  029B  347E               	retlw	126
-  2824  029C  347E               	retlw	126
-  2825  029D  347E               	retlw	126
-  2826  029E  347E               	retlw	126
-  2827  029F  347E               	retlw	126
-  2828  02A0  347E               	retlw	126
-  2829  02A1  347E               	retlw	126
-  2830  02A2  347E               	retlw	126
-  2831  02A3  347F               	retlw	127
-  2832  02A4  347F               	retlw	127
-  2833  02A5  347F               	retlw	127
-  2834  02A6  347F               	retlw	127
-  2835  02A7  347F               	retlw	127
-  2836  02A8  347F               	retlw	127
-  2837  02A9  347F               	retlw	127
-  2838  02AA  347F               	retlw	127
-  2839  02AB  347F               	retlw	127
-  2840  02AC  347F               	retlw	127
-  2841  02AD  347F               	retlw	127
-  2842  02AE  347F               	retlw	127
-  2843  02AF  347F               	retlw	127
-  2844  02B0  347F               	retlw	127
-  2845  02B1  347F               	retlw	127
-  2846  02B2  347F               	retlw	127
-  2847  02B3  347F               	retlw	127
-  2848  02B4  347F               	retlw	127
-  2849  02B5  347F               	retlw	127
-  2850  02B6  347F               	retlw	127
-  2851  02B7  347F               	retlw	127
-  2852  02B8  347F               	retlw	127
-  2853  02B9  347F               	retlw	127
-  2854  02BA  347F               	retlw	127
-  2855  02BB  347F               	retlw	127
-  2856  02BC  347F               	retlw	127
-  2857  02BD  347F               	retlw	127
-  2858  02BE  347F               	retlw	127
-  2859  02BF  347F               	retlw	127
-  2860  02C0  347F               	retlw	127
-  2861  02C1  347F               	retlw	127
-  2862  02C2  347F               	retlw	127
-  2863  02C3  347F               	retlw	127
-  2864  02C4  347F               	retlw	127
-  2865  02C5  347F               	retlw	127
-  2866  02C6  347F               	retlw	127
-  2867  02C7  347F               	retlw	127
-  2868  02C8  347F               	retlw	127
-  2869  02C9  347F               	retlw	127
-  2870  02CA  347F               	retlw	127
-  2871  02CB  347F               	retlw	127
-  2872  02CC  347F               	retlw	127
-  2873  02CD  347F               	retlw	127
-  2874  02CE  347F               	retlw	127
-  2875  02CF  347F               	retlw	127
-  2876  02D0  347F               	retlw	127
-  2877  02D1  347F               	retlw	127
-  2878  02D2  347F               	retlw	127
-  2879  02D3  347F               	retlw	127
-  2880  02D4  347F               	retlw	127
-  2881  02D5  347F               	retlw	127
-  2882  02D6  347F               	retlw	127
-  2883  02D7  347F               	retlw	127
-  2884  02D8  347F               	retlw	127
-  2885  02D9  347F               	retlw	127
-  2886  02DA  347F               	retlw	127
-  2887  02DB  347F               	retlw	127
-  2888  02DC  347F               	retlw	127
-  2889  02DD  347F               	retlw	127
-  2890  02DE  347F               	retlw	127
-  2891  02DF  347F               	retlw	127
-  2892  02E0  347F               	retlw	127
-  2893  02E1  347F               	retlw	127
-  2894  02E2  347F               	retlw	127
-  2895  02E3  347F               	retlw	127
-  2896  02E4  347F               	retlw	127
-  2897  02E5  347F               	retlw	127
-  2898  02E6  347F               	retlw	127
-  2899  02E7  347F               	retlw	127
-  2900  02E8  347F               	retlw	127
-  2901  02E9  347F               	retlw	127
-  2902  02EA  347F               	retlw	127
-  2903  02EB  347F               	retlw	127
-  2904  02EC  347F               	retlw	127
-  2905  02ED  347F               	retlw	127
-  2906  02EE  347F               	retlw	127
-  2907  02EF  347F               	retlw	127
-  2908  02F0  347F               	retlw	127
-  2909  02F1  347F               	retlw	127
-  2910  02F2  347F               	retlw	127
-  2911  02F3  347F               	retlw	127
-  2912  02F4  347F               	retlw	127
-  2913  02F5  347F               	retlw	127
-  2914  02F6  347F               	retlw	127
-  2915  02F7  347F               	retlw	127
-  2916  02F8  347F               	retlw	127
-  2917  02F9  347F               	retlw	127
-  2918  02FA  347F               	retlw	127
-  2919  02FB  347F               	retlw	127
-  2920  02FC  347F               	retlw	127
-  2921  02FD  347F               	retlw	127
-  2922  02FE  347F               	retlw	127
-  2923  02FF  347F               	retlw	127
-  2924  0300  347F               	retlw	127
-  2925  0301  347F               	retlw	127
-  2926  0302  347F               	retlw	127
-  2927  0303  347F               	retlw	127
-  2928  0304  347F               	retlw	127
-  2929  0305  347F               	retlw	127
-  2930  0306  347F               	retlw	127
-  2931  0307  347F               	retlw	127
-  2932  0308  347F               	retlw	127
-  2933  0309  347F               	retlw	127
-  2934  030A  347F               	retlw	127
-  2935  030B  347F               	retlw	127
-  2936  030C  347F               	retlw	127
-  2937  030D  347F               	retlw	127
-  2938  030E  347F               	retlw	127
-  2939  030F  347F               	retlw	127
-  2940  0310  347F               	retlw	127
-  2941  0311  347F               	retlw	127
-  2942  0312  347F               	retlw	127
-  2943  0313  347F               	retlw	127
-  2944  0314  347F               	retlw	127
-  2945  0315  347F               	retlw	127
-  2946  0316  347F               	retlw	127
-  2947  0317  347F               	retlw	127
-  2948  0318  347F               	retlw	127
-  2949  0319  347F               	retlw	127
-  2950  031A  347F               	retlw	127
-  2951  031B  347F               	retlw	127
-  2952  031C  347F               	retlw	127
-  2953  031D  347F               	retlw	127
-  2954  031E  347F               	retlw	127
-  2955  031F  347F               	retlw	127
-  2956  0320  347F               	retlw	127
-  2957  0321  347F               	retlw	127
-  2958  0322  347F               	retlw	127
-  2959  0323  347F               	retlw	127
-  2960  0324  347F               	retlw	127
-  2961  0325  347F               	retlw	127
-  2962  0326  347F               	retlw	127
-  2963  0327  347F               	retlw	127
-  2964  0328  347F               	retlw	127
-  2965  0329  347F               	retlw	127
-  2966  032A  347F               	retlw	127
-  2967  032B  347F               	retlw	127
-  2968  032C  347F               	retlw	127
-  2969  032D  347F               	retlw	127
-  2970  032E  347F               	retlw	127
-  2971  032F  347F               	retlw	127
-  2972  0330  347F               	retlw	127
-  2973  0331  347F               	retlw	127
-  2974  0332  347F               	retlw	127
-  2975  0333  347F               	retlw	127
-  2976  0334  347F               	retlw	127
-  2977  0335  347F               	retlw	127
-  2978  0336  3480               	retlw	128
+  2724  0238  3402               	retlw	2
+  2725  0239  3403               	retlw	3
+  2726  023A  3405               	retlw	5
+  2727  023B  3406               	retlw	6
+  2728  023C  3408               	retlw	8
+  2729  023D  3409               	retlw	9
+  2730  023E  340A               	retlw	10
+  2731  023F  340C               	retlw	12
+  2732  0240  340D               	retlw	13
+  2733  0241  340E               	retlw	14
+  2734  0242  3410               	retlw	16
+  2735  0243  3411               	retlw	17
+  2736  0244  3412               	retlw	18
+  2737  0245  3413               	retlw	19
+  2738  0246  3414               	retlw	20
+  2739  0247  3415               	retlw	21
+  2740  0248  3416               	retlw	22
+  2741  0249  3417               	retlw	23
+  2742  024A  3418               	retlw	24
+  2743  024B  3419               	retlw	25
+  2744  024C  341A               	retlw	26
+  2745  024D  341B               	retlw	27
+  2746  024E  341C               	retlw	28
+  2747  024F  341D               	retlw	29
+  2748  0250  341E               	retlw	30
+  2749  0251  341F               	retlw	31
+  2750  0252  3420               	retlw	32
+  2751  0253  3421               	retlw	33
+  2752  0254  3421               	retlw	33
+  2753  0255  3422               	retlw	34
+  2754  0256  3423               	retlw	35
+  2755  0257  3424               	retlw	36
+  2756  0258  3424               	retlw	36
+  2757  0259  3425               	retlw	37
+  2758  025A  3426               	retlw	38
+  2759  025B  3426               	retlw	38
+  2760  025C  3427               	retlw	39
+  2761  025D  3428               	retlw	40
+  2762  025E  3428               	retlw	40
+  2763  025F  3429               	retlw	41
+  2764  0260  3429               	retlw	41
+  2765  0261  342A               	retlw	42
+  2766  0262  342A               	retlw	42
+  2767  0263  342B               	retlw	43
+  2768  0264  342C               	retlw	44
+  2769  0265  342C               	retlw	44
+  2770  0266  342D               	retlw	45
+  2771  0267  342D               	retlw	45
+  2772  0268  342D               	retlw	45
+  2773  0269  342E               	retlw	46
+  2774  026A  342E               	retlw	46
+  2775  026B  342F               	retlw	47
+  2776  026C  342F               	retlw	47
+  2777  026D  3430               	retlw	48
+  2778  026E  3430               	retlw	48
+  2779  026F  3430               	retlw	48
+  2780  0270  3431               	retlw	49
+  2781  0271  3431               	retlw	49
+  2782  0272  3432               	retlw	50
+  2783  0273  3432               	retlw	50
+  2784  0274  3432               	retlw	50
+  2785  0275  3433               	retlw	51
+  2786  0276  3433               	retlw	51
+  2787  0277  3433               	retlw	51
+  2788  0278  3434               	retlw	52
+  2789  0279  3434               	retlw	52
+  2790  027A  3434               	retlw	52
+  2791  027B  3435               	retlw	53
+  2792  027C  3435               	retlw	53
+  2793  027D  3435               	retlw	53
+  2794  027E  3435               	retlw	53
+  2795  027F  3436               	retlw	54
+  2796  0280  3436               	retlw	54
+  2797  0281  3436               	retlw	54
+  2798  0282  3436               	retlw	54
+  2799  0283  3437               	retlw	55
+  2800  0284  3437               	retlw	55
+  2801  0285  3437               	retlw	55
+  2802  0286  3437               	retlw	55
+  2803  0287  3438               	retlw	56
+  2804  0288  3438               	retlw	56
+  2805  0289  3438               	retlw	56
+  2806  028A  3438               	retlw	56
+  2807  028B  3438               	retlw	56
+  2808  028C  3439               	retlw	57
+  2809  028D  3439               	retlw	57
+  2810  028E  3439               	retlw	57
+  2811  028F  3439               	retlw	57
+  2812  0290  3439               	retlw	57
+  2813  0291  3439               	retlw	57
+  2814  0292  343A               	retlw	58
+  2815  0293  343A               	retlw	58
+  2816  0294  343A               	retlw	58
+  2817  0295  343A               	retlw	58
+  2818  0296  343A               	retlw	58
+  2819  0297  343A               	retlw	58
+  2820  0298  343B               	retlw	59
+  2821  0299  343B               	retlw	59
+  2822  029A  343B               	retlw	59
+  2823  029B  343B               	retlw	59
+  2824  029C  343B               	retlw	59
+  2825  029D  343B               	retlw	59
+  2826  029E  343B               	retlw	59
+  2827  029F  343B               	retlw	59
+  2828  02A0  343C               	retlw	60
+  2829  02A1  343C               	retlw	60
+  2830  02A2  343C               	retlw	60
+  2831  02A3  343C               	retlw	60
+  2832  02A4  343C               	retlw	60
+  2833  02A5  343C               	retlw	60
+  2834  02A6  343C               	retlw	60
+  2835  02A7  343C               	retlw	60
+  2836  02A8  343C               	retlw	60
+  2837  02A9  343C               	retlw	60
+  2838  02AA  343D               	retlw	61
+  2839  02AB  343D               	retlw	61
+  2840  02AC  343D               	retlw	61
+  2841  02AD  343D               	retlw	61
+  2842  02AE  343D               	retlw	61
+  2843  02AF  343D               	retlw	61
+  2844  02B0  343D               	retlw	61
+  2845  02B1  343D               	retlw	61
+  2846  02B2  343D               	retlw	61
+  2847  02B3  343D               	retlw	61
+  2848  02B4  343D               	retlw	61
+  2849  02B5  343D               	retlw	61
+  2850  02B6  343D               	retlw	61
+  2851  02B7  343D               	retlw	61
+  2852  02B8  343E               	retlw	62
+  2853  02B9  343E               	retlw	62
+  2854  02BA  343E               	retlw	62
+  2855  02BB  343E               	retlw	62
+  2856  02BC  343E               	retlw	62
+  2857  02BD  343E               	retlw	62
+  2858  02BE  343E               	retlw	62
+  2859  02BF  343E               	retlw	62
+  2860  02C0  343E               	retlw	62
+  2861  02C1  343E               	retlw	62
+  2862  02C2  343E               	retlw	62
+  2863  02C3  343E               	retlw	62
+  2864  02C4  343E               	retlw	62
+  2865  02C5  343E               	retlw	62
+  2866  02C6  343E               	retlw	62
+  2867  02C7  343E               	retlw	62
+  2868  02C8  343E               	retlw	62
+  2869  02C9  343E               	retlw	62
+  2870  02CA  343E               	retlw	62
+  2871  02CB  343E               	retlw	62
+  2872  02CC  343F               	retlw	63
+  2873  02CD  343F               	retlw	63
+  2874  02CE  343F               	retlw	63
+  2875  02CF  343F               	retlw	63
+  2876  02D0  343F               	retlw	63
+  2877  02D1  343F               	retlw	63
+  2878  02D2  343F               	retlw	63
+  2879  02D3  343F               	retlw	63
+  2880  02D4  343F               	retlw	63
+  2881  02D5  343F               	retlw	63
+  2882  02D6  343F               	retlw	63
+  2883  02D7  343F               	retlw	63
+  2884  02D8  343F               	retlw	63
+  2885  02D9  343F               	retlw	63
+  2886  02DA  343F               	retlw	63
+  2887  02DB  343F               	retlw	63
+  2888  02DC  343F               	retlw	63
+  2889  02DD  343F               	retlw	63
+  2890  02DE  343F               	retlw	63
+  2891  02DF  343F               	retlw	63
+  2892  02E0  343F               	retlw	63
+  2893  02E1  343F               	retlw	63
+  2894  02E2  343F               	retlw	63
+  2895  02E3  343F               	retlw	63
+  2896  02E4  343F               	retlw	63
+  2897  02E5  343F               	retlw	63
+  2898  02E6  343F               	retlw	63
+  2899  02E7  343F               	retlw	63
+  2900  02E8  343F               	retlw	63
+  2901  02E9  343F               	retlw	63
+  2902  02EA  343F               	retlw	63
+  2903  02EB  343F               	retlw	63
+  2904  02EC  343F               	retlw	63
+  2905  02ED  343F               	retlw	63
+  2906  02EE  343F               	retlw	63
+  2907  02EF  343F               	retlw	63
+  2908  02F0  343F               	retlw	63
+  2909  02F1  343F               	retlw	63
+  2910  02F2  343F               	retlw	63
+  2911  02F3  343F               	retlw	63
+  2912  02F4  343F               	retlw	63
+  2913  02F5  343F               	retlw	63
+  2914  02F6  343F               	retlw	63
+  2915  02F7  3440               	retlw	64
+  2916  02F8  3440               	retlw	64
+  2917  02F9  3440               	retlw	64
+  2918  02FA  3440               	retlw	64
+  2919  02FB  3440               	retlw	64
+  2920  02FC  3440               	retlw	64
+  2921  02FD  3440               	retlw	64
+  2922  02FE  3440               	retlw	64
+  2923  02FF  3440               	retlw	64
+  2924  0300  3440               	retlw	64
+  2925  0301  3440               	retlw	64
+  2926  0302  3440               	retlw	64
+  2927  0303  3440               	retlw	64
+  2928  0304  3440               	retlw	64
+  2929  0305  3440               	retlw	64
+  2930  0306  3440               	retlw	64
+  2931  0307  3440               	retlw	64
+  2932  0308  3440               	retlw	64
+  2933  0309  3440               	retlw	64
+  2934  030A  3440               	retlw	64
+  2935  030B  3440               	retlw	64
+  2936  030C  3440               	retlw	64
+  2937  030D  3440               	retlw	64
+  2938  030E  3440               	retlw	64
+  2939  030F  3440               	retlw	64
+  2940  0310  3440               	retlw	64
+  2941  0311  3440               	retlw	64
+  2942  0312  3440               	retlw	64
+  2943  0313  3440               	retlw	64
+  2944  0314  3440               	retlw	64
+  2945  0315  3440               	retlw	64
+  2946  0316  3440               	retlw	64
+  2947  0317  3440               	retlw	64
+  2948  0318  3440               	retlw	64
+  2949  0319  3440               	retlw	64
+  2950  031A  3440               	retlw	64
+  2951  031B  3440               	retlw	64
+  2952  031C  3440               	retlw	64
+  2953  031D  3440               	retlw	64
+  2954  031E  3440               	retlw	64
+  2955  031F  3440               	retlw	64
+  2956  0320  3440               	retlw	64
+  2957  0321  3440               	retlw	64
+  2958  0322  3440               	retlw	64
+  2959  0323  3440               	retlw	64
+  2960  0324  3440               	retlw	64
+  2961  0325  3440               	retlw	64
+  2962  0326  3440               	retlw	64
+  2963  0327  3440               	retlw	64
+  2964  0328  3440               	retlw	64
+  2965  0329  3440               	retlw	64
+  2966  032A  3440               	retlw	64
+  2967  032B  3440               	retlw	64
+  2968  032C  3440               	retlw	64
+  2969  032D  3440               	retlw	64
+  2970  032E  3440               	retlw	64
+  2971  032F  3440               	retlw	64
+  2972  0330  3440               	retlw	64
+  2973  0331  3440               	retlw	64
+  2974  0332  3440               	retlw	64
+  2975  0333  3440               	retlw	64
+  2976  0334  3440               	retlw	64
+  2977  0335  3440               	retlw	64
+  2978  0336  3440               	retlw	64
   2979  0337                     __end_of_envelopeTable:	
   2980                           
   2981                           	psect	stringtext3
@@ -3477,7 +3477,7 @@ Microchip Technology Omniscient Code Generator v1.45 (Free mode) build 201711160
   3463 ;;
   3464 ;; *************** function _main *****************
   3465 ;; Defined at:
-  3466 ;;		line 97 in file "main.c"
+  3466 ;;		line 92 in file "main.c"
   3467 ;; Parameters:    Size  Location     Type
   3468 ;;		None
   3469 ;; Auto vars:     Size  Location     Type
@@ -3517,46 +3517,46 @@ Microchip Technology Omniscient Code Generator v1.45 (Free mode) build 201711160
   3498                           ;psect for function _main
   3499  0498                     _main:	
   3500                           
-  3501                           ;main.c: 99: SYSTEM_Initialize();
+  3501                           ;main.c: 94: SYSTEM_Initialize();
   3502                           
   3503                           ;incstack = 0
   3504                           ; Regs used in _main: [wreg-fsr1h+status,2+status,0+pclath+cstack]
   3505  0498  3185  2535  3184   	fcall	_SYSTEM_Initialize
   3506                           
-  3507                           ;main.c: 105: (INTCONbits.GIE = 1);
+  3507                           ;main.c: 100: (INTCONbits.GIE = 1);
   3508  049B  178B               	bsf	11,7	;volatile
   3509                           
-  3510                           ;main.c: 108: (INTCONbits.PEIE = 1);
+  3510                           ;main.c: 103: (INTCONbits.PEIE = 1);
   3511  049C  170B               	bsf	11,6	;volatile
   3512                           
-  3513                           ;main.c: 111: ENV_DELAY = 150;
+  3513                           ;main.c: 106: ENV_DELAY = 150;
   3514  049D  3096               	movlw	150
   3515  049E  0020               	movlb	0	; select bank0
   3516  049F  00AA               	movwf	_ENV_DELAY
   3517  04A0  3000               	movlw	0
   3518  04A1  00AB               	movwf	_ENV_DELAY+1
   3519                           
-  3520                           ;main.c: 113: uint8_t s = 12;
+  3520                           ;main.c: 108: uint8_t s = 12;
   3521  04A2  300C               	movlw	12
   3522  04A3  00DB               	movwf	??_main
   3523  04A4  085B               	movf	??_main,w
   3524  04A5  00DD               	movwf	main@s
   3525                           
-  3526                           ;main.c: 114: uint8_t rcvData;
-  3527                           ;main.c: 115: uint8_t count=0;
+  3526                           ;main.c: 109: uint8_t rcvData;
+  3527                           ;main.c: 110: uint8_t count=0;
   3528  04A6  01DC               	clrf	main@count
   3529  04A7                     l1342:	
-  3530                           ;main.c: 117: while (1) {
+  3530                           ;main.c: 112: while (1) {
   3531                           
   3532                           
-  3533                           ;main.c: 119: rcvData = EUSART_Read();
+  3533                           ;main.c: 114: rcvData = EUSART_Read();
   3534  04A7  3185  25BC  3184   	fcall	_EUSART_Read
   3535  04AA  0020               	movlb	0	; select bank0
   3536  04AB  00DB               	movwf	??_main
   3537  04AC  085B               	movf	??_main,w
   3538  04AD  00DE               	movwf	main@rcvData
   3539                           
-  3540                           ;main.c: 121: if (rcvData >= 'a' && rcvData <= 'z') {
+  3540                           ;main.c: 116: if (rcvData >= 'a' && rcvData <= 'z') {
   3541  04AE  3061               	movlw	97
   3542  04AF  025E               	subwf	main@rcvData,w
   3543  04B0  1C03               	skipc
@@ -3566,20 +3566,20 @@ Microchip Technology Omniscient Code Generator v1.45 (Free mode) build 201711160
   3547  04B4  1803               	skipnc
   3548  04B5  2CA7               	goto	l1342
   3549                           
-  3550                           ;main.c: 122: count++;
+  3550                           ;main.c: 117: count++;
   3551  04B6  3001               	movlw	1
   3552  04B7  00DB               	movwf	??_main
   3553  04B8  085B               	movf	??_main,w
   3554  04B9  07DC               	addwf	main@count,f
   3555                           
-  3556                           ;main.c: 123: s = rcvData-'a';
+  3556                           ;main.c: 118: s = rcvData-'a';
   3557  04BA  085E               	movf	main@rcvData,w
   3558  04BB  3E9F               	addlw	159
   3559  04BC  00DB               	movwf	??_main
   3560  04BD  085B               	movf	??_main,w
   3561  04BE  00DD               	movwf	main@s
   3562                           
-  3563                           ;main.c: 125: if (s >= 22)s = 22;
+  3563                           ;main.c: 120: if (s >= 22)s = 22;
   3564  04BF  3016               	movlw	22
   3565  04C0  025D               	subwf	main@s,w
   3566  04C1  1C03               	skipc
@@ -3590,7 +3590,7 @@ Microchip Technology Omniscient Code Generator v1.45 (Free mode) build 201711160
   3571  04C6  00DD               	movwf	main@s
   3572  04C7                     l1354:	
   3573                           
-  3574                           ;main.c: 126: soundPlay(count % 2, scale[s]);
+  3574                           ;main.c: 121: soundPlay(count % 2, scale[s]);
   3575  04C7  085D               	movf	main@s,w
   3576  04C8  3E42               	addlw	(low (_scale| 0))& (0+255)
   3577  04C9  0086               	movwf	6
@@ -3609,7 +3609,7 @@ Microchip Technology Omniscient Code Generator v1.45 (Free mode) build 201711160
   3590  04D5                     __ptext1:	
   3591 ;; *************** function _soundPlay *****************
   3592 ;; Defined at:
-  3593 ;;		line 83 in file "main.c"
+  3593 ;;		line 78 in file "main.c"
   3594 ;; Parameters:    Size  Location     Type
   3595 ;;  c               1    wreg     unsigned char 
   3596 ;;  onkai           1    0[BANK0 ] unsigned char 
@@ -3653,12 +3653,12 @@ Microchip Technology Omniscient Code Generator v1.45 (Free mode) build 201711160
   3629  04D5  0020               	movlb	0	; select bank0
   3630  04D6  00DA               	movwf	soundPlay@c
   3631                           
-  3632                           ;main.c: 84: if (c == 0) {
+  3632                           ;main.c: 79: if (c == 0) {
   3633  04D7  085A               	movf	soundPlay@c,w
   3634  04D8  1D03               	btfss	3,2
   3635  04D9  2CF3               	goto	l1324
   3636                           
-  3637                           ;main.c: 85: dat_d0 = onkai_d[onkai];
+  3637                           ;main.c: 80: dat_d0 = onkai_d[onkai];
   3638  04DA  0858               	movf	soundPlay@onkai,w
   3639  04DB  3E4E               	addlw	low (_onkai_d| (0+32768))
   3640  04DC  0084               	movwf	4
@@ -3671,7 +3671,7 @@ Microchip Technology Omniscient Code Generator v1.45 (Free mode) build 201711160
   3647  04E3  0859               	movf	??_soundPlay,w
   3648  04E4  00C0               	movwf	_dat_d0
   3649                           
-  3650                           ;main.c: 86: dat_f0 = onkai_f[onkai];
+  3650                           ;main.c: 81: dat_f0 = onkai_f[onkai];
   3651  04E5  0858               	movf	soundPlay@onkai,w
   3652  04E6  3E04               	addlw	low (_onkai_f| (0+32768))
   3653  04E7  0084               	movwf	4
@@ -3684,17 +3684,17 @@ Microchip Technology Omniscient Code Generator v1.45 (Free mode) build 201711160
   3660  04EE  0859               	movf	??_soundPlay,w
   3661  04EF  00BF               	movwf	_dat_f0
   3662                           
-  3663                           ;main.c: 87: env0 = 0;
+  3663                           ;main.c: 82: env0 = 0;
   3664  04F0  01F4               	clrf	_env0
   3665                           
-  3666                           ;main.c: 88: envelopeCount0 = 0;
+  3666                           ;main.c: 83: envelopeCount0 = 0;
   3667  04F1  01F3               	clrf	_envelopeCount0
   3668                           
-  3669                           ;main.c: 89: } else {
+  3669                           ;main.c: 84: } else {
   3670  04F2  0008               	return
   3671  04F3                     l1324:	
   3672                           
-  3673                           ;main.c: 90: dat_d1 = onkai_d[onkai];
+  3673                           ;main.c: 85: dat_d1 = onkai_d[onkai];
   3674  04F3  0858               	movf	soundPlay@onkai,w
   3675  04F4  3E4E               	addlw	low (_onkai_d| (0+32768))
   3676  04F5  0084               	movwf	4
@@ -3707,7 +3707,7 @@ Microchip Technology Omniscient Code Generator v1.45 (Free mode) build 201711160
   3683  04FC  0859               	movf	??_soundPlay,w
   3684  04FD  00BA               	movwf	_dat_d1
   3685                           
-  3686                           ;main.c: 91: dat_f1 = onkai_f[onkai];
+  3686                           ;main.c: 86: dat_f1 = onkai_f[onkai];
   3687  04FE  0858               	movf	soundPlay@onkai,w
   3688  04FF  3E04               	addlw	low (_onkai_f| (0+32768))
   3689  0500  0084               	movwf	4
@@ -3720,10 +3720,10 @@ Microchip Technology Omniscient Code Generator v1.45 (Free mode) build 201711160
   3696  0507  0859               	movf	??_soundPlay,w
   3697  0508  00B9               	movwf	_dat_f1
   3698                           
-  3699                           ;main.c: 92: env1 = 0;
+  3699                           ;main.c: 87: env1 = 0;
   3700  0509  01F1               	clrf	_env1
   3701                           
-  3702                           ;main.c: 93: envelopeCount1 = 0;
+  3702                           ;main.c: 88: envelopeCount1 = 0;
   3703  050A  01BB               	clrf	_envelopeCount1
   3704  050B  0008               	return
   3705  050C                     __end_of_soundPlay:	
@@ -3924,8 +3924,8 @@ Microchip Technology Omniscient Code Generator v1.45 (Free mode) build 201711160
   3885  0587  00D9               	movwf	TMR4_SetInterruptHandler@InterruptHandler+1
   3886  0588  3185  25DA         	fcall	_TMR4_SetInterruptHandler
   3887                           
-  3888                           ;tmr4.c: 85: T4CON = 0b0001100;
-  3889  058A  300C               	movlw	12
+  3888                           ;tmr4.c: 85: T4CON = 0b00010100;
+  3889  058A  3014               	movlw	20
   3890  058B  0028               	movlb	8	; select bank8
   3891  058C  0097               	movwf	23	;volatile
   3892  058D  0008               	return
@@ -4734,7 +4734,7 @@ Microchip Technology Omniscient Code Generator v1.45 (Free mode) build 201711160
   4640  033C  1D03               	btfss	3,2
   4641  033D  2B4A               	goto	i1l1126
   4642                           
-  4643                           ;tmr4.c: 134: if (env0 < 255) {
+  4643                           ;tmr4.c: 134: if (env0 != 255) {
   4644  033E  0A74               	incf	_env0,w
   4645  033F  1903               	btfsc	3,2
   4646  0340  2B4A               	goto	i1l1126
@@ -4867,7 +4867,7 @@ Microchip Technology Omniscient Code Generator v1.45 (Free mode) build 201711160
   4773  03A1  1D03               	btfss	3,2
   4774  03A2  2BAE               	goto	i1l1152
   4775                           
-  4776                           ;tmr4.c: 155: if (env1 < 255) {
+  4776                           ;tmr4.c: 155: if (env1 != 255) {
   4777  03A3  0A71               	incf	_env1,w
   4778  03A4  1903               	btfsc	3,2
   4779  03A5  2BAE               	goto	i1l1152
@@ -5336,7 +5336,7 @@ SFR31                0      0       0      32        0.0%
 
 
 Microchip Technology PIC Macro Assembler V1.45 build -152302408 
-Symbol Table                                                                                   Sun Apr 29 17:36:14 2018
+Symbol Table                                                                                   Sun Apr 29 18:20:51 2018
 
                              __CFG_CP$OFF 0000                                        l74 05BC  
                              __CFG_LVP$ON 0000                                       l143 05B8  

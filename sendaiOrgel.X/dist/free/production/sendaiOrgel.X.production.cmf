@@ -11,7 +11,7 @@
 # All addresses and the length are given in unqualified hexadecimal
 # in delta units.  Any other numeric values are decimal.
 %PSECTS
-$/tmp/xc4zsExb5.obj
+$/tmp/xcf8zjOXh.obj
 reset_vec CODE 0 0 0 2 2
 end_init CODE 0 18 18 2 2
 config CONFIG 0 8007 8007 2 2
@@ -137,206 +137,206 @@ STRING 5E4-1FFF 2
 # All other numeric values are in decimal.
 %LINETAB
 $dist/free/production/sendaiOrgel.X.production.obj
-1A cinit CODE >5684:/tmp/xcwIDhfGn
-1A cinit CODE >5687:/tmp/xcwIDhfGn
-1A cinit CODE >5795:/tmp/xcwIDhfGn
-1B cinit CODE >5796:/tmp/xcwIDhfGn
-1C cinit CODE >5797:/tmp/xcwIDhfGn
-1D cinit CODE >5798:/tmp/xcwIDhfGn
-1E cinit CODE >5799:/tmp/xcwIDhfGn
-1F cinit CODE >5800:/tmp/xcwIDhfGn
-20 cinit CODE >5801:/tmp/xcwIDhfGn
-21 cinit CODE >5802:/tmp/xcwIDhfGn
-22 cinit CODE >5803:/tmp/xcwIDhfGn
-23 cinit CODE >5804:/tmp/xcwIDhfGn
-26 cinit CODE >5821:/tmp/xcwIDhfGn
-27 cinit CODE >5822:/tmp/xcwIDhfGn
-28 cinit CODE >5823:/tmp/xcwIDhfGn
-29 cinit CODE >5824:/tmp/xcwIDhfGn
-2A cinit CODE >5825:/tmp/xcwIDhfGn
-2B cinit CODE >5826:/tmp/xcwIDhfGn
-2C cinit CODE >5830:/tmp/xcwIDhfGn
-2D cinit CODE >5831:/tmp/xcwIDhfGn
-2E cinit CODE >5832:/tmp/xcwIDhfGn
-2F cinit CODE >5833:/tmp/xcwIDhfGn
-30 cinit CODE >5834:/tmp/xcwIDhfGn
-31 cinit CODE >5835:/tmp/xcwIDhfGn
-33 cinit CODE >5841:/tmp/xcwIDhfGn
-33 cinit CODE >5843:/tmp/xcwIDhfGn
-34 cinit CODE >5844:/tmp/xcwIDhfGn
-35 cinit CODE >5845:/tmp/xcwIDhfGn
-4 intentry CODE >109:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/eusart.c
-4 intentry CODE >52:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/interrupt_manager.c
-9 intentry CODE >55:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/interrupt_manager.c
-B intentry CODE >57:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/interrupt_manager.c
-11 intentry CODE >59:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/interrupt_manager.c
-13 intentry CODE >70:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/interrupt_manager.c
-337 text15 CODE >129:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/tmr4.c
-337 text15 CODE >132:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/tmr4.c
-33B text15 CODE >133:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/tmr4.c
-33E text15 CODE >134:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/tmr4.c
-341 text15 CODE >135:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/tmr4.c
-345 text15 CODE >136:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/tmr4.c
-34A text15 CODE >140:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/tmr4.c
-34F text15 CODE >141:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/tmr4.c
-356 text15 CODE >142:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/tmr4.c
-35A text15 CODE >143:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/tmr4.c
-35F text15 CODE >145:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/tmr4.c
-36A text15 CODE >146:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/tmr4.c
-36F text15 CODE >147:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/tmr4.c
-37E text15 CODE >149:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/tmr4.c
-395 text15 CODE >150:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/tmr4.c
-39C text15 CODE >153:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/tmr4.c
-3A0 text15 CODE >154:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/tmr4.c
-3A3 text15 CODE >155:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/tmr4.c
-3A6 text15 CODE >156:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/tmr4.c
-3AA text15 CODE >157:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/tmr4.c
-3AE text15 CODE >161:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/tmr4.c
-3B2 text15 CODE >162:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/tmr4.c
-3B9 text15 CODE >163:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/tmr4.c
-3BD text15 CODE >164:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/tmr4.c
-3C2 text15 CODE >166:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/tmr4.c
-3CD text15 CODE >167:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/tmr4.c
-3D2 text15 CODE >168:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/tmr4.c
-3E1 text15 CODE >171:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/tmr4.c
-3F8 text15 CODE >172:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/tmr4.c
-3FF text15 CODE >173:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/tmr4.c
-403 text15 CODE >174:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/tmr4.c
-59A text14 CODE >115:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/tmr4.c
-59A text14 CODE >118:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/tmr4.c
-59C text14 CODE >120:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/tmr4.c
-5A0 text14 CODE >121:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/tmr4.c
-5BC text12 CODE >93:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/eusart.c
-5BC text12 CODE >95:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/eusart.c
-5BC text12 CODE >97:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/eusart.c
-5BF text12 CODE >100:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/eusart.c
-5C2 text12 CODE >104:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/eusart.c
-5C3 text12 CODE >105:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/eusart.c
-5C4 text12 CODE >108:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/eusart.c
-54D text11 CODE >58:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/cog1.c
-54D text11 CODE >61:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/cog1.c
-550 text11 CODE >65:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/cog1.c
-552 text11 CODE >68:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/cog1.c
-554 text11 CODE >71:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/cog1.c
-556 text11 CODE >74:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/cog1.c
-558 text11 CODE >77:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/cog1.c
-55A text11 CODE >86:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/cog1.c
-55C text11 CODE >89:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/cog1.c
-55D text11 CODE >92:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/cog1.c
-55E text11 CODE >95:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/cog1.c
-55F text11 CODE >98:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/cog1.c
-560 text11 CODE >101:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/cog1.c
-561 text11 CODE >104:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/cog1.c
-562 text11 CODE >107:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/cog1.c
-564 text11 CODE >109:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/cog1.c
-58E text10 CODE >56:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/eusart.c
-58E text10 CODE >61:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/eusart.c
-591 text10 CODE >64:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/eusart.c
-593 text10 CODE >67:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/eusart.c
-595 text10 CODE >70:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/eusart.c
-597 text10 CODE >73:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/eusart.c
-599 text10 CODE >76:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/eusart.c
-5B1 text9 CODE >63:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/mcc.c
-5B1 text9 CODE >66:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/mcc.c
-5B4 text9 CODE >68:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/mcc.c
-5B5 text9 CODE >70:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/mcc.c
-5B6 text9 CODE >72:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/mcc.c
-5B8 text9 CODE >74:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/mcc.c
-5B8 text9 CODE >76:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/mcc.c
-50C text8 CODE >57:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/pin_manager.c
-50C text8 CODE >62:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/pin_manager.c
-50E text8 CODE >63:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/pin_manager.c
-50F text8 CODE >68:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/pin_manager.c
-512 text8 CODE >69:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/pin_manager.c
-514 text8 CODE >74:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/pin_manager.c
-517 text8 CODE >75:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/pin_manager.c
-519 text8 CODE >80:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/pin_manager.c
-51B text8 CODE >81:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/pin_manager.c
-51C text8 CODE >82:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/pin_manager.c
-51E text8 CODE >87:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/pin_manager.c
-520 text8 CODE >88:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/pin_manager.c
-521 text8 CODE >97:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/pin_manager.c
-526 text8 CODE >98:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/pin_manager.c
-52B text8 CODE >99:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/pin_manager.c
-530 text8 CODE >100:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/pin_manager.c
-534 text8 CODE >101:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/pin_manager.c
-5A6 text7 CODE >58:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/pwm3.c
-5A6 text7 CODE >62:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/pwm3.c
-5A9 text7 CODE >65:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/pwm3.c
-5AB text7 CODE >68:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/pwm3.c
-5AD text7 CODE >71:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/pwm3.c
-5B0 text7 CODE >72:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/pwm3.c
-5C6 text6 CODE >62:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/tmr2.c
-5C6 text6 CODE >67:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/tmr2.c
-5C9 text6 CODE >70:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/tmr2.c
-5CA text6 CODE >73:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/tmr2.c
-5CB text6 CODE >76:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/tmr2.c
-5CD text6 CODE >77:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/tmr2.c
-5DA text5 CODE >125:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/tmr4.c
-5DA text5 CODE >126:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/tmr4.c
-5DF text5 CODE >127:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/tmr4.c
-57B text4 CODE >66:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/tmr4.c
-57B text4 CODE >70:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/tmr4.c
-57E text4 CODE >73:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/tmr4.c
-57F text4 CODE >76:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/tmr4.c
-581 text4 CODE >79:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/tmr4.c
-583 text4 CODE >82:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/tmr4.c
-58A text4 CODE >85:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/tmr4.c
-58D text4 CODE >86:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/tmr4.c
-5E0 text3 CODE >79:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/mcc.c
-5E0 text3 CODE >82:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/mcc.c
-5E3 text3 CODE >83:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/mcc.c
-535 text2 CODE >50:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/mcc.c
-535 text2 CODE >53:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/mcc.c
-538 text2 CODE >54:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/mcc.c
-53B text2 CODE >55:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/mcc.c
-53E text2 CODE >56:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/mcc.c
-541 text2 CODE >57:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/mcc.c
-544 text2 CODE >58:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/mcc.c
-547 text2 CODE >59:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/mcc.c
-54A text2 CODE >60:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/mcc.c
-54C text2 CODE >61:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/mcc.c
-4D5 text1 CODE >83:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/main.c
-4D7 text1 CODE >84:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/main.c
-4DA text1 CODE >85:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/main.c
-4E5 text1 CODE >86:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/main.c
-4F0 text1 CODE >87:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/main.c
-4F1 text1 CODE >88:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/main.c
-4F2 text1 CODE >89:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/main.c
-4F3 text1 CODE >90:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/main.c
-4FE text1 CODE >91:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/main.c
-509 text1 CODE >92:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/main.c
-50A text1 CODE >93:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/main.c
-498 maintext CODE >97:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/main.c
-498 maintext CODE >99:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/main.c
-49B maintext CODE >105:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/main.c
-49C maintext CODE >108:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/main.c
-49D maintext CODE >111:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/main.c
-4A2 maintext CODE >113:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/main.c
-4A6 maintext CODE >115:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/main.c
-4A7 maintext CODE >119:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/main.c
-4AE maintext CODE >121:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/main.c
-4B6 maintext CODE >122:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/main.c
-4BA maintext CODE >123:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/main.c
-4BF maintext CODE >125:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/main.c
-4C7 maintext CODE >126:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/main.c
-4D4 maintext CODE >117:/Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/main.c
-5D4 clrtext CODE >5810:/tmp/xcwIDhfGn
-5D4 clrtext CODE >5811:/tmp/xcwIDhfGn
-5D5 clrtext CODE >5812:/tmp/xcwIDhfGn
-5D5 clrtext CODE >5813:/tmp/xcwIDhfGn
-5D6 clrtext CODE >5814:/tmp/xcwIDhfGn
-5D7 clrtext CODE >5815:/tmp/xcwIDhfGn
-5D8 clrtext CODE >5816:/tmp/xcwIDhfGn
-5D9 clrtext CODE >5817:/tmp/xcwIDhfGn
-5CE inittext CODE >5784:/tmp/xcwIDhfGn
-5CE inittext CODE >5785:/tmp/xcwIDhfGn
-5CF inittext CODE >5786:/tmp/xcwIDhfGn
-5CF inittext CODE >5787:/tmp/xcwIDhfGn
-5D0 inittext CODE >5788:/tmp/xcwIDhfGn
-5D1 inittext CODE >5789:/tmp/xcwIDhfGn
-5D2 inittext CODE >5790:/tmp/xcwIDhfGn
-5D3 inittext CODE >5791:/tmp/xcwIDhfGn
+1A cinit CODE >5684:/tmp/xcw2H1Adf
+1A cinit CODE >5687:/tmp/xcw2H1Adf
+1A cinit CODE >5795:/tmp/xcw2H1Adf
+1B cinit CODE >5796:/tmp/xcw2H1Adf
+1C cinit CODE >5797:/tmp/xcw2H1Adf
+1D cinit CODE >5798:/tmp/xcw2H1Adf
+1E cinit CODE >5799:/tmp/xcw2H1Adf
+1F cinit CODE >5800:/tmp/xcw2H1Adf
+20 cinit CODE >5801:/tmp/xcw2H1Adf
+21 cinit CODE >5802:/tmp/xcw2H1Adf
+22 cinit CODE >5803:/tmp/xcw2H1Adf
+23 cinit CODE >5804:/tmp/xcw2H1Adf
+26 cinit CODE >5821:/tmp/xcw2H1Adf
+27 cinit CODE >5822:/tmp/xcw2H1Adf
+28 cinit CODE >5823:/tmp/xcw2H1Adf
+29 cinit CODE >5824:/tmp/xcw2H1Adf
+2A cinit CODE >5825:/tmp/xcw2H1Adf
+2B cinit CODE >5826:/tmp/xcw2H1Adf
+2C cinit CODE >5830:/tmp/xcw2H1Adf
+2D cinit CODE >5831:/tmp/xcw2H1Adf
+2E cinit CODE >5832:/tmp/xcw2H1Adf
+2F cinit CODE >5833:/tmp/xcw2H1Adf
+30 cinit CODE >5834:/tmp/xcw2H1Adf
+31 cinit CODE >5835:/tmp/xcw2H1Adf
+33 cinit CODE >5841:/tmp/xcw2H1Adf
+33 cinit CODE >5843:/tmp/xcw2H1Adf
+34 cinit CODE >5844:/tmp/xcw2H1Adf
+35 cinit CODE >5845:/tmp/xcw2H1Adf
+4 intentry CODE >109:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/eusart.c
+4 intentry CODE >52:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/interrupt_manager.c
+9 intentry CODE >55:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/interrupt_manager.c
+B intentry CODE >57:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/interrupt_manager.c
+11 intentry CODE >59:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/interrupt_manager.c
+13 intentry CODE >70:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/interrupt_manager.c
+337 text15 CODE >129:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/tmr4.c
+337 text15 CODE >132:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/tmr4.c
+33B text15 CODE >133:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/tmr4.c
+33E text15 CODE >134:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/tmr4.c
+341 text15 CODE >135:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/tmr4.c
+345 text15 CODE >136:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/tmr4.c
+34A text15 CODE >140:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/tmr4.c
+34F text15 CODE >141:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/tmr4.c
+356 text15 CODE >142:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/tmr4.c
+35A text15 CODE >143:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/tmr4.c
+35F text15 CODE >145:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/tmr4.c
+36A text15 CODE >146:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/tmr4.c
+36F text15 CODE >147:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/tmr4.c
+37E text15 CODE >149:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/tmr4.c
+395 text15 CODE >150:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/tmr4.c
+39C text15 CODE >153:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/tmr4.c
+3A0 text15 CODE >154:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/tmr4.c
+3A3 text15 CODE >155:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/tmr4.c
+3A6 text15 CODE >156:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/tmr4.c
+3AA text15 CODE >157:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/tmr4.c
+3AE text15 CODE >161:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/tmr4.c
+3B2 text15 CODE >162:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/tmr4.c
+3B9 text15 CODE >163:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/tmr4.c
+3BD text15 CODE >164:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/tmr4.c
+3C2 text15 CODE >166:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/tmr4.c
+3CD text15 CODE >167:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/tmr4.c
+3D2 text15 CODE >168:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/tmr4.c
+3E1 text15 CODE >171:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/tmr4.c
+3F8 text15 CODE >172:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/tmr4.c
+3FF text15 CODE >173:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/tmr4.c
+403 text15 CODE >174:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/tmr4.c
+59A text14 CODE >115:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/tmr4.c
+59A text14 CODE >118:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/tmr4.c
+59C text14 CODE >120:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/tmr4.c
+5A0 text14 CODE >121:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/tmr4.c
+5BC text12 CODE >93:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/eusart.c
+5BC text12 CODE >95:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/eusart.c
+5BC text12 CODE >97:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/eusart.c
+5BF text12 CODE >100:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/eusart.c
+5C2 text12 CODE >104:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/eusart.c
+5C3 text12 CODE >105:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/eusart.c
+5C4 text12 CODE >108:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/eusart.c
+54D text11 CODE >58:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/cog1.c
+54D text11 CODE >61:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/cog1.c
+550 text11 CODE >65:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/cog1.c
+552 text11 CODE >68:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/cog1.c
+554 text11 CODE >71:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/cog1.c
+556 text11 CODE >74:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/cog1.c
+558 text11 CODE >77:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/cog1.c
+55A text11 CODE >86:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/cog1.c
+55C text11 CODE >89:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/cog1.c
+55D text11 CODE >92:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/cog1.c
+55E text11 CODE >95:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/cog1.c
+55F text11 CODE >98:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/cog1.c
+560 text11 CODE >101:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/cog1.c
+561 text11 CODE >104:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/cog1.c
+562 text11 CODE >107:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/cog1.c
+564 text11 CODE >109:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/cog1.c
+58E text10 CODE >56:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/eusart.c
+58E text10 CODE >61:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/eusart.c
+591 text10 CODE >64:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/eusart.c
+593 text10 CODE >67:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/eusart.c
+595 text10 CODE >70:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/eusart.c
+597 text10 CODE >73:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/eusart.c
+599 text10 CODE >76:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/eusart.c
+5B1 text9 CODE >63:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/mcc.c
+5B1 text9 CODE >66:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/mcc.c
+5B4 text9 CODE >68:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/mcc.c
+5B5 text9 CODE >70:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/mcc.c
+5B6 text9 CODE >72:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/mcc.c
+5B8 text9 CODE >74:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/mcc.c
+5B8 text9 CODE >76:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/mcc.c
+50C text8 CODE >57:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/pin_manager.c
+50C text8 CODE >62:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/pin_manager.c
+50E text8 CODE >63:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/pin_manager.c
+50F text8 CODE >68:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/pin_manager.c
+512 text8 CODE >69:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/pin_manager.c
+514 text8 CODE >74:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/pin_manager.c
+517 text8 CODE >75:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/pin_manager.c
+519 text8 CODE >80:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/pin_manager.c
+51B text8 CODE >81:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/pin_manager.c
+51C text8 CODE >82:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/pin_manager.c
+51E text8 CODE >87:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/pin_manager.c
+520 text8 CODE >88:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/pin_manager.c
+521 text8 CODE >97:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/pin_manager.c
+526 text8 CODE >98:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/pin_manager.c
+52B text8 CODE >99:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/pin_manager.c
+530 text8 CODE >100:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/pin_manager.c
+534 text8 CODE >101:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/pin_manager.c
+5A6 text7 CODE >58:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/pwm3.c
+5A6 text7 CODE >62:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/pwm3.c
+5A9 text7 CODE >65:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/pwm3.c
+5AB text7 CODE >68:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/pwm3.c
+5AD text7 CODE >71:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/pwm3.c
+5B0 text7 CODE >72:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/pwm3.c
+5C6 text6 CODE >62:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/tmr2.c
+5C6 text6 CODE >67:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/tmr2.c
+5C9 text6 CODE >70:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/tmr2.c
+5CA text6 CODE >73:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/tmr2.c
+5CB text6 CODE >76:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/tmr2.c
+5CD text6 CODE >77:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/tmr2.c
+5DA text5 CODE >125:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/tmr4.c
+5DA text5 CODE >126:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/tmr4.c
+5DF text5 CODE >127:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/tmr4.c
+57B text4 CODE >66:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/tmr4.c
+57B text4 CODE >70:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/tmr4.c
+57E text4 CODE >73:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/tmr4.c
+57F text4 CODE >76:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/tmr4.c
+581 text4 CODE >79:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/tmr4.c
+583 text4 CODE >82:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/tmr4.c
+58A text4 CODE >85:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/tmr4.c
+58D text4 CODE >86:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/tmr4.c
+5E0 text3 CODE >79:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/mcc.c
+5E0 text3 CODE >82:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/mcc.c
+5E3 text3 CODE >83:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/mcc.c
+535 text2 CODE >50:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/mcc.c
+535 text2 CODE >53:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/mcc.c
+538 text2 CODE >54:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/mcc.c
+53B text2 CODE >55:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/mcc.c
+53E text2 CODE >56:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/mcc.c
+541 text2 CODE >57:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/mcc.c
+544 text2 CODE >58:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/mcc.c
+547 text2 CODE >59:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/mcc.c
+54A text2 CODE >60:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/mcc.c
+54C text2 CODE >61:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/mcc.c
+4D5 text1 CODE >78:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/main.c
+4D7 text1 CODE >79:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/main.c
+4DA text1 CODE >80:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/main.c
+4E5 text1 CODE >81:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/main.c
+4F0 text1 CODE >82:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/main.c
+4F1 text1 CODE >83:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/main.c
+4F2 text1 CODE >84:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/main.c
+4F3 text1 CODE >85:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/main.c
+4FE text1 CODE >86:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/main.c
+509 text1 CODE >87:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/main.c
+50A text1 CODE >88:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/main.c
+498 maintext CODE >92:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/main.c
+498 maintext CODE >94:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/main.c
+49B maintext CODE >100:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/main.c
+49C maintext CODE >103:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/main.c
+49D maintext CODE >106:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/main.c
+4A2 maintext CODE >108:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/main.c
+4A6 maintext CODE >110:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/main.c
+4A7 maintext CODE >114:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/main.c
+4AE maintext CODE >116:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/main.c
+4B6 maintext CODE >117:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/main.c
+4BA maintext CODE >118:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/main.c
+4BF maintext CODE >120:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/main.c
+4C7 maintext CODE >121:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/main.c
+4D4 maintext CODE >112:/Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/main.c
+5D4 clrtext CODE >5810:/tmp/xcw2H1Adf
+5D4 clrtext CODE >5811:/tmp/xcw2H1Adf
+5D5 clrtext CODE >5812:/tmp/xcw2H1Adf
+5D5 clrtext CODE >5813:/tmp/xcw2H1Adf
+5D6 clrtext CODE >5814:/tmp/xcw2H1Adf
+5D7 clrtext CODE >5815:/tmp/xcw2H1Adf
+5D8 clrtext CODE >5816:/tmp/xcw2H1Adf
+5D9 clrtext CODE >5817:/tmp/xcw2H1Adf
+5CE inittext CODE >5784:/tmp/xcw2H1Adf
+5CE inittext CODE >5785:/tmp/xcw2H1Adf
+5CF inittext CODE >5786:/tmp/xcw2H1Adf
+5CF inittext CODE >5787:/tmp/xcw2H1Adf
+5D0 inittext CODE >5788:/tmp/xcw2H1Adf
+5D1 inittext CODE >5789:/tmp/xcw2H1Adf
+5D2 inittext CODE >5790:/tmp/xcw2H1Adf
+5D3 inittext CODE >5791:/tmp/xcw2H1Adf
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -381,7 +381,7 @@ _TMR2 1A 0 ABS 0 - dist/free/production/sendaiOrgel.X.production.obj
 _TMR4 415 0 ABS 0 - dist/free/production/sendaiOrgel.X.production.obj
 _WPUA 20C 0 ABS 0 - dist/free/production/sendaiOrgel.X.production.obj
 _WPUC 20E 0 ABS 0 - dist/free/production/sendaiOrgel.X.production.obj
-___sp 0 0 STACK 2 stack /tmp/xc4zsExb5.obj
+___sp 0 0 STACK 2 stack /tmp/xcf8zjOXh.obj
 _env0 74 0 COMMON 1 bssCOMMON dist/free/production/sendaiOrgel.X.production.obj
 _env1 71 0 COMMON 1 bssCOMMON dist/free/production/sendaiOrgel.X.production.obj
 _evp0 75 0 COMMON 1 bssCOMMON dist/free/production/sendaiOrgel.X.production.obj
@@ -390,7 +390,7 @@ _main 930 0 CODE 0 maintext dist/free/production/sendaiOrgel.X.production.obj
 _pos0 72 0 COMMON 1 bssCOMMON dist/free/production/sendaiOrgel.X.production.obj
 _pos1 70 0 COMMON 1 bssCOMMON dist/free/production/sendaiOrgel.X.production.obj
 btemp 7E 0 ABS 0 - dist/free/production/sendaiOrgel.X.production.obj
-start 30 0 CODE 0 init /tmp/xc4zsExb5.obj
+start 30 0 CODE 0 init /tmp/xcf8zjOXh.obj
 _RC3PPSbits EA3 0 ABS 0 - dist/free/production/sendaiOrgel.X.production.obj
 __size_of_main 0 0 ABS 0 - dist/free/production/sendaiOrgel.X.production.obj
 __HbssCOMMON 0 0 ABS 0 bssCOMMON -
@@ -400,12 +400,12 @@ __end_of_EUSART_Initialize B34 0 CODE 0 text10 dist/free/production/sendaiOrgel.
 __Hpowerup 0 0 CODE 0 powerup -
 _TMR2_Initialize B8C 0 CODE 0 text6 dist/free/production/sendaiOrgel.X.production.obj
 __size_of_SYSTEM_Initialize 0 0 ABS 0 - dist/free/production/sendaiOrgel.X.production.obj
-intlevel0 0 0 ENTRY 0 functab /tmp/xc4zsExb5.obj
-intlevel1 0 0 ENTRY 0 functab /tmp/xc4zsExb5.obj
-intlevel2 0 0 ENTRY 0 functab /tmp/xc4zsExb5.obj
-intlevel3 0 0 ENTRY 0 functab /tmp/xc4zsExb5.obj
-intlevel4 0 0 ENTRY 0 functab /tmp/xc4zsExb5.obj
-intlevel5 0 0 ENTRY 0 functab /tmp/xc4zsExb5.obj
+intlevel0 0 0 ENTRY 0 functab /tmp/xcf8zjOXh.obj
+intlevel1 0 0 ENTRY 0 functab /tmp/xcf8zjOXh.obj
+intlevel2 0 0 ENTRY 0 functab /tmp/xcf8zjOXh.obj
+intlevel3 0 0 ENTRY 0 functab /tmp/xcf8zjOXh.obj
+intlevel4 0 0 ENTRY 0 functab /tmp/xcf8zjOXh.obj
+intlevel5 0 0 ENTRY 0 functab /tmp/xcf8zjOXh.obj
 _COG1_Initialize A9A 0 CODE 0 text11 dist/free/production/sendaiOrgel.X.production.obj
 __LbssCOMMON 0 0 ABS 0 bssCOMMON -
 wtemp0 7E 0 ABS 0 - dist/free/production/sendaiOrgel.X.production.obj
@@ -444,7 +444,7 @@ _TX1REG 19A 0 ABS 0 - dist/free/production/sendaiOrgel.X.production.obj
 _TX1STA 19E 0 ABS 0 - dist/free/production/sendaiOrgel.X.production.obj
 __end_of_TMR4_Initialize B1C 0 CODE 0 text4 dist/free/production/sendaiOrgel.X.production.obj
 _WDTCON 97 0 ABS 0 - dist/free/production/sendaiOrgel.X.production.obj
-___int_sp 0 0 STACK 2 stack /tmp/xc4zsExb5.obj
+___int_sp 0 0 STACK 2 stack /tmp/xcf8zjOXh.obj
 __end_of_EUSART_Read B8C 0 CODE 0 text12 dist/free/production/sendaiOrgel.X.production.obj
 __end_of_PWM3_Initialize B62 0 CODE 0 text7 dist/free/production/sendaiOrgel.X.production.obj
 __Hbank0 0 0 ABS 0 bank0 -
@@ -610,7 +610,7 @@ _PWM3_Initialize B4C 0 CODE 0 text7 dist/free/production/sendaiOrgel.X.productio
 _SYSTEM_Initialize A6A 0 CODE 0 text2 dist/free/production/sendaiOrgel.X.production.obj
 __CFG_BOREN$ON 0 0 ABS 0 - dist/free/production/sendaiOrgel.X.production.obj
 __Lintentry 8 0 CODE 0 intentry -
-reset_vec 0 0 CODE 0 reset_vec /tmp/xc4zsExb5.obj
+reset_vec 0 0 CODE 0 reset_vec /tmp/xcf8zjOXh.obj
 _onkai_d 89C 0 STRCODE 0 stringtext4 dist/free/production/sendaiOrgel.X.production.obj
 _onkai_f 808 0 STRCODE 0 stringtext3 dist/free/production/sendaiOrgel.X.production.obj
 __pdataBANK0 42 0 BANK0 1 dataBANK0 dist/free/production/sendaiOrgel.X.production.obj
@@ -673,8 +673,8 @@ TMR4_SetInterruptHandler@InterruptHandler 58 0 BANK0 1 cstackBANK0 dist/free/pro
 _envelopeTable 46E 0 STRCODE 0 stringtext2 dist/free/production/sendaiOrgel.X.production.obj
 main@count 5C 0 BANK0 1 cstackBANK0 dist/free/production/sendaiOrgel.X.production.obj
 __size_of_EUSART_Read 0 0 ABS 0 - dist/free/production/sendaiOrgel.X.production.obj
-stackhi 23EF 0 ABS 0 - /tmp/xc4zsExb5.obj
-stacklo 203F 0 ABS 0 - /tmp/xc4zsExb5.obj
+stackhi 23EF 0 ABS 0 - /tmp/xcf8zjOXh.obj
+stacklo 203F 0 ABS 0 - /tmp/xcf8zjOXh.obj
 __size_of_TMR4_Initialize 0 0 ABS 0 - dist/free/production/sendaiOrgel.X.production.obj
 _OSCSTAT 9A 0 ABS 0 - dist/free/production/sendaiOrgel.X.production.obj
 _OSCTUNE 98 0 ABS 0 - dist/free/production/sendaiOrgel.X.production.obj

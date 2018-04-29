@@ -7,31 +7,31 @@
 [v ___ftpack __ftpack `(f  1 e 3 0 ]
 "86 /Applications/microchip/xc8/v1.45/sources/common/ftadd.c
 [v ___ftadd __ftadd `(f  1 e 3 0 ]
-"83 /Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/main.c
+"78 /Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/main.c
 [v _soundPlay soundPlay `(v  1 e 1 0 ]
-"97
+"92
 [v _main main `(v  1 e 1 0 ]
-"58 /Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/cog1.c
+"58 /Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/cog1.c
 [v _COG1_Initialize COG1_Initialize `(v  1 e 1 0 ]
-"56 /Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/eusart.c
+"56 /Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/eusart.c
 [v _EUSART_Initialize EUSART_Initialize `(v  1 e 1 0 ]
 "93
 [v _EUSART_Read EUSART_Read `(uc  1 e 1 0 ]
-"52 /Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/interrupt_manager.c
+"52 /Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/interrupt_manager.c
 [v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
-"50 /Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/mcc.c
+"50 /Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/mcc.c
 [v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
 "63
 [v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
 "79
 [v _WDT_Initialize WDT_Initialize `(v  1 e 1 0 ]
-"57 /Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/pin_manager.c
+"57 /Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/pin_manager.c
 [v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
-"58 /Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/pwm3.c
+"58 /Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/pwm3.c
 [v _PWM3_Initialize PWM3_Initialize `(v  1 e 1 0 ]
-"62 /Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/tmr2.c
+"62 /Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/tmr2.c
 [v _TMR2_Initialize TMR2_Initialize `(v  1 e 1 0 ]
-"66 /Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/tmr4.c
+"66 /Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/tmr4.c
 [v _TMR4_Initialize TMR4_Initialize `(v  1 e 1 0 ]
 "115
 [v _TMR4_ISR TMR4_ISR `(v  1 e 1 0 ]
@@ -308,9 +308,9 @@
 [v _RC4PPSbits RC4PPSbits `VES384  1 e 1 @3748 ]
 "13033
 [v _PLLR PLLR `VEb  1 e 0 @1238 ]
-"50 /Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/main.c
+"50 /Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/main.c
 [v _scale scale `[22]uc  1 e 22 0 ]
-"17 /Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/main.h
+"17 /Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/main.h
 [v _evp0 evp0 `uc  1 e 1 0 ]
 "18
 [v _waveData0 waveData0 `ul  1 e 4 0 ]
@@ -354,35 +354,35 @@
 [v _ENV_DELAY ENV_DELAY `ui  1 e 2 0 ]
 "48
 [v _waveTable waveTable `DVEC[256]ui  1 e 512 0 ]
-"308
+"564
 [v _envelopeTable envelopeTable `DVEC[256]uc  1 e 256 0 ]
-"12 /Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/wavetable.h
+"12 /Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/wavetable.h
 [v _onkai_d onkai_d `DC[74]uc  1 e 74 0 ]
 "91
 [v _onkai_f onkai_f `DC[74]uc  1 e 74 0 ]
-"60 /Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/tmr4.c
+"60 /Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/tmr4.c
 [v _TMR4_InterruptHandler TMR4_InterruptHandler `*.37(v  1 e 2 0 ]
-"97 /Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/main.c
+"92 /Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/main.c
 [v _main main `(v  1 e 1 0 ]
 {
-"114
+"109
 [v main@rcvData rcvData `uc  1 a 1 6 ]
-"113
+"108
 [v main@s s `uc  1 a 1 5 ]
-"114
+"109
 [v main@count count `uc  1 a 1 4 ]
-"136
+"131
 } 0
-"83
+"78
 [v _soundPlay soundPlay `(v  1 e 1 0 ]
 {
 [v soundPlay@c c `uc  1 a 1 wreg ]
 [v soundPlay@c c `uc  1 a 1 wreg ]
 [v soundPlay@onkai onkai `uc  1 p 1 0 ]
 [v soundPlay@c c `uc  1 a 1 2 ]
-"95
+"90
 } 0
-"50 /Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/mcc.c
+"50 /Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/mcc.c
 [v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
 {
 "61
@@ -392,7 +392,7 @@
 {
 "83
 } 0
-"66 /Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/tmr4.c
+"66 /Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/tmr4.c
 [v _TMR4_Initialize TMR4_Initialize `(v  1 e 1 0 ]
 {
 "86
@@ -403,47 +403,47 @@
 [v TMR4_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 0 ]
 "127
 } 0
-"62 /Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/tmr2.c
+"62 /Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/tmr2.c
 [v _TMR2_Initialize TMR2_Initialize `(v  1 e 1 0 ]
 {
 "77
 } 0
-"58 /Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/pwm3.c
+"58 /Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/pwm3.c
 [v _PWM3_Initialize PWM3_Initialize `(v  1 e 1 0 ]
 {
 "72
 } 0
-"57 /Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/pin_manager.c
+"57 /Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/pin_manager.c
 [v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
 {
 "101
 } 0
-"63 /Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/mcc.c
+"63 /Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/mcc.c
 [v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
 {
 "77
 } 0
-"56 /Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/eusart.c
+"56 /Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/eusart.c
 [v _EUSART_Initialize EUSART_Initialize `(v  1 e 1 0 ]
 {
 "76
 } 0
-"58 /Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/cog1.c
+"58 /Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/cog1.c
 [v _COG1_Initialize COG1_Initialize `(v  1 e 1 0 ]
 {
 "109
 } 0
-"93 /Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/eusart.c
+"93 /Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/eusart.c
 [v _EUSART_Read EUSART_Read `(uc  1 e 1 0 ]
 {
 "109
 } 0
-"52 /Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/interrupt_manager.c
+"52 /Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/interrupt_manager.c
 [v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
 {
 "70
 } 0
-"115 /Users/MATHRAX/Documents/GitHub/sendaiOrgel.X/mcc_generated_files/tmr4.c
+"115 /Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/tmr4.c
 [v _TMR4_ISR TMR4_ISR `(v  1 e 1 0 ]
 {
 "123
