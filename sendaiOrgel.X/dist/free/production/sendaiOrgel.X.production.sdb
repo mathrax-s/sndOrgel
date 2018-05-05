@@ -309,7 +309,7 @@
 "13033
 [v _PLLR PLLR `VEb  1 e 0 @1238 ]
 "50 /Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/main.c
-[v _scale scale `[22]uc  1 e 22 0 ]
+[v _scale scale `[25]uc  1 e 25 0 ]
 "17 /Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/main.h
 [v _evp0 evp0 `uc  1 e 1 0 ]
 "18
@@ -317,7 +317,7 @@
 "20
 [v _env0 env0 `uc  1 e 1 0 ]
 "21
-[v _envelopeCount0 envelopeCount0 `c  1 e 1 0 ]
+[v _envelopeCount0 envelopeCount0 `i  1 e 2 0 ]
 "22
 [v _envelopeValue0 envelopeValue0 `ui  1 e 2 0 ]
 "24
@@ -337,7 +337,7 @@
 "33
 [v _env1 env1 `uc  1 e 1 0 ]
 "34
-[v _envelopeCount1 envelopeCount1 `c  1 e 1 0 ]
+[v _envelopeCount1 envelopeCount1 `i  1 e 2 0 ]
 "35
 [v _envelopeValue1 envelopeValue1 `ui  1 e 2 0 ]
 "37
@@ -354,24 +354,28 @@
 [v _ENV_DELAY ENV_DELAY `ui  1 e 2 0 ]
 "48
 [v _waveTable waveTable `DVEC[256]ui  1 e 512 0 ]
-"564
+"822
 [v _envelopeTable envelopeTable `DVEC[256]uc  1 e 256 0 ]
+"1080
+[v _envelopeTable2 envelopeTable2 `DVEC[256]uc  1 e 256 0 ]
 "12 /Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/wavetable.h
 [v _onkai_d onkai_d `DC[74]uc  1 e 74 0 ]
-"91
+"165
 [v _onkai_f onkai_f `DC[74]uc  1 e 74 0 ]
 "60 /Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/tmr4.c
 [v _TMR4_InterruptHandler TMR4_InterruptHandler `*.37(v  1 e 2 0 ]
 "92 /Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/main.c
 [v _main main `(v  1 e 1 0 ]
 {
-"109
-[v main@rcvData rcvData `uc  1 a 1 6 ]
+"116
+[v main@rcvData rcvData `uc  1 a 1 7 ]
 "108
-[v main@s s `uc  1 a 1 5 ]
-"109
+[v main@s s `uc  1 a 1 6 ]
+"111
+[v main@status status `uc  1 a 1 5 ]
+"108
 [v main@count count `uc  1 a 1 4 ]
-"131
+"155
 } 0
 "78
 [v _soundPlay soundPlay `(v  1 e 1 0 ]

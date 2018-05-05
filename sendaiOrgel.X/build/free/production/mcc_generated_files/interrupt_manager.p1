@@ -4738,462 +4738,462 @@ Version 3.2 HI-TECH Software Intermediate Code
 [v _onkai_d `Cuc ~T0 @X0 -> 0 `x e ]
 [i _onkai_d
 :U ..
-"13
+"87
+-> -> 0 `i `uc
+"88
 -> -> 1 `i `uc
-"14
+"89
+-> -> 1 `i `uc
+"90
+-> -> 1 `i `uc
+"91
+-> -> 1 `i `uc
+"92
+-> -> 1 `i `uc
+"93
+-> -> 1 `i `uc
+"94
+-> -> 1 `i `uc
+"95
+-> -> 1 `i `uc
+"96
+-> -> 1 `i `uc
+"97
+-> -> 1 `i `uc
+"98
+-> -> 1 `i `uc
+"99
+-> -> 1 `i `uc
+"100
 -> -> 2 `i `uc
-"15
+"101
 -> -> 2 `i `uc
-"16
+"102
 -> -> 2 `i `uc
-"17
+"103
 -> -> 2 `i `uc
-"18
+"104
 -> -> 2 `i `uc
-"19
+"105
 -> -> 2 `i `uc
-"20
+"106
 -> -> 2 `i `uc
-"21
+"107
 -> -> 3 `i `uc
-"22
+"108
 -> -> 3 `i `uc
-"23
+"109
 -> -> 3 `i `uc
-"24
+"110
 -> -> 3 `i `uc
-"25
+"111
 -> -> 3 `i `uc
-"26
+"112
 -> -> 4 `i `uc
-"27
+"113
 -> -> 4 `i `uc
-"28
+"114
 -> -> 4 `i `uc
-"29
+"115
 -> -> 4 `i `uc
-"30
+"116
 -> -> 5 `i `uc
-"31
+"117
 -> -> 5 `i `uc
-"32
+"118
 -> -> 5 `i `uc
-"33
+"119
 -> -> 6 `i `uc
-"34
+"120
 -> -> 6 `i `uc
-"35
+"121
 -> -> 7 `i `uc
-"36
+"122
 -> -> 7 `i `uc
-"37
+"123
 -> -> 7 `i `uc
-"38
+"124
 -> -> 8 `i `uc
-"39
+"125
 -> -> 8 `i `uc
-"40
+"126
 -> -> 9 `i `uc
-"41
+"127
 -> -> 9 `i `uc
-"42
+"128
 -> -> 10 `i `uc
-"43
+"129
 -> -> 11 `i `uc
-"44
+"130
 -> -> 11 `i `uc
-"45
+"131
 -> -> 12 `i `uc
-"46
+"132
 -> -> 13 `i `uc
-"47
+"133
 -> -> 14 `i `uc
-"48
+"134
 -> -> 14 `i `uc
-"49
+"135
 -> -> 15 `i `uc
-"50
+"136
 -> -> 16 `i `uc
-"51
+"137
 -> -> 17 `i `uc
-"52
+"138
 -> -> 18 `i `uc
-"53
+"139
 -> -> 19 `i `uc
-"54
+"140
 -> -> 21 `i `uc
-"55
+"141
 -> -> 22 `i `uc
-"56
+"142
 -> -> 23 `i `uc
-"57
+"143
 -> -> 25 `i `uc
-"58
+"144
 -> -> 26 `i `uc
-"59
+"145
 -> -> 28 `i `uc
-"60
+"146
 -> -> 29 `i `uc
-"61
+"147
 -> -> 31 `i `uc
-"62
+"148
 -> -> 33 `i `uc
-"63
+"149
 -> -> 35 `i `uc
-"64
+"150
 -> -> 37 `i `uc
-"65
+"151
 -> -> 39 `i `uc
-"66
+"152
 -> -> 42 `i `uc
-"67
+"153
 -> -> 44 `i `uc
-"68
+"154
 -> -> 47 `i `uc
-"69
+"155
 -> -> 50 `i `uc
-"70
+"156
 -> -> 53 `i `uc
-"71
+"157
 -> -> 56 `i `uc
-"72
+"158
 -> -> 59 `i `uc
-"73
+"159
 -> -> 63 `i `uc
-"74
+"160
 -> -> 66 `i `uc
-"75
--> -> 70 `i `uc
-"76
--> -> 75 `i `uc
-"77
--> -> 79 `i `uc
-"78
--> -> 84 `i `uc
-"79
--> -> 89 `i `uc
-"80
--> -> 94 `i `uc
-"81
--> -> 100 `i `uc
-"82
--> -> 106 `i `uc
-"83
--> -> 112 `i `uc
-"84
--> -> 119 `i `uc
-"85
--> -> 126 `i `uc
-"86
--> -> 133 `i `uc
 ..
 ]
 [; ;wavetable.h: 12: const unsigned char onkai_d[] = {
-[; ;wavetable.h: 13: 1,
-[; ;wavetable.h: 14: 2,
-[; ;wavetable.h: 15: 2,
-[; ;wavetable.h: 16: 2,
-[; ;wavetable.h: 17: 2,
-[; ;wavetable.h: 18: 2,
-[; ;wavetable.h: 19: 2,
-[; ;wavetable.h: 20: 2,
-[; ;wavetable.h: 21: 3,
-[; ;wavetable.h: 22: 3,
-[; ;wavetable.h: 23: 3,
-[; ;wavetable.h: 24: 3,
-[; ;wavetable.h: 25: 3,
-[; ;wavetable.h: 26: 4,
-[; ;wavetable.h: 27: 4,
-[; ;wavetable.h: 28: 4,
-[; ;wavetable.h: 29: 4,
-[; ;wavetable.h: 30: 5,
-[; ;wavetable.h: 31: 5,
-[; ;wavetable.h: 32: 5,
-[; ;wavetable.h: 33: 6,
-[; ;wavetable.h: 34: 6,
-[; ;wavetable.h: 35: 7,
-[; ;wavetable.h: 36: 7,
-[; ;wavetable.h: 37: 7,
-[; ;wavetable.h: 38: 8,
-[; ;wavetable.h: 39: 8,
-[; ;wavetable.h: 40: 9,
-[; ;wavetable.h: 41: 9,
-[; ;wavetable.h: 42: 10,
-[; ;wavetable.h: 43: 11,
-[; ;wavetable.h: 44: 11,
-[; ;wavetable.h: 45: 12,
-[; ;wavetable.h: 46: 13,
-[; ;wavetable.h: 47: 14,
-[; ;wavetable.h: 48: 14,
-[; ;wavetable.h: 49: 15,
-[; ;wavetable.h: 50: 16,
-[; ;wavetable.h: 51: 17,
-[; ;wavetable.h: 52: 18,
-[; ;wavetable.h: 53: 19,
-[; ;wavetable.h: 54: 21,
-[; ;wavetable.h: 55: 22,
-[; ;wavetable.h: 56: 23,
-[; ;wavetable.h: 57: 25,
-[; ;wavetable.h: 58: 26,
-[; ;wavetable.h: 59: 28,
-[; ;wavetable.h: 60: 29,
-[; ;wavetable.h: 61: 31,
-[; ;wavetable.h: 62: 33,
-[; ;wavetable.h: 63: 35,
-[; ;wavetable.h: 64: 37,
-[; ;wavetable.h: 65: 39,
-[; ;wavetable.h: 66: 42,
-[; ;wavetable.h: 67: 44,
-[; ;wavetable.h: 68: 47,
-[; ;wavetable.h: 69: 50,
-[; ;wavetable.h: 70: 53,
-[; ;wavetable.h: 71: 56,
-[; ;wavetable.h: 72: 59,
-[; ;wavetable.h: 73: 63,
-[; ;wavetable.h: 74: 66,
-[; ;wavetable.h: 75: 70,
-[; ;wavetable.h: 76: 75,
-[; ;wavetable.h: 77: 79,
-[; ;wavetable.h: 78: 84,
-[; ;wavetable.h: 79: 89,
-[; ;wavetable.h: 80: 94,
-[; ;wavetable.h: 81: 100,
-[; ;wavetable.h: 82: 106,
-[; ;wavetable.h: 83: 112,
-[; ;wavetable.h: 84: 119,
-[; ;wavetable.h: 85: 126,
-[; ;wavetable.h: 86: 133,
-[; ;wavetable.h: 87: };
-"91
+[; ;wavetable.h: 87: 0,
+[; ;wavetable.h: 88: 1,
+[; ;wavetable.h: 89: 1,
+[; ;wavetable.h: 90: 1,
+[; ;wavetable.h: 91: 1,
+[; ;wavetable.h: 92: 1,
+[; ;wavetable.h: 93: 1,
+[; ;wavetable.h: 94: 1,
+[; ;wavetable.h: 95: 1,
+[; ;wavetable.h: 96: 1,
+[; ;wavetable.h: 97: 1,
+[; ;wavetable.h: 98: 1,
+[; ;wavetable.h: 99: 1,
+[; ;wavetable.h: 100: 2,
+[; ;wavetable.h: 101: 2,
+[; ;wavetable.h: 102: 2,
+[; ;wavetable.h: 103: 2,
+[; ;wavetable.h: 104: 2,
+[; ;wavetable.h: 105: 2,
+[; ;wavetable.h: 106: 2,
+[; ;wavetable.h: 107: 3,
+[; ;wavetable.h: 108: 3,
+[; ;wavetable.h: 109: 3,
+[; ;wavetable.h: 110: 3,
+[; ;wavetable.h: 111: 3,
+[; ;wavetable.h: 112: 4,
+[; ;wavetable.h: 113: 4,
+[; ;wavetable.h: 114: 4,
+[; ;wavetable.h: 115: 4,
+[; ;wavetable.h: 116: 5,
+[; ;wavetable.h: 117: 5,
+[; ;wavetable.h: 118: 5,
+[; ;wavetable.h: 119: 6,
+[; ;wavetable.h: 120: 6,
+[; ;wavetable.h: 121: 7,
+[; ;wavetable.h: 122: 7,
+[; ;wavetable.h: 123: 7,
+[; ;wavetable.h: 124: 8,
+[; ;wavetable.h: 125: 8,
+[; ;wavetable.h: 126: 9,
+[; ;wavetable.h: 127: 9,
+[; ;wavetable.h: 128: 10,
+[; ;wavetable.h: 129: 11,
+[; ;wavetable.h: 130: 11,
+[; ;wavetable.h: 131: 12,
+[; ;wavetable.h: 132: 13,
+[; ;wavetable.h: 133: 14,
+[; ;wavetable.h: 134: 14,
+[; ;wavetable.h: 135: 15,
+[; ;wavetable.h: 136: 16,
+[; ;wavetable.h: 137: 17,
+[; ;wavetable.h: 138: 18,
+[; ;wavetable.h: 139: 19,
+[; ;wavetable.h: 140: 21,
+[; ;wavetable.h: 141: 22,
+[; ;wavetable.h: 142: 23,
+[; ;wavetable.h: 143: 25,
+[; ;wavetable.h: 144: 26,
+[; ;wavetable.h: 145: 28,
+[; ;wavetable.h: 146: 29,
+[; ;wavetable.h: 147: 31,
+[; ;wavetable.h: 148: 33,
+[; ;wavetable.h: 149: 35,
+[; ;wavetable.h: 150: 37,
+[; ;wavetable.h: 151: 39,
+[; ;wavetable.h: 152: 42,
+[; ;wavetable.h: 153: 44,
+[; ;wavetable.h: 154: 47,
+[; ;wavetable.h: 155: 50,
+[; ;wavetable.h: 156: 53,
+[; ;wavetable.h: 157: 56,
+[; ;wavetable.h: 158: 59,
+[; ;wavetable.h: 159: 63,
+[; ;wavetable.h: 160: 66,
+[; ;wavetable.h: 161: };
+"165
 [v _onkai_f `Cuc ~T0 @X0 -> 0 `x e ]
 [i _onkai_f
 :U ..
-"92
--> -> 250 `i `uc
-"93
--> -> 24 `i `uc
-"94
--> -> 56 `i `uc
-"95
--> -> 90 `i `uc
-"96
--> -> 126 `i `uc
-"97
--> -> 164 `i `uc
-"98
--> -> 204 `i `uc
-"99
--> -> 246 `i `uc
-"100
--> -> 35 `i `uc
-"101
--> -> 83 `i `uc
-"102
--> -> 134 `i `uc
-"103
--> -> 187 `i `uc
-"104
--> -> 244 `i `uc
-"105
--> -> 48 `i `uc
-"106
--> -> 112 `i `uc
-"107
--> -> 179 `i `uc
-"108
--> -> 251 `i `uc
-"109
--> -> 71 `i `uc
-"110
--> -> 151 `i `uc
-"111
--> -> 236 `i `uc
-"112
--> -> 70 `i `uc
-"113
--> -> 166 `i `uc
-"114
--> -> 11 `i `uc
-"115
--> -> 118 `i `uc
-"116
--> -> 231 `i `uc
-"117
--> -> 96 `i `uc
-"118
--> -> 223 `i `uc
-"119
+"240
+-> -> 253 `i `uc
+"241
+-> -> 12 `i `uc
+"242
+-> -> 28 `i `uc
+"243
+-> -> 45 `i `uc
+"244
+-> -> 63 `i `uc
+"245
+-> -> 82 `i `uc
+"246
 -> -> 102 `i `uc
-"120
--> -> 245 `i `uc
-"121
--> -> 141 `i `uc
-"122
--> -> 45 `i `uc
-"123
--> -> 215 `i `uc
-"124
--> -> 140 `i `uc
-"125
--> -> 75 `i `uc
-"126
--> -> 21 `i `uc
-"127
--> -> 235 `i `uc
-"128
--> -> 206 `i `uc
-"129
--> -> 191 `i `uc
-"130
--> -> 190 `i `uc
-"131
--> -> 204 `i `uc
-"132
--> -> 234 `i `uc
-"133
--> -> 25 `i `uc
-"134
--> -> 90 `i `uc
-"135
--> -> 174 `i `uc
-"136
--> -> 23 `i `uc
-"137
--> -> 149 `i `uc
-"138
--> -> 41 `i `uc
-"139
--> -> 214 `i `uc
-"140
--> -> 156 `i `uc
-"141
--> -> 125 `i `uc
-"142
+"247
 -> -> 123 `i `uc
-"143
--> -> 151 `i `uc
-"144
--> -> 212 `i `uc
-"145
--> -> 50 `i `uc
-"146
--> -> 180 `i `uc
-"147
--> -> 92 `i `uc
-"148
--> -> 45 `i `uc
-"149
--> -> 41 `i `uc
-"150
--> -> 82 `i `uc
-"151
--> -> 172 `i `uc
-"152
--> -> 56 `i `uc
-"153
+"248
+-> -> 146 `i `uc
+"249
+-> -> 170 `i `uc
+"250
+-> -> 195 `i `uc
+"251
+-> -> 222 `i `uc
+"252
 -> -> 250 `i `uc
-"154
--> -> 246 `i `uc
-"155
--> -> 46 `i `uc
-"156
--> -> 167 `i `uc
-"157
--> -> 99 `i `uc
-"158
--> -> 104 `i `uc
-"159
--> -> 184 `i `uc
-"160
+"253
+-> -> 24 `i `uc
+"254
+-> -> 56 `i `uc
+"255
 -> -> 90 `i `uc
-"161
--> -> 82 `i `uc
-"162
+"256
+-> -> 126 `i `uc
+"257
 -> -> 164 `i `uc
-"163
--> -> 87 `i `uc
-"164
--> -> 112 `i `uc
-"165
+"258
+-> -> 204 `i `uc
+"259
+-> -> 246 `i `uc
+"260
+-> -> 35 `i `uc
+"261
+-> -> 83 `i `uc
+"262
+-> -> 134 `i `uc
+"263
+-> -> 187 `i `uc
+"264
 -> -> 244 `i `uc
+"265
+-> -> 48 `i `uc
+"266
+-> -> 112 `i `uc
+"267
+-> -> 179 `i `uc
+"268
+-> -> 251 `i `uc
+"269
+-> -> 71 `i `uc
+"270
+-> -> 151 `i `uc
+"271
+-> -> 236 `i `uc
+"272
+-> -> 70 `i `uc
+"273
+-> -> 166 `i `uc
+"274
+-> -> 11 `i `uc
+"275
+-> -> 118 `i `uc
+"276
+-> -> 231 `i `uc
+"277
+-> -> 96 `i `uc
+"278
+-> -> 223 `i `uc
+"279
+-> -> 102 `i `uc
+"280
+-> -> 245 `i `uc
+"281
+-> -> 141 `i `uc
+"282
+-> -> 45 `i `uc
+"283
+-> -> 215 `i `uc
+"284
+-> -> 140 `i `uc
+"285
+-> -> 75 `i `uc
+"286
+-> -> 21 `i `uc
+"287
+-> -> 235 `i `uc
+"288
+-> -> 206 `i `uc
+"289
+-> -> 191 `i `uc
+"290
+-> -> 190 `i `uc
+"291
+-> -> 204 `i `uc
+"292
+-> -> 234 `i `uc
+"293
+-> -> 25 `i `uc
+"294
+-> -> 90 `i `uc
+"295
+-> -> 174 `i `uc
+"296
+-> -> 23 `i `uc
+"297
+-> -> 149 `i `uc
+"298
+-> -> 41 `i `uc
+"299
+-> -> 214 `i `uc
+"300
+-> -> 156 `i `uc
+"301
+-> -> 125 `i `uc
+"302
+-> -> 123 `i `uc
+"303
+-> -> 151 `i `uc
+"304
+-> -> 212 `i `uc
+"305
+-> -> 50 `i `uc
+"306
+-> -> 180 `i `uc
+"307
+-> -> 92 `i `uc
+"308
+-> -> 45 `i `uc
+"309
+-> -> 41 `i `uc
+"310
+-> -> 82 `i `uc
+"311
+-> -> 172 `i `uc
+"312
+-> -> 56 `i `uc
+"313
+-> -> 250 `i `uc
 ..
 ]
-[; ;wavetable.h: 91: const unsigned char onkai_f[] = {
-[; ;wavetable.h: 92: 250,
-[; ;wavetable.h: 93: 24,
-[; ;wavetable.h: 94: 56,
-[; ;wavetable.h: 95: 90,
-[; ;wavetable.h: 96: 126,
-[; ;wavetable.h: 97: 164,
-[; ;wavetable.h: 98: 204,
-[; ;wavetable.h: 99: 246,
-[; ;wavetable.h: 100: 35,
-[; ;wavetable.h: 101: 83,
-[; ;wavetable.h: 102: 134,
-[; ;wavetable.h: 103: 187,
-[; ;wavetable.h: 104: 244,
-[; ;wavetable.h: 105: 48,
-[; ;wavetable.h: 106: 112,
-[; ;wavetable.h: 107: 179,
-[; ;wavetable.h: 108: 251,
-[; ;wavetable.h: 109: 71,
-[; ;wavetable.h: 110: 151,
-[; ;wavetable.h: 111: 236,
-[; ;wavetable.h: 112: 70,
-[; ;wavetable.h: 113: 166,
-[; ;wavetable.h: 114: 11,
-[; ;wavetable.h: 115: 118,
-[; ;wavetable.h: 116: 231,
-[; ;wavetable.h: 117: 96,
-[; ;wavetable.h: 118: 223,
-[; ;wavetable.h: 119: 102,
-[; ;wavetable.h: 120: 245,
-[; ;wavetable.h: 121: 141,
-[; ;wavetable.h: 122: 45,
-[; ;wavetable.h: 123: 215,
-[; ;wavetable.h: 124: 140,
-[; ;wavetable.h: 125: 75,
-[; ;wavetable.h: 126: 21,
-[; ;wavetable.h: 127: 235,
-[; ;wavetable.h: 128: 206,
-[; ;wavetable.h: 129: 191,
-[; ;wavetable.h: 130: 190,
-[; ;wavetable.h: 131: 204,
-[; ;wavetable.h: 132: 234,
-[; ;wavetable.h: 133: 25,
-[; ;wavetable.h: 134: 90,
-[; ;wavetable.h: 135: 174,
-[; ;wavetable.h: 136: 23,
-[; ;wavetable.h: 137: 149,
-[; ;wavetable.h: 138: 41,
-[; ;wavetable.h: 139: 214,
-[; ;wavetable.h: 140: 156,
-[; ;wavetable.h: 141: 125,
-[; ;wavetable.h: 142: 123,
-[; ;wavetable.h: 143: 151,
-[; ;wavetable.h: 144: 212,
-[; ;wavetable.h: 145: 50,
-[; ;wavetable.h: 146: 180,
-[; ;wavetable.h: 147: 92,
-[; ;wavetable.h: 148: 45,
-[; ;wavetable.h: 149: 41,
-[; ;wavetable.h: 150: 82,
-[; ;wavetable.h: 151: 172,
-[; ;wavetable.h: 152: 56,
-[; ;wavetable.h: 153: 250,
-[; ;wavetable.h: 154: 246,
-[; ;wavetable.h: 155: 46,
-[; ;wavetable.h: 156: 167,
-[; ;wavetable.h: 157: 99,
-[; ;wavetable.h: 158: 104,
-[; ;wavetable.h: 159: 184,
-[; ;wavetable.h: 160: 90,
-[; ;wavetable.h: 161: 82,
-[; ;wavetable.h: 162: 164,
-[; ;wavetable.h: 163: 87,
-[; ;wavetable.h: 164: 112,
-[; ;wavetable.h: 165: 244,
-[; ;wavetable.h: 166: };
+[; ;wavetable.h: 165: const unsigned char onkai_f[] = {
+[; ;wavetable.h: 240: 253,
+[; ;wavetable.h: 241: 12,
+[; ;wavetable.h: 242: 28,
+[; ;wavetable.h: 243: 45,
+[; ;wavetable.h: 244: 63,
+[; ;wavetable.h: 245: 82,
+[; ;wavetable.h: 246: 102,
+[; ;wavetable.h: 247: 123,
+[; ;wavetable.h: 248: 146,
+[; ;wavetable.h: 249: 170,
+[; ;wavetable.h: 250: 195,
+[; ;wavetable.h: 251: 222,
+[; ;wavetable.h: 252: 250,
+[; ;wavetable.h: 253: 24,
+[; ;wavetable.h: 254: 56,
+[; ;wavetable.h: 255: 90,
+[; ;wavetable.h: 256: 126,
+[; ;wavetable.h: 257: 164,
+[; ;wavetable.h: 258: 204,
+[; ;wavetable.h: 259: 246,
+[; ;wavetable.h: 260: 35,
+[; ;wavetable.h: 261: 83,
+[; ;wavetable.h: 262: 134,
+[; ;wavetable.h: 263: 187,
+[; ;wavetable.h: 264: 244,
+[; ;wavetable.h: 265: 48,
+[; ;wavetable.h: 266: 112,
+[; ;wavetable.h: 267: 179,
+[; ;wavetable.h: 268: 251,
+[; ;wavetable.h: 269: 71,
+[; ;wavetable.h: 270: 151,
+[; ;wavetable.h: 271: 236,
+[; ;wavetable.h: 272: 70,
+[; ;wavetable.h: 273: 166,
+[; ;wavetable.h: 274: 11,
+[; ;wavetable.h: 275: 118,
+[; ;wavetable.h: 276: 231,
+[; ;wavetable.h: 277: 96,
+[; ;wavetable.h: 278: 223,
+[; ;wavetable.h: 279: 102,
+[; ;wavetable.h: 280: 245,
+[; ;wavetable.h: 281: 141,
+[; ;wavetable.h: 282: 45,
+[; ;wavetable.h: 283: 215,
+[; ;wavetable.h: 284: 140,
+[; ;wavetable.h: 285: 75,
+[; ;wavetable.h: 286: 21,
+[; ;wavetable.h: 287: 235,
+[; ;wavetable.h: 288: 206,
+[; ;wavetable.h: 289: 191,
+[; ;wavetable.h: 290: 190,
+[; ;wavetable.h: 291: 204,
+[; ;wavetable.h: 292: 234,
+[; ;wavetable.h: 293: 25,
+[; ;wavetable.h: 294: 90,
+[; ;wavetable.h: 295: 174,
+[; ;wavetable.h: 296: 23,
+[; ;wavetable.h: 297: 149,
+[; ;wavetable.h: 298: 41,
+[; ;wavetable.h: 299: 214,
+[; ;wavetable.h: 300: 156,
+[; ;wavetable.h: 301: 125,
+[; ;wavetable.h: 302: 123,
+[; ;wavetable.h: 303: 151,
+[; ;wavetable.h: 304: 212,
+[; ;wavetable.h: 305: 50,
+[; ;wavetable.h: 306: 180,
+[; ;wavetable.h: 307: 92,
+[; ;wavetable.h: 308: 45,
+[; ;wavetable.h: 309: 41,
+[; ;wavetable.h: 310: 82,
+[; ;wavetable.h: 311: 172,
+[; ;wavetable.h: 312: 56,
+[; ;wavetable.h: 313: 250,
+[; ;wavetable.h: 314: };
 [; ;mcc.h: 76: void SYSTEM_Initialize(void);
 [; ;mcc.h: 89: void OSCILLATOR_Initialize(void);
 [; ;mcc.h: 101: void WDT_Initialize(void);

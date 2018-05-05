@@ -82,7 +82,7 @@ void TMR4_Initialize(void) {
     TMR4_SetInterruptHandler(TMR4_DefaultInterruptHandler);
 
     // T4CKPS 1:1; T4OUTPS 1:3; TMR4ON on; 
-    T4CON = 0b00010100;
+    T4CON = 0b00001100;
 }
 
 void TMR4_StartTimer(void) {
@@ -128,7 +128,7 @@ void TMR4_SetInterruptHandler(void (* InterruptHandler)(void)) {
 
 void TMR4_DefaultInterruptHandler(void) {
     uint8_t tmp;
-    
+
     envelopeCount0--;
     if (!envelopeCount0) {
         if (env0 != 255) {
@@ -136,7 +136,7 @@ void TMR4_DefaultInterruptHandler(void) {
             envelopeCount0 = ENV_DELAY;
         }
     }
-    
+
     pos_d0 += dat_d0;
     pos_f0 += dat_f0;
     tmp = pos_f0 >> 8;

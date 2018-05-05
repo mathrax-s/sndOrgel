@@ -6385,6 +6385,20 @@ void EUSART_Write(uint8_t txData);
 
 # 12 "mcc_generated_files/../wavetable.h"
 const unsigned char onkai_d[] = {
+
+# 87
+0,
+1,
+1,
+1,
+1,
+1,
+1,
+1,
+1,
+1,
+1,
+1,
 1,
 2,
 2,
@@ -6447,23 +6461,25 @@ const unsigned char onkai_d[] = {
 59,
 63,
 66,
-70,
-75,
-79,
-84,
-89,
-94,
-100,
-106,
-112,
-119,
-126,
-133,
 };
 
 
 
 const unsigned char onkai_f[] = {
+
+# 240
+253,
+12,
+28,
+45,
+63,
+82,
+102,
+123,
+146,
+170,
+195,
+222,
 250,
 24,
 56,
@@ -6526,18 +6542,6 @@ const unsigned char onkai_f[] = {
 172,
 56,
 250,
-246,
-46,
-167,
-99,
-104,
-184,
-90,
-82,
-164,
-87,
-112,
-244,
 };
 
 # 76 "mcc_generated_files/mcc.h"

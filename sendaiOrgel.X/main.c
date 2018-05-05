@@ -56,21 +56,21 @@ unsigned char scale[] = {
     NOTE_D3, NOTE_E3, NOTE_G3, NOTE_A3, NOTE_B3,
     NOTE_D4, NOTE_E4, NOTE_G4, NOTE_A4, NOTE_B4,
     NOTE_D5, NOTE_E5, NOTE_G5, NOTE_A5, NOTE_B5,
-    NOTE_D6, NOTE_E6//, //NOTE_G6, NOTE_A6, NOTE_B6,
-    //    NOTE_D7, NOTE_E7, NOTE_G7, NOTE_A7//, NOTE_B7,
+    NOTE_D6, NOTE_E6, NOTE_G6, NOTE_A6, NOTE_B6,
+    //    NOTE_D7, NOTE_E7//NOTE_G7, NOTE_A7, NOTE_B7,
 
     // NOTE_F6, NOTE_G6, NOTE_A6, NOTE_AS6, NOTE_C7, NOTE_D7, NOTE_E7, NOTE_F7, NOTE_G7, NOTE_A7
 
     // NOTE_D5, NOTE_E5, NOTE_F5, NOTE_G5, NOTE_GS5, NOTE_B5,
     // NOTE_C6, NOTE_CS6, NOTE_D6, NOTE_E6, NOTE_F6, NOTE_G6, NOTE_GS6, NOTE_B6,
 
-//         NOTE_D1, NOTE_E1, NOTE_F1, NOTE_G1, NOTE_GS1, NOTE_AS1,
-//         NOTE_D2, NOTE_E2, NOTE_F2, NOTE_G2, NOTE_GS2, NOTE_AS2,
-//         NOTE_D3, NOTE_E3, NOTE_F3, NOTE_G3, NOTE_GS3, NOTE_AS3,
-//         NOTE_D4, NOTE_E4, NOTE_F4, NOTE_G4, NOTE_GS4, NOTE_AS4,
-//         NOTE_D5, NOTE_E5, NOTE_F5, NOTE_G5, NOTE_GS5, NOTE_AS5,
-//         NOTE_C6, NOTE_D6, NOTE_E6, NOTE_F6, NOTE_G6, NOTE_GS6,
-//         NOTE_C7, NOTE_D7, NOTE_E7, NOTE_F7, NOTE_G7, NOTE_GS7,
+    //         NOTE_D1, NOTE_E1, NOTE_F1, NOTE_G1, NOTE_GS1, NOTE_AS1,
+    //         NOTE_D2, NOTE_E2, NOTE_F2, NOTE_G2, NOTE_GS2, NOTE_AS2,
+    //         NOTE_D3, NOTE_E3, NOTE_F3, NOTE_G3, NOTE_GS3, NOTE_AS3,
+    //         NOTE_D4, NOTE_E4, NOTE_F4, NOTE_G4, NOTE_GS4, NOTE_AS4,
+    //         NOTE_D5, NOTE_E5, NOTE_F5, NOTE_G5, NOTE_GS5, NOTE_AS5,
+    //         NOTE_C6, NOTE_D6, NOTE_E6, NOTE_F6, NOTE_G6, NOTE_GS6,
+    //         NOTE_C7, NOTE_D7, NOTE_E7, NOTE_F7, NOTE_G7, NOTE_GS7,
 
 
 };
@@ -103,29 +103,45 @@ void main(void) {
     INTERRUPT_PeripheralInterruptEnable();
 
 
-    ENV_DELAY = 150;
+    ENV_DELAY = 30; //150;
 
-    uint8_t s = 12;
-    uint8_t rcvData;
-    uint8_t count=0;
+    uint8_t s = 0;
+    //    uint8_t rcvData;
+    uint8_t count = 0;
+    uint8_t status = 0;
+//    float ave;
 
     while (1) {
 
-        rcvData = EUSART_Read();
+        uint8_t rcvData = EUSART_Read();
 
         if (rcvData >= 'a' && rcvData <= 'z') {
-            count++;
-            s = rcvData-'a';
-            
-            if (s >= 22)s = 22;
-            soundPlay(count % 2, scale[s]);
+
+            //            ENV_DELAY += 2;
+            //            if (ENV_DELAY > 150)ENV_DELAY = 150;
+
+            if (status == 0) {
+                status = 1;
+                count++;
+                s = rcvData - 'a';
+                if (s >= (24  + 1)) s = 24;
+
+                soundPlay(count % 2, scale[s]);
+            }
+
+
+        } else if (rcvData == '0') {
+
+            status = 0;
+            ENV_DELAY = 10;
         }
 
-//                s++;
-//                if (s >= 66)s = 13; // sizeof (scale))s = 0;        
-//                soundPlay(s % 2, s);
-//                
-//                __delay_ms(250);
+
+        //                s++;
+        //                if (s >= 66)s = 13; // sizeof (scale))s = 0;        
+        //                soundPlay(s % 2, s);
+        //                
+        //                __delay_ms(250);
 
     }
 }
