@@ -3,13 +3,21 @@
 [d edition pro ]
 [d chip 16F1705 ]
 [d frameptr 6 ]
+"5 /Applications/microchip/xc8/v1.45/sources/common/almod.c
+[v ___almod __almod `(l  1 e 4 0 ]
 "62 /Applications/microchip/xc8/v1.45/sources/common/float.c
 [v ___ftpack __ftpack `(f  1 e 3 0 ]
 "86 /Applications/microchip/xc8/v1.45/sources/common/ftadd.c
 [v ___ftadd __ftadd `(f  1 e 3 0 ]
-"78 /Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/main.c
+"15 /Applications/microchip/xc8/v1.45/sources/common/Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"85 /Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/main.c
 [v _soundPlay soundPlay `(v  1 e 1 0 ]
-"92
+"102
+[v _randomSeed randomSeed `(v  1 e 1 0 ]
+"117
+[v _random random `(l  1 e 4 0 ]
+"124
 [v _main main `(v  1 e 1 0 ]
 "58 /Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/cog1.c
 [v _COG1_Initialize COG1_Initialize `(v  1 e 1 0 ]
@@ -145,6 +153,10 @@
 [v _OSCCON OSCCON `VEuc  1 e 1 @153 ]
 "1617
 [v _OSCSTAT OSCSTAT `VEuc  1 e 1 @154 ]
+"1686
+[v _ADRESL ADRESL `VEuc  1 e 1 @155 ]
+"1706
+[v _ADRESH ADRESH `VEuc  1 e 1 @156 ]
 "1907
 [v _LATA LATA `VEuc  1 e 1 @268 ]
 "1952
@@ -306,10 +318,14 @@
 "8456
 [u S384 . 1 `S382 1 . 1 0 ]
 [v _RC4PPSbits RC4PPSbits `VES384  1 e 1 @3748 ]
+"12409
+[v _GO_nDONE GO_nDONE `VEb  1 e 0 @1257 ]
 "13033
 [v _PLLR PLLR `VEb  1 e 0 @1238 ]
 "50 /Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/main.c
 [v _scale scale `[25]uc  1 e 25 0 ]
+"99
+[v _randomx randomx `l  1 s 4 randomx ]
 "17 /Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/main.h
 [v _evp0 evp0 `uc  1 e 1 0 ]
 "18
@@ -317,7 +333,7 @@
 "20
 [v _env0 env0 `uc  1 e 1 0 ]
 "21
-[v _envelopeCount0 envelopeCount0 `i  1 e 2 0 ]
+[v _envelopeCount0 envelopeCount0 `c  1 e 1 0 ]
 "22
 [v _envelopeValue0 envelopeValue0 `ui  1 e 2 0 ]
 "24
@@ -337,7 +353,7 @@
 "33
 [v _env1 env1 `uc  1 e 1 0 ]
 "34
-[v _envelopeCount1 envelopeCount1 `i  1 e 2 0 ]
+[v _envelopeCount1 envelopeCount1 `c  1 e 1 0 ]
 "35
 [v _envelopeValue1 envelopeValue1 `ui  1 e 2 0 ]
 "37
@@ -352,11 +368,11 @@
 [v _pos1 pos1 `uc  1 e 1 0 ]
 "45
 [v _ENV_DELAY ENV_DELAY `ui  1 e 2 0 ]
-"48
+"50
 [v _waveTable waveTable `DVEC[256]ui  1 e 512 0 ]
-"822
+"824
 [v _envelopeTable envelopeTable `DVEC[256]uc  1 e 256 0 ]
-"1080
+"1082
 [v _envelopeTable2 envelopeTable2 `DVEC[256]uc  1 e 256 0 ]
 "12 /Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/wavetable.h
 [v _onkai_d onkai_d `DC[74]uc  1 e 74 0 ]
@@ -364,27 +380,67 @@
 [v _onkai_f onkai_f `DC[74]uc  1 e 74 0 ]
 "60 /Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/tmr4.c
 [v _TMR4_InterruptHandler TMR4_InterruptHandler `*.37(v  1 e 2 0 ]
-"92 /Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/main.c
+"124 /Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/main.c
 [v _main main `(v  1 e 1 0 ]
 {
-"116
-[v main@rcvData rcvData `uc  1 a 1 7 ]
-"108
-[v main@s s `uc  1 a 1 6 ]
-"111
-[v main@status status `uc  1 a 1 5 ]
-"108
-[v main@count count `uc  1 a 1 4 ]
-"155
+"147
+[v main@rcvData rcvData `uc  1 a 1 40 ]
+"140
+[v main@s s `uc  1 a 1 39 ]
+"142
+[v main@status status `uc  1 a 1 38 ]
+"140
+[v main@count count `uc  1 a 1 37 ]
+"179
 } 0
-"78
+"85
 [v _soundPlay soundPlay `(v  1 e 1 0 ]
 {
 [v soundPlay@c c `uc  1 a 1 wreg ]
 [v soundPlay@c c `uc  1 a 1 wreg ]
 [v soundPlay@onkai onkai `uc  1 p 1 0 ]
 [v soundPlay@c c `uc  1 a 1 2 ]
-"90
+"97
+} 0
+"102
+[v _randomSeed randomSeed `(v  1 e 1 0 ]
+{
+"103
+[v randomSeed@temp temp `ui  1 a 2 4 ]
+"102
+[v randomSeed@val val `l  1 p 4 0 ]
+"114
+} 0
+"117
+[v _random random `(l  1 e 4 0 ]
+{
+"118
+[v random@d d `l  1 a 4 32 ]
+"117
+[v random@min min `l  1 p 4 12 ]
+[v random@max max `l  1 p 4 16 ]
+"122
+} 0
+"15 /Applications/microchip/xc8/v1.45/sources/common/Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+{
+"17
+[v ___lmul@product product `ul  1 a 4 8 ]
+"15
+[v ___lmul@multiplier multiplier `ul  1 p 4 0 ]
+[v ___lmul@multiplicand multiplicand `ul  1 p 4 4 ]
+"129
+} 0
+"5 /Applications/microchip/xc8/v1.45/sources/common/almod.c
+[v ___almod __almod `(l  1 e 4 0 ]
+{
+"11
+[v ___almod@sign sign `uc  1 a 1 10 ]
+[v ___almod@counter counter `uc  1 a 1 9 ]
+"5
+[v ___almod@divisor divisor `l  1 p 4 0 ]
+[v ___almod@dividend dividend `l  1 p 4 4 ]
+"35
 } 0
 "50 /Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/mcc.c
 [v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]

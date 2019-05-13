@@ -16,7 +16,7 @@
         Product Revision  :  PIC10 / PIC12 / PIC16 / PIC18 MCUs - 1.65.2
         Device            :  PIC12F1572
         Driver Version    :  2.00
-*/
+ */
 
 /*
     (c) 2018 Microchip Technology Inc. and its subsidiaries. 
@@ -39,15 +39,14 @@
     CLAIMS IN ANY WAY RELATED TO THIS SOFTWARE WILL NOT EXCEED THE AMOUNT 
     OF FEES, IF ANY, THAT YOU HAVE PAID DIRECTLY TO MICROCHIP FOR THIS 
     SOFTWARE.
-*/
+ */
 
 #include "mcc_generated_files/mcc.h"
 
 /*
                          Main application
  */
-void main(void)
-{
+void main(void) {
     // initialize the device
     SYSTEM_Initialize();
 
@@ -67,61 +66,60 @@ void main(void)
     //INTERRUPT_PeripheralInterruptDisable();
     // mtouch_sensor_sample_t data;
     mtouch_button_deviation_t data;
-    mtouch_button_threshold_t   threshold;
+    mtouch_button_threshold_t threshold;
     threshold = MTOUCH_Button_Threshold_Get(Sensor_AN2);
-    uint8_t status=0;
+    uint8_t status = 0;
     uint8_t i;
     uint16_t sum;
-    while (1)
-    {
-        
-        MTOUCH_Service_Mainloop(); 
+    while (1) {
+
+        MTOUCH_Service_Mainloop();
         data = MTOUCH_Button_Deviation_Get(Sensor_AN2);
-        
+
         // uint8_t a;
         // a = data / 10000;
         // EUSART_Write(a+'0');
         // data -= 10000*a;
-        
+
         // uint8_t b;
         // b = data /1000;
         // EUSART_Write(b+'0');
         // data -= 1000*b;
-        
+
         // uint8_t c;
         // c = data / 100;
         // EUSART_Write(c+'0');
         // data -= 100*c;
-        
+
         // uint8_t d;
         // d = data / 10;
         // EUSART_Write(d+'0');
         // data -= 10*d;
-        
+
         // uint8_t e;
         // e = data;
         // EUSART_Write(e+'0');
-        
+
         // EUSART_Write(',');
         // EUSART_Write(13);
         // EUSART_Write(10);
-        
-        if(MTOUCH_Button_isPressed(Sensor_AN2)){
-            if(status==0){
-                status=1;
-                if(data>threshold){
-                    EUSART_Write('a'+ (data - threshold));
-                    // __delay_ms(10);
-                }
-                
+
+        if (MTOUCH_Button_isPressed(Sensor_AN2)) {
+            status = 0;
+            if (data > threshold) {
+                EUSART_Write('a');// + (data - threshold));
             }
-            
-        }else{
-            status=0;
+
+        } else {
+            if (status == 0) {
+                status = 1;
+                EUSART_Write('0');
+            }
         }
-        
+
+
     }
 }
 /**
  End of File
-*/
+ */

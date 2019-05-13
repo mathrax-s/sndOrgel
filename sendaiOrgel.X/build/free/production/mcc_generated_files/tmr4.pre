@@ -6325,7 +6325,7 @@ uint8_t evp0;
 uint32_t waveData0;
 uint8_t voice_on0;
 uint8_t env0;
-int16_t envelopeCount0;
+int8_t envelopeCount0;
 uint16_t envelopeValue0;
 
 uint8_t dat_d0;
@@ -6338,7 +6338,7 @@ uint8_t evp1;
 uint32_t waveData1;
 uint8_t voice_on1;
 uint8_t env1;
-int16_t envelopeCount1;
+int8_t envelopeCount1;
 uint16_t envelopeValue1;
 
 uint8_t dat_d1;
@@ -6351,10 +6351,12 @@ uint16_t pitch;
 uint16_t count;
 uint16_t ENV_DELAY;
 
+void randomSeed(long val) ;
+long random(long min,long max) ;
 
 const volatile uint16_t waveTable[256] = {
 
-# 563
+# 565
 0,
 2,
 10,

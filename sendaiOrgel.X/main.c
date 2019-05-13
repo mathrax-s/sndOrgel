@@ -52,12 +52,19 @@ unsigned char scale[] = {
 
     //    NOTE_D1, NOTE_E1, NOTE_G1, NOTE_A1, 
     //NOTE_B1,
-    NOTE_D2, NOTE_E2, NOTE_G2, NOTE_A2, NOTE_B2,
-    NOTE_D3, NOTE_E3, NOTE_G3, NOTE_A3, NOTE_B3,
-    NOTE_D4, NOTE_E4, NOTE_G4, NOTE_A4, NOTE_B4,
-    NOTE_D5, NOTE_E5, NOTE_G5, NOTE_A5, NOTE_B5,
-    NOTE_D6, NOTE_E6, NOTE_G6, NOTE_A6, NOTE_B6,
+    //    NOTE_D2, NOTE_E2, NOTE_G2, NOTE_A2, NOTE_B2,
+    //    NOTE_D3, NOTE_E3, NOTE_G3, NOTE_A3, NOTE_B3,
+    //    NOTE_D4, NOTE_E4, NOTE_G4, NOTE_A4, NOTE_B4,
+    //    NOTE_D5, NOTE_E5, NOTE_G5, NOTE_A5, NOTE_B5,
+    //    NOTE_D6, NOTE_E6, NOTE_G6, NOTE_A6, NOTE_B6,
     //    NOTE_D7, NOTE_E7//NOTE_G7, NOTE_A7, NOTE_B7,
+
+    NOTE_CS2, NOTE_DS2, NOTE_FS2, NOTE_GS2, NOTE_AS2,
+    NOTE_CS3, NOTE_DS3, NOTE_FS3, NOTE_GS3, NOTE_AS3,
+    NOTE_CS4, NOTE_DS4, NOTE_FS4, NOTE_GS4, NOTE_AS4,
+    NOTE_CS5, NOTE_DS5, NOTE_FS5, NOTE_GS5, NOTE_AS5,
+    NOTE_CS6, NOTE_DS6, NOTE_FS6, NOTE_GS6, NOTE_AS6,
+
 
     // NOTE_F6, NOTE_G6, NOTE_A6, NOTE_AS6, NOTE_C7, NOTE_D7, NOTE_E7, NOTE_F7, NOTE_G7, NOTE_A7
 
@@ -89,6 +96,31 @@ void soundPlay(char c, char onkai) {
     }
 }
 
+static long randomx;
+
+// ???????????????
+void randomSeed(long val) {
+    unsigned int temp;
+
+    if (val == 0) {
+        while (1) {
+            GO_nDONE = 1; // PIC??????????????
+            while (GO_nDONE); // PIC????????????
+            temp = (ADRESH << 8) | ADRESL; // 10??????????
+            if (temp > 0) break;
+        }
+        randomx = temp;
+    } else randomx = val; // ???????????????
+}
+// ????????????
+
+long random(long min, long max) {
+    long d;
+
+    d = ((randomx = randomx * 1103515245L + 12345) >> 16) & 077777;
+    return min + d % (max - min + 1);
+}
+
 void main(void) {
     // initialize the device
     SYSTEM_Initialize();
@@ -106,10 +138,9 @@ void main(void) {
     ENV_DELAY = 30; //150;
 
     uint8_t s = 0;
-    //    uint8_t rcvData;
     uint8_t count = 0;
     uint8_t status = 0;
-//    float ave;
+    randomSeed(0);
 
     while (1) {
 
@@ -117,23 +148,24 @@ void main(void) {
 
         if (rcvData >= 'a' && rcvData <= 'z') {
 
-            //            ENV_DELAY += 2;
-            //            if (ENV_DELAY > 150)ENV_DELAY = 150;
 
             if (status == 0) {
                 status = 1;
                 count++;
-                s = rcvData - 'a';
-                if (s >= (24  + 1)) s = 24;
+                //                s = rcvData - 'a';
+                s = random(0, 24);
+                if (s >= (24 + 1)) s = 24;
 
                 soundPlay(count % 2, scale[s]);
             }
+            ENV_DELAY =200;
+            if (ENV_DELAY > 200)ENV_DELAY = 200;
 
 
         } else if (rcvData == '0') {
 
             status = 0;
-            ENV_DELAY = 10;
+            ENV_DELAY = 50;
         }
 
 
