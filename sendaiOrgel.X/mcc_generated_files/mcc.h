@@ -51,13 +51,15 @@
 #include <stdint.h>
 #include <stdbool.h>
 #include "interrupt_manager.h"
+#include "pwm1.h"
 #include "pwm3.h"
-#include "tmr4.h"
+#include "tmr6.h"
 #include "cog1.h"
+#include "tmr4.h"
 #include "tmr2.h"
-#include "eusart.h"
-#include "../wavetable.h"
+
 #include "../pitches.h"
+#include "../wavetable.h"
 
 #define _XTAL_FREQ  32000000
 

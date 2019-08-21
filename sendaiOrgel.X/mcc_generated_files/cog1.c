@@ -58,32 +58,32 @@
 void COG1_Initialize(void)
 {
     // Reset double buffered register COG1CON0
-    COG1CON0 = 0b10001000;
+    COG1CON0 = 0x00;
 
     // Set the COG to the options selected in PIC10 / PIC12 / PIC16 / PIC18 MCUs
-    // G1POLA Active high; G1POLB Active high; G1POLC Active high; G1POLD Active high; G1FDBS COGx_clock and COGxDBF; G1RDBS COGx_clock and COGxDBR; 
-    COG1CON1 = 0b00000001;
+    // G1POLA Active low; G1POLB Active high; G1POLC Active high; G1POLD Active high; G1FDBS COGx_clock and COGxDBF; G1RDBS COGx_clock and COGxDBR; 
+    COG1CON1 = 0x01;
 
-    // G1RIS0 disabled; G1RIS1 disabled; G1RIS2 disabled; G1RIS3 disabled; G1RIS4 disabled; G1RIS5 disabled; G1RIS6 disabled; 
-    COG1RIS = 0b01000000;
+    // G1RIS0 disabled; G1RIS1 disabled; G1RIS2 disabled; G1RIS3 disabled; G1RIS4 disabled; G1RIS5 disabled; G1RIS6 enabled; 
+    COG1RIS = 0x40;
 
-    // G1RSIM0 Level Trigger; G1RSIM1 Level Trigger; G1RSIM2 Level Trigger; G1RSIM3 Level Trigger; G1RSIM4 Level Trigger; G1RSIM5 Level Trigger; G1RSIM6 Level Trigger; 
-    COG1RSIM = 0b01000000;
+    // G1RSIM0 Level Trigger; G1RSIM1 Level Trigger; G1RSIM2 Level Trigger; G1RSIM3 Level Trigger; G1RSIM4 Level Trigger; G1RSIM5 Level Trigger; G1RSIM6 Edge Trigger; 
+    COG1RSIM = 0x40;
 
-    // G1FIS0 disabled; G1FIS1 disabled; G1FIS2 disabled; G1FIS3 disabled; G1FIS4 disabled; G1FIS5 disabled; G1FIS6 disabled; 
-    COG1FIS = 0b01000000;
+    // G1FIS0 disabled; G1FIS1 disabled; G1FIS2 disabled; G1FIS3 disabled; G1FIS4 disabled; G1FIS5 disabled; G1FIS6 enabled; 
+    COG1FIS = 0x40;
 
-    // G1FSIM0 Level Trigger; G1FSIM1 Level Trigger; G1FSIM2 Level Trigger; G1FSIM3 Level Trigger; G1FSIM4 Level Trigger; G1FSIM5 Level Trigger; G1FSIM6 Level Trigger; 
-    COG1FSIM = 0b01000000;
+    // G1FSIM0 Level Trigger; G1FSIM1 Level Trigger; G1FSIM2 Level Trigger; G1FSIM3 Level Trigger; G1FSIM4 Level Trigger; G1FSIM5 Level Trigger; G1FSIM6 Edge Trigger; 
+    COG1FSIM = 0x40;
 
     // G1ASDAC tri-stated; G1ASDBD tri-stated; G1ARSEN disabled; G1ASE not shutdown; 
-//    COG1ASD0 = 0x14;
+    COG1ASD0 = 0x14;
 
     // G1AS0E disabled; G1AS1E disabled; G1AS2E disabled; G1AS3E disabled; 
-//    COG1ASD1 = 0x00;
+    COG1ASD1 = 0x00;
 
-    // G1STRA static level; G1STRB static level; G1STRC static level; G1STRD static level; G1SDATA static data low; G1SDATB static data low; G1SDATC static data low; G1SDATD static data low; 
-    COG1STR = 0b00000011;;
+    // G1STRA waveform; G1STRB waveform; G1STRC waveform; G1STRD waveform; G1SDATA static data low; G1SDATB static data low; G1SDATC static data low; G1SDATD static data low; 
+    COG1STR = 0x0F;
 
     // G1DBR 0; 
     COG1DBR = 0x00;
@@ -103,8 +103,8 @@ void COG1_Initialize(void)
     // G1PHF 0; 
     COG1PHF = 0x00;
 
-    // G1MD steered PWM mode; G1CS FOSC/4; G1LD transfer complete; G1EN enabled; 
-    COG1CON0 = 0x80;
+    // G1MD steered PWM mode; G1CS FOSC; G1LD transfer complete; G1EN enabled; 
+    COG1CON0 = 0x88;
 
 }
 

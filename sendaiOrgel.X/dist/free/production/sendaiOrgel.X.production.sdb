@@ -1,53 +1,57 @@
-[p LITE_MODE AUTOSTATIC PIC14 PIC14E ]
+[p GLOBOPT AUTOSTATIC PIC14 PIC14E ]
 [d version 1.1 ]
 [d edition pro ]
 [d chip 16F1705 ]
 [d frameptr 6 ]
-"5 /Applications/microchip/xc8/v1.45/sources/common/almod.c
+"5 /Applications/microchip/xc8/v2.05/pic/sources/c90/common/almod.c
 [v ___almod __almod `(l  1 e 4 0 ]
-"62 /Applications/microchip/xc8/v1.45/sources/common/float.c
+"62 /Applications/microchip/xc8/v2.05/pic/sources/c90/common/float.c
 [v ___ftpack __ftpack `(f  1 e 3 0 ]
-"86 /Applications/microchip/xc8/v1.45/sources/common/ftadd.c
+"86 /Applications/microchip/xc8/v2.05/pic/sources/c90/common/ftadd.c
 [v ___ftadd __ftadd `(f  1 e 3 0 ]
-"15 /Applications/microchip/xc8/v1.45/sources/common/Umul32.c
+"5 /Applications/microchip/xc8/v2.05/pic/sources/c90/common/llmod.c
+[v ___llmod __llmod `(ul  1 e 4 0 ]
+"15 /Applications/microchip/xc8/v2.05/pic/sources/c90/common/Umul32.c
 [v ___lmul __lmul `(ul  1 e 4 0 ]
-"85 /Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/main.c
+"96 /Users/shozo/Documents/GitHub/sndOrgel/sendaiOrgel.X/main.c
 [v _soundPlay soundPlay `(v  1 e 1 0 ]
-"102
+"112
 [v _randomSeed randomSeed `(v  1 e 1 0 ]
-"117
-[v _random random `(l  1 e 4 0 ]
-"124
+"136
+[v _walz_play walz_play `(v  1 e 1 0 ]
+"154
 [v _main main `(v  1 e 1 0 ]
-"58 /Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/cog1.c
+"58 /Users/shozo/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/cog1.c
 [v _COG1_Initialize COG1_Initialize `(v  1 e 1 0 ]
-"56 /Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/eusart.c
-[v _EUSART_Initialize EUSART_Initialize `(v  1 e 1 0 ]
-"93
-[v _EUSART_Read EUSART_Read `(uc  1 e 1 0 ]
-"52 /Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/interrupt_manager.c
+"52 /Users/shozo/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/interrupt_manager.c
 [v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
-"50 /Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/mcc.c
+"50 /Users/shozo/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/mcc.c
 [v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
-"63
+"64
 [v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
-"79
+"80
 [v _WDT_Initialize WDT_Initialize `(v  1 e 1 0 ]
-"57 /Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/pin_manager.c
+"57 /Users/shozo/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/pin_manager.c
 [v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
-"58 /Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/pwm3.c
+"64 /Users/shozo/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/pwm1.c
+[v _PWM1_Initialize PWM1_Initialize `(v  1 e 1 0 ]
+"82
+[v _PWM1_LoadDutyValue PWM1_LoadDutyValue `(v  1 e 1 0 ]
+"58 /Users/shozo/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/pwm3.c
 [v _PWM3_Initialize PWM3_Initialize `(v  1 e 1 0 ]
-"62 /Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/tmr2.c
+"62 /Users/shozo/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/tmr2.c
 [v _TMR2_Initialize TMR2_Initialize `(v  1 e 1 0 ]
-"66 /Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/tmr4.c
+"66 /Users/shozo/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/tmr4.c
 [v _TMR4_Initialize TMR4_Initialize `(v  1 e 1 0 ]
-"115
+"121
 [v _TMR4_ISR TMR4_ISR `(v  1 e 1 0 ]
-"125
+"134
 [v _TMR4_SetInterruptHandler TMR4_SetInterruptHandler `(v  1 e 1 0 ]
-"129
+"138
 [v _TMR4_DefaultInterruptHandler TMR4_DefaultInterruptHandler `(v  1 e 1 0 ]
-[s S177 . 1 `uc 1 IOCIF 1 0 :1:0 
+"62 /Users/shozo/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/tmr6.c
+[v _TMR6_Initialize TMR6_Initialize `(v  1 e 1 0 ]
+[s S73 . 1 `uc 1 IOCIF 1 0 :1:0 
 `uc 1 INTF 1 0 :1:1 
 `uc 1 TMR0IF 1 0 :1:2 
 `uc 1 IOCIE 1 0 :1:3 
@@ -56,15 +60,25 @@
 `uc 1 PEIE 1 0 :1:6 
 `uc 1 GIE 1 0 :1:7 
 ]
-"372 /Applications/microchip/xc8/v1.45/include/pic16f1705.h
-[s S186 . 1 `uc 1 . 1 0 :2:0 
+"374 /Applications/microchip/xc8/v2.05/pic/include/pic16f1705.h
+[s S82 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 T0IF 1 0 :1:2 
 `uc 1 . 1 0 :2:3 
 `uc 1 T0IE 1 0 :1:5 
 ]
-[u S191 . 1 `S177 1 . 1 0 `S186 1 . 1 0 ]
-[v _INTCONbits INTCONbits `VES191  1 e 1 @11 ]
-[s S73 . 1 `uc 1 TMR1IF 1 0 :1:0 
+[u S87 . 1 `S73 1 . 1 0 `S82 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES87  1 e 1 @11 ]
+[s S568 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+]
+"494
+[u S575 . 1 `S568 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES575  1 e 1 @14 ]
+[s S467 . 1 `uc 1 TMR1IF 1 0 :1:0 
 `uc 1 TMR2IF 1 0 :1:1 
 `uc 1 CCP1IF 1 0 :1:2 
 `uc 1 SSP1IF 1 0 :1:3 
@@ -73,13 +87,13 @@
 `uc 1 ADIF 1 0 :1:6 
 `uc 1 TMR1GIF 1 0 :1:7 
 ]
-"548
-[s S82 . 1 `uc 1 . 1 0 :2:0 
+"550
+[s S476 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 CCPIF 1 0 :1:2 
 ]
-[u S85 . 1 `S73 1 . 1 0 `S82 1 . 1 0 ]
-[v _PIR1bits PIR1bits `VES85  1 e 1 @17 ]
-[s S230 . 1 `uc 1 CCP2IF 1 0 :1:0 
+[u S479 . 1 `S467 1 . 1 0 `S476 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES479  1 e 1 @17 ]
+[s S126 . 1 `uc 1 CCP2IF 1 0 :1:0 
 `uc 1 TMR4IF 1 0 :1:1 
 `uc 1 TMR6IF 1 0 :1:2 
 `uc 1 BCL1IF 1 0 :1:3 
@@ -88,21 +102,21 @@
 `uc 1 C2IF 1 0 :1:6 
 `uc 1 OSFIF 1 0 :1:7 
 ]
-"615
-[u S239 . 1 `S230 1 . 1 0 ]
-[v _PIR2bits PIR2bits `VES239  1 e 1 @18 ]
-"909
+"617
+[u S135 . 1 `S126 1 . 1 0 ]
+[v _PIR2bits PIR2bits `VES135  1 e 1 @18 ]
+"911
 [v _TMR2 TMR2 `VEuc  1 e 1 @26 ]
-"929
+"931
 [v _PR2 PR2 `VEuc  1 e 1 @27 ]
-"949
+"951
 [v _T2CON T2CON `VEuc  1 e 1 @28 ]
-[s S469 . 1 `uc 1 T2CKPS 1 0 :2:0 
+[s S496 . 1 `uc 1 T2CKPS 1 0 :2:0 
 `uc 1 TMR2ON 1 0 :1:2 
 `uc 1 T2OUTPS 1 0 :4:3 
 ]
-"970
-[s S473 . 1 `uc 1 T2CKPS0 1 0 :1:0 
+"972
+[s S500 . 1 `uc 1 T2CKPS0 1 0 :1:0 
 `uc 1 T2CKPS1 1 0 :1:1 
 `uc 1 . 1 0 :1:2 
 `uc 1 T2OUTPS0 1 0 :1:3 
@@ -110,13 +124,13 @@
 `uc 1 T2OUTPS2 1 0 :1:5 
 `uc 1 T2OUTPS3 1 0 :1:6 
 ]
-[u S481 . 1 `S469 1 . 1 0 `S473 1 . 1 0 ]
-[v _T2CONbits T2CONbits `VES481  1 e 1 @28 ]
-"1020
+[u S508 . 1 `S496 1 . 1 0 `S500 1 . 1 0 ]
+[v _T2CONbits T2CONbits `VES508  1 e 1 @28 ]
+"1022
 [v _TRISA TRISA `VEuc  1 e 1 @140 ]
-"1065
+"1067
 [v _TRISC TRISC `VEuc  1 e 1 @142 ]
-[s S209 . 1 `uc 1 CCP2IE 1 0 :1:0 
+[s S105 . 1 `uc 1 CCP2IE 1 0 :1:0 
 `uc 1 TMR4IE 1 0 :1:1 
 `uc 1 TMR6IE 1 0 :1:2 
 `uc 1 BCL1IE 1 0 :1:3 
@@ -125,101 +139,69 @@
 `uc 1 C2IE 1 0 :1:6 
 `uc 1 OSFIE 1 0 :1:7 
 ]
-"1203
-[u S218 . 1 `S209 1 . 1 0 ]
-[v _PIE2bits PIE2bits `VES218  1 e 1 @146 ]
-[s S334 . 1 `uc 1 PS 1 0 :3:0 
+"1205
+[u S114 . 1 `S105 1 . 1 0 ]
+[v _PIE2bits PIE2bits `VES114  1 e 1 @146 ]
+[s S236 . 1 `uc 1 PS 1 0 :3:0 
 `uc 1 PSA 1 0 :1:3 
 `uc 1 TMR0SE 1 0 :1:4 
 `uc 1 TMR0CS 1 0 :1:5 
 `uc 1 INTEDG 1 0 :1:6 
 `uc 1 nWPUEN 1 0 :1:7 
 ]
-"1311
-[s S341 . 1 `uc 1 PS0 1 0 :1:0 
+"1313
+[s S243 . 1 `uc 1 PS0 1 0 :1:0 
 `uc 1 PS1 1 0 :1:1 
 `uc 1 PS2 1 0 :1:2 
 `uc 1 . 1 0 :1:3 
 `uc 1 T0SE 1 0 :1:4 
 `uc 1 T0CS 1 0 :1:5 
 ]
-[u S348 . 1 `S334 1 . 1 0 `S341 1 . 1 0 ]
-[v _OPTION_REGbits OPTION_REGbits `VES348  1 e 1 @149 ]
-"1428
+[u S250 . 1 `S236 1 . 1 0 `S243 1 . 1 0 ]
+[v _OPTION_REGbits OPTION_REGbits `VES250  1 e 1 @149 ]
+"1430
 [v _WDTCON WDTCON `VEuc  1 e 1 @151 ]
-"1487
+"1489
 [v _OSCTUNE OSCTUNE `VEuc  1 e 1 @152 ]
-"1545
+"1547
 [v _OSCCON OSCCON `VEuc  1 e 1 @153 ]
-"1617
+"1619
 [v _OSCSTAT OSCSTAT `VEuc  1 e 1 @154 ]
-"1686
+"1688
 [v _ADRESL ADRESL `VEuc  1 e 1 @155 ]
-"1706
+"1708
 [v _ADRESH ADRESH `VEuc  1 e 1 @156 ]
-"1907
+"1909
 [v _LATA LATA `VEuc  1 e 1 @268 ]
-"1952
+"1954
 [v _LATC LATC `VEuc  1 e 1 @270 ]
-"2294
+"2296
 [v _BORCON BORCON `VEuc  1 e 1 @278 ]
-"2679
+"2681
 [v _ANSELA ANSELA `VEuc  1 e 1 @396 ]
-"2724
+"2726
 [v _ANSELC ANSELC `VEuc  1 e 1 @398 ]
-"2965
-[v _RC1REG RC1REG `VEuc  1 e 1 @409 ]
-"3019
-[v _TX1REG TX1REG `VEuc  1 e 1 @410 ]
-"3080
-[v _SP1BRGL SP1BRGL `VEuc  1 e 1 @411 ]
-"3150
-[v _SP1BRGH SP1BRGH `VEuc  1 e 1 @412 ]
-"3204
-[v _RC1STA RC1STA `VEuc  1 e 1 @413 ]
-[s S122 . 1 `uc 1 RX9D 1 0 :1:0 
-`uc 1 OERR 1 0 :1:1 
-`uc 1 FERR 1 0 :1:2 
-`uc 1 ADDEN 1 0 :1:3 
-`uc 1 CREN 1 0 :1:4 
-`uc 1 SREN 1 0 :1:5 
-`uc 1 RX9 1 0 :1:6 
-`uc 1 SPEN 1 0 :1:7 
-]
-"3230
-[u S131 . 1 `S122 1 . 1 0 ]
-[v _RC1STAbits RC1STAbits `VES131  1 e 1 @413 ]
-"3384
-[v _TX1STA TX1STA `VEuc  1 e 1 @414 ]
-[s S101 . 1 `uc 1 TX9D 1 0 :1:0 
-`uc 1 TRMT 1 0 :1:1 
-`uc 1 BRGH 1 0 :1:2 
-`uc 1 SENDB 1 0 :1:3 
-`uc 1 SYNC 1 0 :1:4 
-`uc 1 TXEN 1 0 :1:5 
-`uc 1 TX9 1 0 :1:6 
-`uc 1 CSRC 1 0 :1:7 
-]
-"3410
-[u S110 . 1 `S101 1 . 1 0 ]
-[v _TX1STAbits TX1STAbits `VES110  1 e 1 @414 ]
-"3564
-[v _BAUD1CON BAUD1CON `VEuc  1 e 1 @415 ]
-"3810
+"3812
 [v _WPUA WPUA `VEuc  1 e 1 @524 ]
-"3860
+"3862
 [v _WPUC WPUC `VEuc  1 e 1 @526 ]
-"5308
+"5310
 [v _ODCONA ODCONA `VEuc  1 e 1 @652 ]
-"5353
+"5355
 [v _ODCONC ODCONC `VEuc  1 e 1 @654 ]
-[s S411 . 1 `uc 1 C1TSEL 1 0 :2:0 
+"5412
+[v _CCPR1L CCPR1L `VEuc  1 e 1 @657 ]
+"5432
+[v _CCPR1H CCPR1H `VEuc  1 e 1 @658 ]
+"5452
+[v _CCP1CON CCP1CON `VEuc  1 e 1 @659 ]
+[s S305 . 1 `uc 1 C1TSEL 1 0 :2:0 
 `uc 1 C2TSEL 1 0 :2:2 
 `uc 1 P3TSEL 1 0 :2:4 
 `uc 1 P4TSEL 1 0 :2:6 
 ]
-"5832
-[s S416 . 1 `uc 1 C1TSEL0 1 0 :1:0 
+"5834
+[s S310 . 1 `uc 1 C1TSEL0 1 0 :1:0 
 `uc 1 C1TSEL1 1 0 :1:1 
 `uc 1 C2TSEL0 1 0 :1:2 
 `uc 1 C2TSEL1 1 0 :1:3 
@@ -228,20 +210,20 @@
 `uc 1 P4TSEL0 1 0 :1:6 
 `uc 1 P4TSEL1 1 0 :1:7 
 ]
-[u S425 . 1 `S411 1 . 1 0 `S416 1 . 1 0 ]
-[v _CCPTMRSbits CCPTMRSbits `VES425  1 e 1 @670 ]
-"6392
+[u S319 . 1 `S305 1 . 1 0 `S310 1 . 1 0 ]
+[v _CCPTMRSbits CCPTMRSbits `VES319  1 e 1 @670 ]
+"6394
 [v _TMR4 TMR4 `VEuc  1 e 1 @1045 ]
-"6412
+"6414
 [v _PR4 PR4 `VEuc  1 e 1 @1046 ]
-"6432
+"6434
 [v _T4CON T4CON `VEuc  1 e 1 @1047 ]
-[s S549 . 1 `uc 1 T4CKPS 1 0 :2:0 
+[s S382 . 1 `uc 1 T4CKPS 1 0 :2:0 
 `uc 1 TMR4ON 1 0 :1:2 
 `uc 1 T4OUTPS 1 0 :4:3 
 ]
-"6453
-[s S553 . 1 `uc 1 T4CKPS0 1 0 :1:0 
+"6455
+[s S386 . 1 `uc 1 T4CKPS0 1 0 :1:0 
 `uc 1 T4CKPS1 1 0 :1:1 
 `uc 1 . 1 0 :1:2 
 `uc 1 T4OUTPS0 1 0 :1:3 
@@ -249,269 +231,289 @@
 `uc 1 T4OUTPS2 1 0 :1:5 
 `uc 1 T4OUTPS3 1 0 :1:6 
 ]
-[u S561 . 1 `S549 1 . 1 0 `S553 1 . 1 0 ]
-[v _T4CONbits T4CONbits `VES561  1 e 1 @1047 ]
-"6722
+[u S394 . 1 `S382 1 . 1 0 `S386 1 . 1 0 ]
+[v _T4CONbits T4CONbits `VES394  1 e 1 @1047 ]
+"6505
+[v _TMR6 TMR6 `VEuc  1 e 1 @1052 ]
+"6525
+[v _PR6 PR6 `VEuc  1 e 1 @1053 ]
+"6545
+[v _T6CON T6CON `VEuc  1 e 1 @1054 ]
+[s S703 . 1 `uc 1 T6CKPS 1 0 :2:0 
+`uc 1 TMR6ON 1 0 :1:2 
+`uc 1 T6OUTPS 1 0 :4:3 
+]
+"6566
+[s S707 . 1 `uc 1 T6CKPS0 1 0 :1:0 
+`uc 1 T6CKPS1 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 T6OUTPS0 1 0 :1:3 
+`uc 1 T6OUTPS1 1 0 :1:4 
+`uc 1 T6OUTPS2 1 0 :1:5 
+`uc 1 T6OUTPS3 1 0 :1:6 
+]
+[u S715 . 1 `S703 1 . 1 0 `S707 1 . 1 0 ]
+[v _T6CONbits T6CONbits `VES715  1 e 1 @1054 ]
+"6724
 [v _PWM3DCL PWM3DCL `VEuc  1 e 1 @1559 ]
-"6758
+"6760
 [v _PWM3DCH PWM3DCH `VEuc  1 e 1 @1560 ]
-"6828
+"6830
 [v _PWM3CON PWM3CON `VEuc  1 e 1 @1561 ]
-"7066
+"7068
 [v _COG1PHR COG1PHR `VEuc  1 e 1 @1681 ]
-"7124
+"7126
 [v _COG1PHF COG1PHF `VEuc  1 e 1 @1682 ]
-"7182
+"7184
 [v _COG1BLKR COG1BLKR `VEuc  1 e 1 @1683 ]
-"7240
+"7242
 [v _COG1BLKF COG1BLKF `VEuc  1 e 1 @1684 ]
-"7298
+"7300
 [v _COG1DBR COG1DBR `VEuc  1 e 1 @1685 ]
-"7356
+"7358
 [v _COG1DBF COG1DBF `VEuc  1 e 1 @1686 ]
-"7414
+"7416
 [v _COG1CON0 COG1CON0 `VEuc  1 e 1 @1687 ]
-"7485
+"7487
 [v _COG1CON1 COG1CON1 `VEuc  1 e 1 @1688 ]
-"7536
+"7538
 [v _COG1RIS COG1RIS `VEuc  1 e 1 @1689 ]
-"7592
+"7594
 [v _COG1RSIM COG1RSIM `VEuc  1 e 1 @1690 ]
-"7648
+"7650
 [v _COG1FIS COG1FIS `VEuc  1 e 1 @1691 ]
-"7704
+"7706
 [v _COG1FSIM COG1FSIM `VEuc  1 e 1 @1692 ]
-[s S32 . 1 `uc 1 . 1 0 :2:0 
+"7762
+[v _COG1ASD0 COG1ASD0 `VEuc  1 e 1 @1693 ]
+[s S37 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 G1ASDAC 1 0 :2:2 
 `uc 1 G1ASDBD 1 0 :2:4 
 `uc 1 G1ARSEN 1 0 :1:6 
 `uc 1 G1ASE 1 0 :1:7 
 ]
-"7781
-[s S38 . 1 `uc 1 . 1 0 :2:0 
+"7783
+[s S43 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 G1ASDAC0 1 0 :1:2 
 `uc 1 G1ASDAC1 1 0 :1:3 
 `uc 1 G1ASDBD0 1 0 :1:4 
 `uc 1 G1ASDBD1 1 0 :1:5 
 ]
-[u S44 . 1 `S32 1 . 1 0 `S38 1 . 1 0 ]
-[v _COG1ASD0bits COG1ASD0bits `VES44  1 e 1 @1693 ]
-"7864
+[u S49 . 1 `S37 1 . 1 0 `S43 1 . 1 0 ]
+[v _COG1ASD0bits COG1ASD0bits `VES49  1 e 1 @1693 ]
+"7828
+[v _COG1ASD1 COG1ASD1 `VEuc  1 e 1 @1694 ]
+"7866
 [v _COG1STR COG1STR `VEuc  1 e 1 @1695 ]
-[s S375 . 1 `uc 1 RXPPS 1 0 :5:0 
+[s S284 . 1 `uc 1 RC2PPS 1 0 :5:0 
 ]
-"8156
-[u S377 . 1 `S375 1 . 1 0 ]
-[v _RXPPSbits RXPPSbits `VES377  1 e 1 @3620 ]
-[s S368 . 1 `uc 1 RC1PPS 1 0 :5:0 
+"8418
+[u S286 . 1 `S284 1 . 1 0 ]
+[v _RC2PPSbits RC2PPSbits `VES286  1 e 1 @3746 ]
+[s S277 . 1 `uc 1 RC3PPS 1 0 :5:0 
 ]
-"8396
-[u S370 . 1 `S368 1 . 1 0 ]
-[v _RC1PPSbits RC1PPSbits `VES370  1 e 1 @3745 ]
-[s S389 . 1 `uc 1 RC3PPS 1 0 :5:0 
+"8438
+[u S279 . 1 `S277 1 . 1 0 ]
+[v _RC3PPSbits RC3PPSbits `VES279  1 e 1 @3747 ]
+[s S270 . 1 `uc 1 RC4PPS 1 0 :5:0 
 ]
-"8436
-[u S391 . 1 `S389 1 . 1 0 ]
-[v _RC3PPSbits RC3PPSbits `VES391  1 e 1 @3747 ]
-[s S382 . 1 `uc 1 RC4PPS 1 0 :5:0 
-]
-"8456
-[u S384 . 1 `S382 1 . 1 0 ]
-[v _RC4PPSbits RC4PPSbits `VES384  1 e 1 @3748 ]
-"12409
+"8458
+[u S272 . 1 `S270 1 . 1 0 ]
+[v _RC4PPSbits RC4PPSbits `VES272  1 e 1 @3748 ]
+"12693
 [v _GO_nDONE GO_nDONE `VEb  1 e 0 @1257 ]
-"13033
+"13629
 [v _PLLR PLLR `VEb  1 e 0 @1238 ]
-"50 /Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/main.c
-[v _scale scale `[25]uc  1 e 25 0 ]
-"99
+"52 /Users/shozo/Documents/GitHub/sndOrgel/sendaiOrgel.X/main.c
+[v _led led `ui  1 e 2 0 ]
+"53
+[v _play play `uc  1 e 1 0 ]
+"54
+[v _walz walz `uc  1 e 1 0 ]
+"55
+[v _delay_time delay_time `ul  1 e 4 0 ]
+"58
+[v _scale scale `[8]uc  1 e 8 0 ]
+"110
 [v _randomx randomx `l  1 s 4 randomx ]
-"17 /Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/main.h
+"133
+[v _s s `uc  1 e 1 0 ]
+"134
+[v _sd sd `c  1 e 1 0 ]
+"14 /Users/shozo/Documents/GitHub/sndOrgel/sendaiOrgel.X/main.h
 [v _evp0 evp0 `uc  1 e 1 0 ]
-"18
+"15
 [v _waveData0 waveData0 `ul  1 e 4 0 ]
-"20
+"17
 [v _env0 env0 `uc  1 e 1 0 ]
-"21
+"18
 [v _envelopeCount0 envelopeCount0 `c  1 e 1 0 ]
-"22
+"19
 [v _envelopeValue0 envelopeValue0 `ui  1 e 2 0 ]
-"24
+"21
 [v _dat_d0 dat_d0 `uc  1 e 1 0 ]
-"25
+"22
 [v _dat_f0 dat_f0 `uc  1 e 1 0 ]
-"26
+"23
 [v _pos_d0 pos_d0 `uc  1 e 1 0 ]
-"27
+"24
 [v _pos_f0 pos_f0 `ui  1 e 2 0 ]
-"28
+"25
 [v _pos0 pos0 `uc  1 e 1 0 ]
-"30
+"27
 [v _evp1 evp1 `uc  1 e 1 0 ]
-"31
+"28
 [v _waveData1 waveData1 `ul  1 e 4 0 ]
-"33
+"30
 [v _env1 env1 `uc  1 e 1 0 ]
-"34
+"31
 [v _envelopeCount1 envelopeCount1 `c  1 e 1 0 ]
-"35
+"32
 [v _envelopeValue1 envelopeValue1 `ui  1 e 2 0 ]
-"37
+"34
 [v _dat_d1 dat_d1 `uc  1 e 1 0 ]
-"38
+"35
 [v _dat_f1 dat_f1 `uc  1 e 1 0 ]
-"39
+"36
 [v _pos_d1 pos_d1 `uc  1 e 1 0 ]
-"40
+"37
 [v _pos_f1 pos_f1 `ui  1 e 2 0 ]
-"41
+"38
 [v _pos1 pos1 `uc  1 e 1 0 ]
-"45
+"41
+[v _count count `ui  1 e 2 0 ]
+"42
 [v _ENV_DELAY ENV_DELAY `ui  1 e 2 0 ]
-"50
+"44
+[v _now_state now_state `uc  1 e 1 0 ]
+"49
 [v _waveTable waveTable `DVEC[256]ui  1 e 512 0 ]
 "824
 [v _envelopeTable envelopeTable `DVEC[256]uc  1 e 256 0 ]
-"1082
-[v _envelopeTable2 envelopeTable2 `DVEC[256]uc  1 e 256 0 ]
-"12 /Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/wavetable.h
+"12 /Users/shozo/Documents/GitHub/sndOrgel/sendaiOrgel.X/wavetable.h
 [v _onkai_d onkai_d `DC[74]uc  1 e 74 0 ]
-"165
+"91
 [v _onkai_f onkai_f `DC[74]uc  1 e 74 0 ]
-"60 /Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/tmr4.c
+"60 /Users/shozo/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/tmr4.c
 [v _TMR4_InterruptHandler TMR4_InterruptHandler `*.37(v  1 e 2 0 ]
-"124 /Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/main.c
+"154 /Users/shozo/Documents/GitHub/sndOrgel/sendaiOrgel.X/main.c
 [v _main main `(v  1 e 1 0 ]
 {
-"147
-[v main@rcvData rcvData `uc  1 a 1 40 ]
-"140
-[v main@s s `uc  1 a 1 39 ]
-"142
-[v main@status status `uc  1 a 1 38 ]
-"140
-[v main@count count `uc  1 a 1 37 ]
-"179
+"168
+[v main@last_state last_state `uc  1 a 1 12 ]
+"166
+[v main@status status `uc  1 a 1 11 ]
+"219
 } 0
-"85
+"136
+[v _walz_play walz_play `(v  1 e 1 0 ]
+{
+"152
+} 0
+"96
 [v _soundPlay soundPlay `(v  1 e 1 0 ]
 {
 [v soundPlay@c c `uc  1 a 1 wreg ]
 [v soundPlay@c c `uc  1 a 1 wreg ]
 [v soundPlay@onkai onkai `uc  1 p 1 0 ]
 [v soundPlay@c c `uc  1 a 1 2 ]
-"97
+"108
 } 0
-"102
+"112
 [v _randomSeed randomSeed `(v  1 e 1 0 ]
 {
-"103
+"113
 [v randomSeed@temp temp `ui  1 a 2 4 ]
-"102
+"112
 [v randomSeed@val val `l  1 p 4 0 ]
-"114
+"124
 } 0
-"117
-[v _random random `(l  1 e 4 0 ]
+"5 /Applications/microchip/xc8/v2.05/pic/sources/c90/common/llmod.c
+[v ___llmod __llmod `(ul  1 e 4 0 ]
 {
-"118
-[v random@d d `l  1 a 4 32 ]
-"117
-[v random@min min `l  1 p 4 12 ]
-[v random@max max `l  1 p 4 16 ]
-"122
-} 0
-"15 /Applications/microchip/xc8/v1.45/sources/common/Umul32.c
-[v ___lmul __lmul `(ul  1 e 4 0 ]
-{
-"17
-[v ___lmul@product product `ul  1 a 4 8 ]
-"15
-[v ___lmul@multiplier multiplier `ul  1 p 4 0 ]
-[v ___lmul@multiplicand multiplicand `ul  1 p 4 4 ]
-"129
-} 0
-"5 /Applications/microchip/xc8/v1.45/sources/common/almod.c
-[v ___almod __almod `(l  1 e 4 0 ]
-{
-"11
-[v ___almod@sign sign `uc  1 a 1 10 ]
-[v ___almod@counter counter `uc  1 a 1 9 ]
+"10
+[v ___llmod@counter counter `uc  1 a 1 9 ]
 "5
-[v ___almod@divisor divisor `l  1 p 4 0 ]
-[v ___almod@dividend dividend `l  1 p 4 4 ]
-"35
+[v ___llmod@divisor divisor `ul  1 p 4 0 ]
+[v ___llmod@dividend dividend `ul  1 p 4 4 ]
+"25
 } 0
-"50 /Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/mcc.c
+"50 /Users/shozo/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/mcc.c
 [v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
 {
-"61
+"62
 } 0
-"79
+"80
 [v _WDT_Initialize WDT_Initialize `(v  1 e 1 0 ]
 {
-"83
+"84
 } 0
-"66 /Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/tmr4.c
+"62 /Users/shozo/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/tmr6.c
+[v _TMR6_Initialize TMR6_Initialize `(v  1 e 1 0 ]
+{
+"77
+} 0
+"66 /Users/shozo/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/tmr4.c
 [v _TMR4_Initialize TMR4_Initialize `(v  1 e 1 0 ]
 {
-"86
+"87
 } 0
-"125
+"134
 [v _TMR4_SetInterruptHandler TMR4_SetInterruptHandler `(v  1 e 1 0 ]
 {
 [v TMR4_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 0 ]
-"127
+"136
 } 0
-"62 /Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/tmr2.c
+"62 /Users/shozo/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/tmr2.c
 [v _TMR2_Initialize TMR2_Initialize `(v  1 e 1 0 ]
 {
 "77
 } 0
-"58 /Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/pwm3.c
+"58 /Users/shozo/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/pwm3.c
 [v _PWM3_Initialize PWM3_Initialize `(v  1 e 1 0 ]
 {
 "72
 } 0
-"57 /Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/pin_manager.c
+"64 /Users/shozo/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/pwm1.c
+[v _PWM1_Initialize PWM1_Initialize `(v  1 e 1 0 ]
+{
+"80
+} 0
+"57 /Users/shozo/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/pin_manager.c
 [v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
 {
-"101
+"100
 } 0
-"63 /Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/mcc.c
+"64 /Users/shozo/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/mcc.c
 [v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
 {
-"77
+"78
 } 0
-"56 /Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/eusart.c
-[v _EUSART_Initialize EUSART_Initialize `(v  1 e 1 0 ]
-{
-"76
-} 0
-"58 /Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/cog1.c
+"58 /Users/shozo/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/cog1.c
 [v _COG1_Initialize COG1_Initialize `(v  1 e 1 0 ]
 {
 "109
 } 0
-"93 /Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/eusart.c
-[v _EUSART_Read EUSART_Read `(uc  1 e 1 0 ]
+"82 /Users/shozo/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/pwm1.c
+[v _PWM1_LoadDutyValue PWM1_LoadDutyValue `(v  1 e 1 0 ]
 {
-"109
+[v PWM1_LoadDutyValue@dutyValue dutyValue `ui  1 p 2 0 ]
+"89
 } 0
-"52 /Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/interrupt_manager.c
+"52 /Users/shozo/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/interrupt_manager.c
 [v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
 {
 "70
 } 0
-"115 /Users/MATHRAX/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/tmr4.c
+"121 /Users/shozo/Documents/GitHub/sndOrgel/sendaiOrgel.X/mcc_generated_files/tmr4.c
 [v _TMR4_ISR TMR4_ISR `(v  1 e 1 0 ]
 {
-"123
+"131
 } 0
-"129
+"138
 [v _TMR4_DefaultInterruptHandler TMR4_DefaultInterruptHandler `(v  1 e 1 0 ]
 {
-"130
+"139
 [v TMR4_DefaultInterruptHandler@tmp tmp `uc  1 a 1 4 ]
-"174
+"183
 } 0

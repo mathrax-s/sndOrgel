@@ -19,7 +19,7 @@
     The generated drivers are tested against the following:
         Compiler          :  XC8 1.45
         MPLAB 	          :  MPLAB X 4.15
- */
+*/
 
 /*
     (c) 2018 Microchip Technology Inc. and its subsidiaries. 
@@ -42,11 +42,11 @@
     CLAIMS IN ANY WAY RELATED TO THIS SOFTWARE WILL NOT EXCEED THE AMOUNT 
     OF FEES, IF ANY, THAT YOU HAVE PAID DIRECTLY TO MICROCHIP FOR THIS 
     SOFTWARE.
- */
+*/
 
 /**
   Section: Included Files
- */
+*/
 
 #include <xc.h>
 #include "tmr4.h"
@@ -55,15 +55,16 @@
 
 /**
   Section: Global Variables Definitions
- */
+*/
 
 void (*TMR4_InterruptHandler)(void);
 
 /**
   Section: TMR4 APIs
- */
+*/
 
-void TMR4_Initialize(void) {
+void TMR4_Initialize(void)
+{
     // Set TMR4 to the options selected in the User Interface
 
     // PR4 255; 
@@ -81,21 +82,24 @@ void TMR4_Initialize(void) {
     // Set Default Interrupt Handler
     TMR4_SetInterruptHandler(TMR4_DefaultInterruptHandler);
 
-    // T4CKPS 1:1; T4OUTPS 1:3; TMR4ON on; 
-    T4CON = 0b00001100;
+    // T4CKPS 1:1; T4OUTPS 1:2; TMR4ON on; 
+    T4CON = 0x0C;
 }
 
-void TMR4_StartTimer(void) {
+void TMR4_StartTimer(void)
+{
     // Start the Timer by writing to TMRxON bit
     T4CONbits.TMR4ON = 1;
 }
 
-void TMR4_StopTimer(void) {
+void TMR4_StopTimer(void)
+{
     // Stop the Timer by writing to TMRxON bit
     T4CONbits.TMR4ON = 0;
 }
 
-uint8_t TMR4_ReadTimer(void) {
+uint8_t TMR4_ReadTimer(void)
+{
     uint8_t readVal;
 
     readVal = TMR4;
@@ -103,26 +107,31 @@ uint8_t TMR4_ReadTimer(void) {
     return readVal;
 }
 
-void TMR4_WriteTimer(uint8_t timerVal) {
+void TMR4_WriteTimer(uint8_t timerVal)
+{
     // Write to the Timer4 register
     TMR4 = timerVal;
 }
 
-void TMR4_LoadPeriodRegister(uint8_t periodVal) {
-    PR4 = periodVal;
+void TMR4_LoadPeriodRegister(uint8_t periodVal)
+{
+   PR4 = periodVal;
 }
 
-void TMR4_ISR(void) {
+void TMR4_ISR(void)
+{
 
     // clear the TMR4 interrupt flag
     PIR2bits.TMR4IF = 0;
 
-    if (TMR4_InterruptHandler) {
+    if(TMR4_InterruptHandler)
+    {
         TMR4_InterruptHandler();
     }
 }
 
-void TMR4_SetInterruptHandler(void (* InterruptHandler)(void)) {
+
+void TMR4_SetInterruptHandler(void (* InterruptHandler)(void)){
     TMR4_InterruptHandler = InterruptHandler;
 }
 
@@ -175,4 +184,4 @@ void TMR4_DefaultInterruptHandler(void) {
 
 /**
   End of File
- */
+*/
