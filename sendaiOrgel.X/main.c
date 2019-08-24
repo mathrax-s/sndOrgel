@@ -64,7 +64,8 @@ unsigned char scale[] = {
     //    NOTE_D4, NOTE_E4, NOTE_G4, NOTE_A4, NOTE_B4,
     //    NOTE_D5, NOTE_E5, 
     NOTE_G5, NOTE_A5, NOTE_B5,
-    NOTE_D6, NOTE_E6, NOTE_G6, NOTE_A6, NOTE_B6,
+    NOTE_D6, NOTE_E6, NOTE_G6, 
+    NOTE_A6, //NOTE_B6,
     //NOTE_D7 ,NOTE_E7, NOTE_G7, //NOTE_A7, NOTE_B7,
 
     //    NOTE_CS2, NOTE_DS2, NOTE_FS2, NOTE_GS2, NOTE_AS2,
@@ -161,7 +162,7 @@ void main(void) {
     // Enable the Peripheral Interrupts
     INTERRUPT_PeripheralInterruptEnable();
 
-    ENV_DELAY = 200;
+    ENV_DELAY = 50;
 
     uint8_t status = 0;
     randomSeed(0);
@@ -211,7 +212,7 @@ void main(void) {
                 play = 0;
             }
         } else {
-            __delay_us(200);
+            __delay_us(150);
         }
         delay_time++;
 
